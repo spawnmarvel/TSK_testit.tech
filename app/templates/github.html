@@ -2,8 +2,24 @@
 {% block title %}Github{% endblock %}
 {% block body %}
 <div class="jumbotron">
-  <h2>Github remote branch</h2>
+  <h2>Github</h2>
+  <p>Commit and push</p>
   <ul>
+    <li>Navigate to folder with git cmd</li>
+    <li>git init</li>
+    <li>Add the files in your new local repository. This stages them for the first commit.</li>
+    <li>git add .</li>
+    <li>Commit the files that you've staged in your local repository.</li>
+    <li>git commit -m "first commit"</li>
+    <li>At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL. In the Command prompt, add the URL for the remote repository where your local repository will be pushed.</li>
+    <li>git remote add origin remote_repos_url</li>
+    <li>Push the changes in your local repository to GitHub.</li>
+    <li>Conflict with commit to origin master?, do a pull before commit.</li>
+    <li>git pull origin master</li>
+  </ul>
+  <p>Branch</p>
+  <ul>
+    <li>Create a branch "test"</li>
     <li>git add .</li>
     <li>git commit -m "my commit"</li>
     <li>git push origin HEAD:test</li>
@@ -21,6 +37,15 @@
     <li>git push origin master</li>
     <li>(or switch the other way around test, master, test)</li>
   </ul>
+  <p>CMD:</p>
+  <img src="/static/img/git/git_test.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500" height="236">
+  <br>
+  <p>Branch test</p>
+  <img src="/static/img/git/commit_test.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500" height="236">
+  <br>
+  <p>Branch master</p>
+  <img src="/static/img/git/commit_master.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500" height="236">
+  <br>
   <a href="https://github.com/spawnmarvel" target="_blank">Github</a>
   <br>
   <a href="https://github.com/spawnmarvel/TSK_testit.tech" target="_blank">Source code for testit.tech</a>
