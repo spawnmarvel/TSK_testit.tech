@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Grafana{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h2>Grafana Postgresql</h2>
+  <p class="lead">Grafana</p>
+  <p>Download the version you want to test...(I used:4.6.0-beta2)</p>
+  <a href="https://grafana.com/grafana/download/4.6.0-beta2?platform=windows" target="_blank">https://grafana.com/grafana/download/4.6.0-beta2?platform=windows</a>
+  <p>The reason for that was to test Postgresql data source function</p>
+  <br>
+  <p>Getting started</p>
+  <a href="http://docs.grafana.org/guides/getting_started/" target="_blank">Granfana docs</a>
+  <br>
+  <ul>
+    <li>Start Grafana</li>
+  <li><img src="/static/img/grafana/grafana_start.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+  height="200">
+</li>
+<br>
+<li>Navigate to http://localhost:3000</li>
+<li>Grafana Dashboard</li>
+<li><img src="/static/img/grafana/grafana_dash.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+height="300">
+</li>
+<br>
+<li>Make a table with the fields you want, insert some data</li>
+    <li><img src="/static/img/grafana/table_postgre.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="300"></li>
+        <br>
+    <li>Grafana data source</li>
+    <li>add Db, type, table, port, user, password, etc</li>
+    <li><img src="/static/img/grafana/grafana_datasource.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="300">
+    </li>
+    <br>
+    <li>Grafana Graph</li>
+    <li>Make a panel, and edit it</li>
+    <li><img src="/static/img/grafana/grafana_panel.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="300">
+    </li>
+    <br>
+    <li>Connect and make the query</li>
+    <li>Use timeseries</li>
+    <li><img src="/static/img/grafana/grafana_query.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="300">
+    </li>
+    <br>
+    <li>All the updates in the tags table will be reflected in the graph</li>
+    <li><img src="/static/img/grafana/grafana_result.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="600">
+    </li>
+</ul>
+</div>
+{% endblock %}

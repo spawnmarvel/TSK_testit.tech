@@ -1,0 +1,46 @@
+ {% extends "base.html" %} {% block title %}FTP SSL{% endblock %} {% block body %}
+<div class="jumbotron">
+  <h2>Connect to Linux from Windows with FileZilla SFTP</h2>
+    <p>(SSH Digital Ocean)</p>
+  <p class="lead">Are you a recent cloud hosting convert and find yourself struggling to figure out how to best manage the files on your
+    virtual private server (VPS)? Learn that FileZilla provides a user-friendly graphical interface that can securely
+    transfer files to-and-from, as well as move files around within, your VPS.</p>
+  <a href="https://www.digitalocean.com/community/tutorials/how-to-use-filezilla-to-transfer-and-manage-files-securely-on-your-vps"
+    target="_blank">how-to-use-filezilla-to-transfer-and-manage-files-securely-on-your-vps</a>
+  <p>
+    </br>Prequisite: </br>If you have yet to create an SSH key pair, you can do so by following one of two DigitalOcean tutorials:</p>
+  <p>Step 1:</p>
+  <a href="https://www.digitalocean.com/community/tutorials/how-to-create-ssh-keys-with-putty-to-connect-to-a-vps" target="_blank">For Windows generate SSH key pair</a>
+  <p>
+    </br>Step 2:</p>
+  <p>Follow these steps once you have an SSH key pair that you would like to use to connect to your VPS:</p>
+  <a href="https://www.digitalocean.com/community/tutorials/how-to-use-filezilla-to-transfer-and-manage-files-securely-on-your-vps"
+    target="_blank">how-to-use-filezilla-to-transfer-and-manage-files-securely-on-your-vps</a>
+  </br>
+  </br>
+  <p>When you are done with puttygen.exe, you should have a result like this:</p>
+  <img src="/static/img/result_ssh.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304" height="236">
+  </br>
+  <p>Login to cloud server with putty and alter the authorized_keys file:
+    </br>sudo nano authorized_keys
+    </br>And paste in Public key for pasting into OpenSSH authorized_keys file</p>
+  <img src="/static/img/putty_digital.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
+    height="236">
+  <br>
+  <p>Then you are ready to configure FileZilla</p>
+  </br>
+  <p>Step 3:</p>
+  <p>FileZilla: Edit-> Settings -> SFTP -> browse to the key generated on your machine -> add key</p>
+  <img src="/static/img/add_key.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
+  height="236">
+<br>
+<p>FileZilla: File -> Site manager -> insert ip, port 22, (password is not used here)</p>
+<img src="/static/img/add_site.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
+height="236">
+<br>
+<p>Open the new connection you just saved with SSH key, navigate to folders and you are ready for SFTP!</p>
+<img src="/static/img/add_filetransfer.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
+height="236">
+
+</div>
+{% endblock %}
