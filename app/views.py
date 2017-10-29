@@ -102,3 +102,7 @@ def py_tips():
 @app.route("/grafana")
 def grafana_test():
     return render_template("grafana_test.html")
+
+@app.route("/github")
+def github_test():
+    return render_template("github.html")
