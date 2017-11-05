@@ -25,11 +25,6 @@ def about():
     return render_template("about.html")
 
 
-
-@app.route("/ftp")
-def ftp_file():
-    return render_template("ftpFilezilla.html")
-
 @app.route('/form')
 def res():
     return render_template('form_result.html')
@@ -95,18 +90,27 @@ def contact_form():
  
     return render_template('form_contact.html', form=form)
 
-@app.route("/pytips")
+
+@app.route("/ftp")
+def ftp_file():
+    return render_template("ftpFilezilla.html")
+
+@app.route("/py")
 def py_tips():
      return render_template("pytips.html")
 
 @app.route("/grafana")
-def grafana_tips():
+def grafana():
     return render_template("grafana_test.html")
 
 @app.route("/github")
 def github_tips():
     return render_template("github.html")
 
-@app.route("/boottips")
+@app.route("/boot")
 def bootstrap_tips():
     return render_template("bootstraptips.html")
+
+@app.route("/octopus")
+def octopus():
+    return render_template("octopus_test.html")
