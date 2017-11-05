@@ -25,13 +25,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+       <!-- nav testit.tech  -->
       <a class="navbar-brand" href="#">testit.tech</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Home</a></li>
         <li><a href="about">About</a></li>
-        <li><a href="tips">Py tips</a></li>
+        <!-- nav tips  -->
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tips<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="pytips">Py + Flask + DO tips</a></li>
+                <li><a href="boottips">Bootstrap tips</a></li>
+            </ul>
+          </li>
+          <!-- nav forms  -->
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Forms<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -41,9 +50,9 @@
             <li><a href="#">Form 4</a></li>
           </ul>
         </li>
-
+        <!-- nav testing stuff  -->
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Stuff done<span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Testing stuff<span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="ftp">SFTP (Secure FTP)</a></li>
                 <li><a href="grafana">Grafana with Postgre</a></li>
@@ -51,7 +60,7 @@
             </ul>
           </li>
 
-
+          <!-- nav linux  -->
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Linux<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -60,29 +69,31 @@
              
           </ul>
         </li>
-
-          <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links used<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://flask.pocoo.org" target="_blank">Flask home</a></li>
-                <li><a href="http://flask.pocoo.org/docs/0.12/" target="_blank">Flask documentation</a></li>
-                <li><a href="https://www.tutorialspoint.com/flask/index.htm" target="_blank">Flask tutorialspoint</a></li>
-                <li><a href="http://exploreflask.com/en/latest/organizing.html" target="_blank">Flask organizing folders</a></li>
-                <li><a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04" target="_blank">Flask gunicorn nginx ubuntu 16.04</a></li>
-                <li><a href="https://www.tutorialspoint.com/bootstrap/" target="_blank">Bootstrap</a></li>
-                <li><a href="https://pythonspot.com/en/flask-web-forms/" target="_blank">Bootstrap web form</a></li>
-                <li><a href="https://www.w3schools.com/bootstrap/bootstrap_pagination.asp" target="_blank">Bootstrap w3schools</a></li>
-                <li><a href="http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/" target="_blank">SqlAlchemy</a></li>
-                <li><a href="https://www.sqlalchemy.org/" target="_blank">sqlalchemy.org</a></li>
-                <li><a href="https://www.sqlite.org/" target="_blank">sqlite.org</a></li>
-              
-              </ul>
-            </li>
+        <!-- nav links used  -->
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links used<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://flask.pocoo.org" target="_blank">Flask home</a></li>
+              <li><a href="http://flask.pocoo.org/docs/0.12/" target="_blank">Flask documentation</a></li>
+              <li><a href="https://www.tutorialspoint.com/flask/index.htm" target="_blank">Flask tutorialspoint</a></li>
+              <li><a href="http://exploreflask.com/en/latest/organizing.html" target="_blank">Flask organizing folders</a></li>
+              <li><a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04" target="_blank">Flask gunicorn nginx ubuntu 16.04</a></li>
+              <li><a href="https://www.tutorialspoint.com/bootstrap/" target="_blank">Bootstrap</a></li>
+              <li><a href="https://pythonspot.com/en/flask-web-forms/" target="_blank">Bootstrap web form</a></li>
+              <li><a href="https://www.w3schools.com/bootstrap/bootstrap_pagination.asp" target="_blank">Bootstrap w3schools</a></li>
+              <li><a href="http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/" target="_blank">SqlAlchemy</a></li>
+              <li><a href="https://www.sqlalchemy.org/" target="_blank">sqlalchemy.org</a></li>
+              <li><a href="https://www.sqlite.org/" target="_blank">sqlite.org</a></li>
+            </ul>
+          </li>
 
       </ul>
+      <!-- nav ul  -->
     </div>
+    <!-- div myNavnbar  -->
   </div>
-</nav>
+  <!-- div container fluid  -->
+  </nav>
 	<!-- base section end  -->
     <div class="container">
       <div class="header clearfix">

@@ -95,14 +95,18 @@ def contact_form():
  
     return render_template('form_contact.html', form=form)
 
-@app.route("/tips")
+@app.route("/pytips")
 def py_tips():
      return render_template("pytips.html")
 
 @app.route("/grafana")
-def grafana_test():
+def grafana_tips():
     return render_template("grafana_test.html")
 
 @app.route("/github")
-def github_test():
+def github_tips():
     return render_template("github.html")
+
+@app.route("/boottips")
+def bootstrap_tips():
+    return render_template("bootstraptips.html")
