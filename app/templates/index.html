@@ -1,41 +1,86 @@
 {% extends "base.html" %} {% block title %}testit.tech{% endblock %} {% block body %}
 <div class="jumbotron">
-  <h2>testit.tech</h2>
-  <p class="lead">To do</p>
-  <ul>
-    <li>Flask</li>
-    <li>Upload the finished API</li>
-    <li>Form</li>
-    <li>Sessions</li>
-    <li>Post / redirect</li>
-    <li>Chat app</li>
-    <a href="https://github.com/miguelgrinberg/Flask-SocketIO-Chat">chat app</a>
-    <li>Gunicorn</li>
-    <li>Postgresql</li>
-  </ul>
-  <p class="lead">Done</p>
-  <ul>
-    <li>Visual Studio Code</li>
-    <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
-    <li>DigitalOcean</li>
-    <li>Linux Ubuntu 16.04</li>
-    <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean Linux</a>
-    <li>Pip virtualenv</li>
-    <li>Flask Gunicorn nginx</li>
-    <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04"
-      target="_blank">Gunicorn</a>
-    <li>FilZilla SSH from Window to Linux on cloud</li>
-    <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04">FileZila SSH</a>
-  </ul>
-
-  <p class="lead">Idea</p>
-  <ul>
-    <li>Subject to learn more about (history, people, places)</li>
-    <li>Chat app</li>
-    <li>Machine learning</li>
-    <li>Blackjack flask game</li>
-    <li>Kivy android....</li>
-  </ul>
-
+  
+  <!-- web section  -->
+  <p class="Lead">List of todo's, including web, other, finished and list of idea's</p>
+  <div class="container">
+    <p class="Lead">Web:</p>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#to_do_web">To do</button>
+    <div id="to_do_web" class="collapse">
+    <br>
+    <ul>
+      <li>Flask</li>
+      <li>Form</li>
+      <li>Sessions</li>
+      <li>Post / redirect</li>
+      <li>Sqlite3 simple CRUD blog</li>
+      <li>Sqlite3 CR form to save urls (id, url, date)</li>
+      <li>Gunicorn / Nginx proxy (deploy user / small pro)</li>
+      <li>Postgresql</li>
+      <li>Upload the finished API (bootstrap on doc section)</li>
+      <li>HTML page for :Zabbix 3.2 + Zabbix API py,  Octopus (pagenation)</li>
+    </ul>
+    </div>
   </div>
+
+<br>
+<!-- other section  -->
+  <div class="container">
+    <p class="Lead">Other:</p>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#to_do">To do</button>
+    <div id="to_do" class="collapse">
+    <br>
+    <ul>
+      <li>Crash course 1-11, data visual 15-16</li>
+      <li>Logging</li>
+      <li>Psql advanced, efficent / time / index / jsonb</li>
+      <li>Zabbix 3.4</li>
+      <li>Improve doc / read me / structure on Github</li>
+      <li>Win service C#, CA for Zabbix API (WFA??</li>
+      <li>More Octopus / doc / make steps with scripts</li>
+    </ul>
+    </div>
+  </div>
+  
+<br>
+<!-- idea section  -->
+  <div class="container">
+    <p class="Lead">Idea:</p>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#idea" >To do</button>
+    <div id="idea" class="collapse">
+    <br>
+    <ul>
+      <li>Subject to learn more about (history, people, places)</li>
+      <li>Chat app</li>
+      <li>Machine learning</li>
+      <li>Blackjack flask game</li>
+      <li>Kivy android....</li>
+    </ul>
+    </div>
+  </div>
+
+  <br>
+<!-- done section  -->
+  <div class="container">
+      <p class="Lead">Done:</p>
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#done">Done</button>
+      <div id="done" class="collapse">
+      <br>
+      <ul>
+        <li>Visual Studio Code</li>
+        <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
+        <li>DigitalOcean</li>
+        <li>Linux Ubuntu 16.04</li>
+        <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean Linux</a>
+        <li>Pip virtualenv</li>
+        <li>Flask Gunicorn nginx</li>
+        <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04"
+        target="_blank">Gunicorn</a>
+        <li>FilZilla SSH from Window to Linux on cloud</li>
+        <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04">FileZila SSH</a>
+      </ul>
+      </div>
+    </div>
+<!-- jumbo section  -->
+</div>
 {% endblock %}
