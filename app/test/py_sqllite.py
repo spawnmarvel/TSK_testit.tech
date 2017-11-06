@@ -52,5 +52,5 @@ def take_away():
 # init()
 # build()
 load()
-take_away()
-load()
+#take_away()
+#load()

@@ -3,9 +3,13 @@
 from flask import render_template, request, flash
 from werkzeug import secure_filename
 import os
+#from sys print
+import sys
+
 
 #internal modules
 from app.form_mod import contactform
+from app.db_mod import sqlalchemy_statment
 
 from app import app
 import sys
@@ -114,3 +118,10 @@ def bootstrap_tips():
 @app.route("/octopus")
 def octopus():
     return render_template("octopus_test.html")
+
+@app.route("/note")
+def notes_db():
+    data = sqlalchemy_statment.get_notes()
+    note_data = str(data)
+    print(note_data, file=sys.stderr)
+    return render_template("crud_note/notes.html", note_data=note_data)
