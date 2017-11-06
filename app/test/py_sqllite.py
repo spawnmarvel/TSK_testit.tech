@@ -9,7 +9,7 @@ def init():
         global conn
         conn = sqlite3.connect("database.db")
         print("db open")
-        conn.execute("create table test(id INT, name TEXT)")
+        conn.execute("if not exists create table test(id INT, name TEXT)")
         print("table created")
     except sqlite3.OperationalError:
         print("table already here")
@@ -49,8 +49,9 @@ def take_away():
         cur.execute("delete from test where id = 2")
 
 
-# init()
-# build()
+#init()
+#build()
 load()
 #take_away()
 #load()
+# https://stackoverflow.com/questions/27474306/with-pythons-sqlite3-module-can-i-save-the-in-memory-db-to-disk-after-creating
