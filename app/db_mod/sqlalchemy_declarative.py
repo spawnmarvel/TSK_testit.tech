@@ -1,36 +1,53 @@
-# http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
-# 3 most important components for SQLAlchemy
-# A Table that represents a table in a database.
-# A mapper that maps a Python class to a table in a database.
-# A class object that defines how a database record maps to a normal Python object.
+# http://zetcode.com/db/sqlitepythontutorial/
+# http://pythoncentral.io/advanced-sqlite-usage-in-python/
+# https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
+import sqlite3
+from datetime import date, datetime
 
-import os
-import sys
-from sqlalchemy import Column, ForeignKey, Integer, String, DateTime, func
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
-from sqlalchemy import create_engine
+conn = None
+# statments
+sql_create = "create table if not exists holder(id INTEGER PRIMARY KEY, note TEXT, published NUMERIC)"
+sql_insert = "insert into holder (id, note, published) values (?, ?, ?)"
+sql_select_all = "select * from holder"
 
-Base = declarative_base()
+# 
+# print("\nSQLite3 project " + str(datetime.now()) + " data\n")
 
-class Note(Base):
-    # note table
-    __tablename__ = "note"
-    id = Column(Integer, primary_key=True)
-    nt = Column(String(200), nullable=False)
-    topic = Column(String(20), nullable=False)
-    published = Column(DateTime, default=func.now())
+def init():
+    msg = None
+    try:
+        global conn
+        conn = sqlite3.connect("database.db")
+        cur = conn.cursor()
+        global sql_create
+        cur.execute(sql_create)
+        msg = "tab created if not existed"
+    except sqlite3.OperationalError as e:
+        msg = str(e)
+    return msg
+
+def dummy_data():
+    msg = None
+    global conn
+    try:
+        conn = conn = sqlite3.connect("database.db")
+        with conn:
+            cur = conn.cursor()
+            timeNow = datetime.now()
+            global sql_insert
+            cur.execute(sql_insert, (2,"Test note", timeNow))
+            conn.commit()
+            msg = "added row"
+    except sqlite3.OperationalError as e:
+        print(e)
+        conn.rollback()
+    print(msg)
 
 
-#class Holder(Base):
-#    # holder table
-#    __tablename__ = "holder"
-#    id = Column(Integer, primary_key=True)
-#    topic = Column(String(20))
-#    #Foreign key to note
-#    note_id = Column(Integer, ForeignKey("note.id"))
 
-# Create an engine that stores data in the local directory's
-engine = create_engine("sqlite:sqlalchemy_note.db")
-# Create all tables in the engine. This is equivalent to "Create Table"
-Base.metadata.create_all(engine)
+
+
+
+
+init()
+# dummy_data()

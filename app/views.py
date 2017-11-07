@@ -5,11 +5,12 @@ from werkzeug import secure_filename
 import os
 #from sys print
 import sys
+import datetime
 
 
 #internal modules
 from app.form_mod import contactform
-from app.db_mod import sqlalchemy_statment
+from app.db_mod import sqlalchemy_statments
 
 from app import app
 import sys
@@ -18,6 +19,9 @@ print(sys.path)
 UPLOAD_FOLDER = './uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
 
+# module start
+#list for notes db
+li = []
 
 @app.route("/")
 def index():
@@ -119,9 +123,18 @@ def bootstrap_tips():
 def octopus():
     return render_template("octopus_test.html")
 
-@app.route("/note")
+@app.route("/note", methods=['GET', 'POST'])
 def notes_db():
-    data = sqlalchemy_statment.get_notes()
-    note_data = str(data)
-    print(note_data, file=sys.stderr)
+    global li
+    note_data = sqlalchemy_statments.get_all()
+    if request.method == 'POST':
+        note = request.form["nt"]
+        publish = request.form["pu"]
+        dt = datetime.datetime.now()
+        item = note + " " + publish + "" + str(dt)
+        li.append(item)
+        note_data +=  li
+    # else it is get
+    else:
+        pass
     return render_template("crud_note/notes.html", note_data=note_data)

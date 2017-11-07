@@ -3,7 +3,31 @@
 {% block body %}
 <div class="jumbotron">
   <h2>Note DB</h2>
- {{ note_data }}
- <p>Just sql lite not orm now</p>
-</div>
+  <br>
+  <form action = "/note" method = "POST">
+    <div class="form-group">
+        <p class="lead">Note:</p>
+        <input class="form-control" id="inputdefault" type="text" name = "nt" />
+        <br>
+        <p class="lead">Published:</p>
+        <input class="form-control" id="inputdefault" type="text" name = "pu" value="SET PRIORITY INSTEAD" />
+        <br>
+      <input type = "submit" value = "submit" class="btn btn-primary" />
+    </div>
+  </form>
+  <table class="table">
+      <thead>
+        <tr>
+          <th>data:</th>
+      </thead>
+      <tbody>
+        {% for note in note_data %}
+        <tr>
+          <br>
+          <td>{{ note }}</td>
+        </tr>
+      <tbody>
+    </table>
+{% endfor %}
 {% endblock %}
+</div>
