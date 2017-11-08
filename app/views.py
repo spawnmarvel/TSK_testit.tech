@@ -134,17 +134,20 @@ def notes_db():
     max_id = None
     id_ = None
     result = "Emtpy"
+    dt = datetime.datetime.now()
     if request.method == 'POST':
         note = request.form["nt"]
         topic = request.form["to"]
         id_ = request.form["id"]
-        dt = datetime.datetime.now()
+       
         # item = note + " " + topic + "" + str(dt)
         max_id = cor_id
         result = sqlalchemy_statments.insert(id_, note, topic)
         # li.append(item)
         # note_data +=  li
+
     # else it is get
     else:
-        pass
+        result = "GET" + str(dt)
+        return render_template("crud_note/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
     return render_template("crud_note/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
