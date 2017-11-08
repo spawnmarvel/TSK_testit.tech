@@ -64,4 +64,4 @@ def insert(id, note, topic):
     return msg
 
 
-# print(get_all())
+print(get_all())

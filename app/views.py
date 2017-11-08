@@ -1,4 +1,5 @@
 # views.py
+# this loads all the www sites
 
 from flask import render_template, request, flash
 from werkzeug import secure_filename
