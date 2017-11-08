@@ -9,13 +9,16 @@
         <p class="lead">Note:</p>
         <input class="form-control" id="inputdefault" type="text" name = "nt" />
         <br>
-        <p class="lead">Published:</p>
-        <input class="form-control" id="inputdefault" type="text" name = "pu" value="SET PRIORITY INSTEAD" />
+        <p class="lead">Topic:</p>
+        <input class="form-control" id="inputdefault" type="text" name = "to" />
+        <br>
+        <p class="lead">Topic:</p>
+        <input class="form-control" id="inputdefault" type="text" name = "id" />
         <br>
       <input type = "submit" value = "submit" class="btn btn-primary" />
     </div>
   </form>
-  <table class="table">
+  <table class=".table">
       <thead>
         <tr>
           <th>data:</th>
@@ -23,11 +26,13 @@
       <tbody>
         {% for note in note_data %}
         <tr>
-          <br>
           <td>{{ note }}</td>
         </tr>
       <tbody>
     </table>
 {% endfor %}
+<p>max id test: {{ m_id }}</p>
+<p>type: {{ ty }}</p>
+<p>result: {{ result }}</p>
 {% endblock %}
 </div>
