@@ -40,15 +40,14 @@ def res():
 
 @app.route('/form',methods = ['POST', 'GET'])
 def result():
-
-   if request.method == 'POST':
-      tmp_res = request.form["txt"]
-      res = ""
-      if len(tmp_res) < 3:
-          res = "To small file must be len(file) > 3 "
-      else:
-          res = tmp_res
-      return render_template("form_result.html",data = res)
+    if request.method == 'POST':
+        tmp_res = request.form["txt"]
+        res = ""
+        if len(tmp_res) < 3:
+            res = "To small file must be len(file) > 3 "
+        else:
+           res = tmp_res
+    return render_template("form_result.html",data = res)
 
 
 @app.route("/files")

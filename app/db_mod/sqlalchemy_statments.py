@@ -49,9 +49,9 @@ def insert(id, note, topic):
         conn = conn = sqlite3.connect("app/db_mod/database.db")
         with conn:
             cur = conn.cursor()
-            timeNow = datetime.datetime.now()
+            time_now = datetime.datetime.now()
             global sql_insert
-            cur.execute(sql_insert, (id,"Test note","topic", timeNow))
+            cur.execute(sql_insert, (id,note,topic, time_now))
             conn.commit()
             msg = "added row"
     except sqlite3.OperationalError as e:

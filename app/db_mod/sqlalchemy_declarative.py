@@ -2,14 +2,12 @@
 # http://pythoncentral.io/advanced-sqlite-usage-in-python/
 # https://www.tutorialspoint.com/sqlite/sqlite_data_types.htm
 import sqlite3
-from datetime import date, datetime
+import datetime
 
 conn = None
 # statments
 sql_create = "create table if not exists holder(id INTEGER PRIMARY KEY, note TEXT, topic TEXT, published NUMERIC)"
 sql_insert = "insert into holder (id, note, topic, published) values (?, ?, ?, ?)"
-
-# 
 # print("\nSQLite3 project " + str(datetime.now()) + " data\n")
 
 def init():
@@ -26,13 +24,14 @@ def init():
     return msg
 
 def dummy_data():
+    """ doc """
     msg = None
     global conn
     try:
-        conn = conn = sqlite3.connect("app/db_mod/database.db")
+        conn = sqlite3.connect("app/db_mod/database.db")
         with conn:
             cur = conn.cursor()
-            timeNow = datetime.now()
+            timeNow = datetime.datetime.now()
             global sql_insert
             cur.execute(sql_insert, (1,"Test note","topic", timeNow))
             conn.commit()
