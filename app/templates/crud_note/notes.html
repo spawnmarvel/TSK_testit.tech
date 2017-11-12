@@ -3,45 +3,69 @@
 {% block body %}
 <div class="jumbotron">
   <h2>Note DB</h2>
-  <br>
+  <p>result: {{ result }}</p>
+    <!-- form -->
   <form action = "/note" method = "GET">
-    <input type = "submit" value = "GET" class="btn btn-primary" />
+    <input type = "submit" value = "Get" class="btn btn-primary" />
 </form>
   <form action = "/note" method = "POST">
     <div class="form-group">
         <p class="lead">Note:</p>
         <input class="form-control" id="inputdefault" type="text" name = "nt" />
         <br>
-        <p class="lead">Topic:</p>
-        <input class="form-control" id="inputdefault" type="text" name = "to" />
+         <!-- options -->
+        <div class="radio">
+          <label><input type="radio" checked="checked" name="options" value="Programming">Programming</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="options" value="Sql">Sql</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="options" value="html">Html</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="options" value="Linux">Linux</label>
+        </div>
+         <!-- options -->
         <br>
+        <p class="lead">Url:</p>
+        <input class="form-control" id="inputdefault" type="text" name = "url" />
+        <br>
+        <br>
+         <!-- post btn -->
+        <input type = "submit" name ="action" value = "Post" class="btn btn-primary" />
+        <br>
+        <p>Delete id:</p>
         <p class="lead">Id:</p>
-        <input class="form-control" id="inputdefault" type="text" name = "id" />
+        <input class="form-control" id="inputdefault" type="text" name = "delId" />
         <br>
-      <input type = "submit" value = "submit" class="btn btn-primary" />
+      <!-- delete btn -->
+      <input type = "submit" name ="action" value = "Delete" class="btn btn-primary" />
     </div>
   </form>
-  
+    <!-- note db result  -->
   <table class="table table-hover">
       <thead>
         <tr>
           <th>id:</th>
-          <th>Desc:</th>
-          <th>Desc:</th>
-          <th>Desc:</th>
+          <th>Note:</th>
+          <th>Topic:</th>
+          <th>Url:</th>
+          <th>Published:</th>
         </tr>
       </thead>
       <tbody>
           {% for note in note_data %}
         <tr>
-          {% if 'eeeeee' in note[1] %}
-          <td><span style="color:#FF0062">{{ note[0] }}</span></td>
+          {% if 'Sql' in note[2] %}
+          <td><span style="color:hsl(4, 89%, 48%)">{{ note[0] }}</span></td>
           {% else %}
           <td>{{ note[0] }}</td>
           {% endif %}
-          <td>{{ note[1] }}</td>
+          <td><p>{{ note[1] }}</p></td>
           <td>{{ note[2] }}</td>
-          <td><span style="color:blue">{{ note[3] }} </span></td>
+          <td><a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a></td>
+          <td>{{ note[4] }}</td>
         </tr>
       <tbody>
      {% endfor %}
@@ -49,7 +73,6 @@
 
     <p>max id test: {{ m_id }}</p>
     <p>type: {{ ty }}</p>
-    <p>result: {{ result }}</p>
 
 </div>
 {% endblock %}

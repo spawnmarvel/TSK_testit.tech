@@ -6,8 +6,8 @@ import datetime
 
 conn = None
 # statments
-sql_create = "create table if not exists holder(id INTEGER PRIMARY KEY, note TEXT, topic TEXT, published NUMERIC)"
-sql_insert = "insert into holder (id, note, topic, published) values (?, ?, ?, ?)"
+sql_create = "create table if not exists holder(id INTEGER PRIMARY KEY, note TEXT, topic TEXT, url TEXT, published NUMERIC)"
+sql_insert = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
 # print("\nSQLite3 project " + str(datetime.now()) + " data\n")
 
 def init():
@@ -33,7 +33,7 @@ def dummy_data():
             cur = conn.cursor()
             timeNow = datetime.datetime.now()
             global sql_insert
-            cur.execute(sql_insert, (1,"Test note","topic", timeNow))
+            cur.execute(sql_insert, (1,"Test note","topic","www.bla.com", timeNow))
             conn.commit()
             msg = "added row"
     except sqlite3.OperationalError as e:

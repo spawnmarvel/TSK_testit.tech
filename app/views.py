@@ -135,18 +135,24 @@ def notes_db():
     result = "Emtpy"
     dt = datetime.datetime.now()
     if request.method == 'POST':
-        note = request.form["nt"]
-        topic = request.form["to"]
-        id_ = request.form["id"]
-       
-        # item = note + " " + topic + "" + str(dt)
-        max_id = cor_id
-        result = sqlalchemy_statments.insert(id_, note, topic)
-        # li.append(item)
-        # note_data +=  li
-
-    # else it is get
+        if request.form["action"] == "Post":
+            note = request.form["nt"]
+            topic = request.form["options"]
+            topic_url = request.form["url"]
+            if len(note) < 5 or len(topic) < 2 or len(topic_url) < 2:
+                result = "Note must be > 5 and topic must be > 2"
+            else:
+                max_id = cor_id
+                result = sqlalchemy_statments.insert(note, topic,topic_url)
+        elif request.form["action"] == "Delete":
+            id_ = request.form["delId"]
+            if len(id_) < 1:
+                result ="type in an id"  
+            else:
+                result = sqlalchemy_statments.delete(id_)
+        else:
+            pass
     else:
-        result = "GET" + str(dt)
+        result = "GET: " + str(dt)
         return render_template("crud_note/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
     return render_template("crud_note/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
