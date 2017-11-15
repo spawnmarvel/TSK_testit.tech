@@ -1,6 +1,7 @@
 # TSK_testit.tech 1.2.3
 Source code for http://testit.tech
 
+![alt text](screenshots/front_page.png "Frontpage")
 15.11.2017
 Added blueprints for blog, home, tips and technology
 technology -> init and views
