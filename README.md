@@ -10,6 +10,8 @@ from flask import render_template
 
 from . import technology
 
+# testing 1.2.4:
+
 @technology.route("/tech")
 def init():
     return render_template("technology/octopus.html")
@@ -28,6 +30,7 @@ app.register_blueprint(technology_blueprint)
 I chose not to have static and templates directories for each blueprint, because all the application templates will inherit from the same base template and use the same CSS file. Instead, the templates directory will have sub-directories for each blueprint so that blueprint templates can be grouped together.
 
 app/templates (we use the base templates and css), added technology folder with html file
+# test success 1.2.4
 
 
 
