@@ -109,9 +109,7 @@ def ftp_file():
 def py_tips():
      return render_template("pytips.html")
 
-@app.route("/grafana")
-def grafana():
-    return render_template("grafana_test.html")
+
 
 @app.route("/github")
 def github_tips():
@@ -121,9 +119,6 @@ def github_tips():
 def bootstrap_tips():
     return render_template("bootstraptips.html")
 
-@app.route("/octopus")
-def octopus():
-    return render_template("octopus_test.html")
 
 @app.route("/note", methods=['GET', 'POST'])
 def notes_db():
