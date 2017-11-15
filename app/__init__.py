@@ -9,6 +9,9 @@ app = Flask(__name__)
 
 from app import views
 
+from .dir_technology import technology as technology_blueprint
+app.register_blueprint(technology_blueprint)
+
 # load the config
 
 app.config.from_object("config")

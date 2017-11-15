@@ -6,15 +6,20 @@ import datetime
 
 conn = None
 # statments
+database_ = "app/mod_db/database.db"
 sql_create = "create table if not exists holder(id INTEGER PRIMARY KEY, note TEXT, topic TEXT, url TEXT, published NUMERIC)"
 sql_insert = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
 # print("\nSQLite3 project " + str(datetime.now()) + " data\n")
+
+def get_database():
+    global database_
+    return database_
 
 def init():
     msg = None
     try:
         global conn
-        conn = sqlite3.connect("app/db_mod/database.db")
+        conn = sqlite3.connect(get_database())
         cur = conn.cursor()
         global sql_create
         cur.execute(sql_create)
@@ -28,7 +33,7 @@ def dummy_data():
     msg = None
     global conn
     try:
-        conn = sqlite3.connect("app/db_mod/database.db")
+        conn = sqlite3.connect(get_database())
         with conn:
             cur = conn.cursor()
             timeNow = datetime.datetime.now()

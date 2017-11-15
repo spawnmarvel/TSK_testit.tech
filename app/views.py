@@ -10,8 +10,10 @@ import datetime
 
 
 #internal modules
-from app.form_mod import contactform
-from app.db_mod import sqlalchemy_statments
+from app.mod_form import contactform
+from app.mod_db import sqlalchemy_statments
+from app.mod_controller import controller_mod
+controller_mod.make_notes()
 
 from app import app
 import sys

@@ -1,20 +1,25 @@
-from app.db_mod import sqlalchemy_declarative
+from app.mod_db import sqlalchemy_declarative
 
 import sqlite3
 import datetime
 
 conn = None
+database_ = "app/mod_db/database.db"
 sql_select_all = "select * from holder order by id desc"
 sql_select_max_id = "select max(id) from holder"
 sql_insert = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
 sql_delete = "Delete from holder where id = ?"
 
 
+def get_database():
+    global database_
+    return database_
+
 def get_all():
     msg = ""
     global conn
     try:
-        conn = sqlite3.connect("app/db_mod/database.db")
+        conn = sqlite3.connect(get_database())
         with conn:
             cur = conn.cursor()
             global sql_select_all
@@ -29,7 +34,7 @@ def get_max_id():
     msg = ""
     global conn
     try:
-        conn = sqlite3.connect("app/db_mod/database.db")
+        conn = sqlite3.connect(get_database())
         with conn:
             cur = conn.cursor()
             global sql_select_all
@@ -45,7 +50,7 @@ def insert(note, topic, url_to_save):
     msg = None
     global conn
     try:
-        conn = conn = sqlite3.connect("app/db_mod/database.db")
+        conn = conn = sqlite3.connect(get_database())
         with conn:
             cur = conn.cursor()
             time_now = datetime.datetime.now()
@@ -72,7 +77,7 @@ def delete(id_):
     msg = None
     global conn
     try:
-        conn = conn = sqlite3.connect("app/db_mod/database.db")
+        conn = conn = sqlite3.connect(get_database())
         with conn:
             cur = conn.cursor()
             global sql_delete
@@ -90,7 +95,7 @@ def delete(id_):
 
 sqlalchemy_declarative.init()
 # print(get_all())
-print(get_max_id())
-x = get_max_id()
-y = x[0]
-print(str(y))
+#print(get_max_id())
+#x = get_max_id()
+#y = x[0]
+#print(str(y))
