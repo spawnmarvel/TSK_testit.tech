@@ -1,3 +1,5 @@
+""" ___ """
+
 from flask import Blueprint
 
 technology = Blueprint("technology", __name__)
