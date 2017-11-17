@@ -26,15 +26,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 #list for notes db
 li = []
 
-@app.route("/")
-def index():
-    return render_template("index.html")
-
-
-@app.route("/about")
-def about():
-    return render_template("about.html")
-
 
 @app.route('/form')
 def res():
@@ -99,25 +90,6 @@ def contact_form():
             flash('Error:All the form fields are required. ')
  
     return render_template('form_contact.html', form=form)
-
-
-@app.route("/ftp")
-def ftp_file():
-    return render_template("ftpFilezilla.html")
-
-@app.route("/py")
-def py_tips():
-     return render_template("pytips.html")
-
-
-
-@app.route("/github")
-def github_tips():
-    return render_template("github.html")
-
-@app.route("/boot")
-def bootstrap_tips():
-    return render_template("bootstraptips.html")
 
 
 @app.route("/note", methods=['GET', 'POST'])
