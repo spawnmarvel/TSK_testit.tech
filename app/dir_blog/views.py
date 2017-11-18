@@ -36,12 +36,7 @@ def notes_db():
             else:
                 max_id = cor_id
                 result = sqlalchemy_statments.insert(note, topic,topic_url)
-        elif request.form["action"] == "Delete":
-            id_ = request.form["delId"]
-            if len(id_) < 1:
-                result ="type in an id"  
-            else:
-                result = sqlalchemy_statments.delete(id_)
+        
         elif request.form["action"] == "DeleteNote":
             logger.info("delete note")
             notes_id = request.form["delid"]

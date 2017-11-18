@@ -8,7 +8,7 @@ if __name__ == "__main__":
 	import logging
 	from logging.handlers import RotatingFileHandler
 	FORMAT = "[%(asctime)s : %(levelname)s : %(filename)s : %(lineno)s : %(funcName)20s() ] %(message)s"
-	logging.basicConfig(filename="logs.log", level=logging.DEBUG, format=FORMAT)
+	logging.basicConfig(filename="app/logs/logs.log", level=logging.DEBUG, format=FORMAT)
 	# simple format  # "%(asctime)s - %(levelname)s - %(message)s")
 	logger = logging.getLogger("main")
 	# for linux
