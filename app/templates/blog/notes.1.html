@@ -3,15 +3,33 @@
 {% block body %}
 <div class="jumbotron">
   <h2>Note DB</h2>
-  <form action = "/note" method = "GET">
-    <input type = "submit" value = "Get" class="btn btn-primary" />
-    <h6>result: {{ result }}</h6>
-</form>
+
+
+  <button onclick="openWin()" class="btn btn-primary">Post note</button>
+  <button onclick="resizeWin()" class="btn btn-primary">Resize window</button>
+  
+  <script>
+  var myWindow;
+  
+  function openWin() {
+      myWindow = window.open("/about", "", "width=400, height=400");
+  }
+  
+  function resizeWin() {
+      myWindow.resizeTo(600, 600);
+      myWindow.focus();
+  }
+  </script>
+
+
+  <p>result: {{ result }}</p>
     <!-- form -->
-    
     <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#to_do_web">Post note</button>
     <div id="to_do_web" class="collapse">
 
+  <form action = "/note" method = "GET">
+    <input type = "submit" value = "Get" class="btn btn-primary" />
+</form>
   <form action = "/note" method = "POST">
     <div class="form-group">
         <p class="lead">Note:</p>
