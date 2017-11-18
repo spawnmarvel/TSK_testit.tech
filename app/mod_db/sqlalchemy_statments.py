@@ -10,6 +10,8 @@ sql_select_max_id = "select max(id) from holder"
 sql_insert = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
 sql_delete = "Delete from holder where id = ?"
 
+import logging
+logger = logging.getLogger(__name__)
 
 def get_database():
     global database_
@@ -26,8 +28,10 @@ def get_all():
             cur.execute(sql_select_all)
             row = cur.fetchall()
             msg = row
+            logger.debug(msg)
     except sqlite3.OperationalError as e:
         msg = str(e)
+        logger.debug(msg)
     return msg
 
 def get_max_id():
@@ -43,6 +47,7 @@ def get_max_id():
             msg = row
     except sqlite3.OperationalError as e:
         msg = str(e)
+    logger.debug(msg)
     return msg
 
 
@@ -61,6 +66,7 @@ def insert(note, topic, url_to_save):
             cur.execute(sql_insert, (max_id,note,topic,url_to_save, time_now))
             conn.commit()
             msg = "Added 1 row to sqlite3, with id " + str(max_id)
+            
     except sqlite3.OperationalError as e:
         msg = e
         conn.rollback()
@@ -70,7 +76,7 @@ def insert(note, topic, url_to_save):
     except sqlite3.InterfaceError as e:
         msg = e
         conn.rollback()
-    
+    logger.debug(msg)
     return msg
 
 def delete(id_):
@@ -90,7 +96,7 @@ def delete(id_):
     except sqlite3.IntegrityError as e:
         msg = e
         conn.rollback()
-    
+    logger.debug(msg)
     return msg
 
 sqlalchemy_declarative.init()
