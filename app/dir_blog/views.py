@@ -47,5 +47,6 @@ def notes_db():
             pass
     else:
         result = "GET: " + str(dt)
+        logger.info("get notes page")
         return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
     return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
