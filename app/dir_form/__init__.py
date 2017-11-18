@@ -2,6 +2,6 @@
 
 from flask import Blueprint
 
-blog = Blueprint("blog", __name__)
+form = Blueprint("form", __name__)
 
 from . import views
