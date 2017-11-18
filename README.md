@@ -16,6 +16,8 @@ I chose not to have static and templates directories for each blueprint, because
 app/templates (we use the base templates and css), added technology folder with html file
 # test success 1.2.4
 
+# test 1.2.5
+
 
 
 
