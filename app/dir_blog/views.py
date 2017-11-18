@@ -21,10 +21,11 @@ def notes_db():
     result = "Emtpy"
     dt = datetime.datetime.now()
     if request.method == 'POST':
-        if request.form["action"] == "Post":
+        if request.form["action"] == "PostNote":
             note = request.form["nt"]
             topic = request.form["options"]
             topic_url = request.form["url"]
+        
             if len(note) < 5 or len(topic) < 2 or len(topic_url) < 2:
                 result = "Note must be > 5 and topic must be > 2"
             else:
@@ -36,6 +37,10 @@ def notes_db():
                 result ="type in an id"  
             else:
                 result = sqlalchemy_statments.delete(id_)
+        elif request.form["action"] == "DeleteNote":
+            notes_id = request.form["delid"]
+            result = sqlalchemy_statments.delete(notes_id)
+            
         else:
             pass
     else:
