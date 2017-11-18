@@ -13,4 +13,5 @@ if __name__ == "__main__":
 	logger = logging.getLogger("main")
 	# for linux
     # app.run(host='0.0.0.0')
+	print("System path jekl")
 	app.run(port=5050)
