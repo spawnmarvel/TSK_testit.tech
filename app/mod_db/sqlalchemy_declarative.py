@@ -11,6 +11,9 @@ sql_create = "create table if not exists holder(id INTEGER PRIMARY KEY, note TEX
 sql_insert = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
 # print("\nSQLite3 project " + str(datetime.now()) + " data\n")
 
+import logging
+logger = logging.getLogger(__name__)
+
 def get_database():
     global database_
     return database_
@@ -24,6 +27,7 @@ def init():
         global sql_create
         cur.execute(sql_create)
         msg = "tab created if not existed"
+        logger.info(msg)
     except sqlite3.OperationalError as e:
         msg = str(e)
     return msg

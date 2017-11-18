@@ -5,6 +5,12 @@
 from app import app
 
 if __name__ == "__main__":
+	import logging
+	from logging.handlers import RotatingFileHandler
+	FORMAT = "[%(asctime)s : %(levelname)s : %(filename)s : %(lineno)s : %(funcName)20s() ] %(message)s"
+	logging.basicConfig(filename="app/logs/logs.log", level=logging.DEBUG, format=FORMAT)
+	# simple format  # "%(asctime)s - %(levelname)s - %(message)s")
+	logger = logging.getLogger("main")
 	# for linux
     # app.run(host='0.0.0.0')
 	app.run(port=5050)

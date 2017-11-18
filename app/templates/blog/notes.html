@@ -1,104 +1,90 @@
-{% extends "base.html" %}
-{% block title %}Note{% endblock %}
-{% block body %}
+{% extends "base.html" %} {% block title %}Note{% endblock %} {% block body %}
 <div class="jumbotron">
   <h2>Note DB</h2>
+  <!-- form for get btn -->
+  <form action="/note" method="GET">
+    <input type="submit" value="Get" class="btn btn-primary" />
+    <h6>result: {{ result }}</h6>
+  </form>
+  <!-- Collapse btn -->
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#to_do_web">Add note</button>
+  <div id="to_do_web" class="collapse">
 
-
-  <button onclick="openWin()" class="btn btn-primary">Post note</button>
-  <button onclick="resizeWin()" class="btn btn-primary">Resize window</button>
-  
-  <script>
-  var myWindow;
-  
-  function openWin() {
-      myWindow = window.open("/about", "", "width=400, height=400");
-  }
-  
-  function resizeWin() {
-      myWindow.resizeTo(600, 600);
-      myWindow.focus();
-  }
-  </script>
-
-
-  <p>result: {{ result }}</p>
-    <!-- form -->
-  <form action = "/note" method = "GET">
-    <input type = "submit" value = "Get" class="btn btn-primary" />
-</form>
-  <form action = "/note" method = "POST">
-    <div class="form-group">
+    <form action="/note" method="POST">
+      <div class="form-group">
         <p class="lead">Note:</p>
-        <input class="form-control" id="inputdefault" type="text" name = "nt" />
+        <input class="form-control" id="inputdefault" type="text" name="nt" />
         <br>
-         <!-- options -->
+        <!-- options -->
         <div class="radio">
-          <label><input type="radio" checked="checked" name="options" value="Programming">Programming</label>
+          <label>
+            <input type="radio" checked="checked" name="options" value="Programming">Programming</label>
         </div>
         <div class="radio">
-          <label><input type="radio" name="options" value="Sql">Sql</label>
+          <label>
+            <input type="radio" name="options" value="Sql">Sql</label>
         </div>
         <div class="radio">
-            <label><input type="radio" name="options" value="html">Html</label>
+          <label>
+            <input type="radio" name="options" value="html">Html</label>
         </div>
         <div class="radio">
-          <label><input type="radio" name="options" value="linux">Linux</label>
+          <label>
+            <input type="radio" name="options" value="linux">Linux</label>
         </div>
         <div class="radio">
-            <label><input type="radio" name="options" value="other">Other</label>
-          </div>
-         <!-- options -->
+          <label>
+            <input type="radio" name="options" value="other">Other</label>
+        </div>
+        <!-- options -->
         <br>
         <p class="lead">Url:</p>
-        <input class="form-control" id="inputdefault" type="text" name = "url" />
+        <input class="form-control" id="inputdefault" type="text" name="url" />
         <br>
         <br>
-         <!-- post btn -->
-        <input type = "submit" name ="action" value = "Post" class="btn btn-primary" />
+        <!-- post btn -->
+        <input type="submit" name="action" value="Add" class="btn btn-primary" />
+        
+      </div>
+    </form>
+    <!-- Collapse btn div -->
+  </div>
+  <!-- note db result  -->
+
+  {% for note in note_data %}
+
+  <div class="card" style="background-color: rgb(235, 229, 229)">
+    <div class="card-block">
+      <h2 class="card-title">{{ note[2] }}:</h2>
+      <div class="card-block">
+        <p class="card-text">{{ note[1] }}</p>
+        <span class="label label-success">{{ note[2] }}</span>
         <br>
-        <p>Delete id:</p>
-        <p class="lead">Id:</p>
-        <input class="form-control" id="inputdefault" type="text" name = "delId" />
         <br>
-      <!-- delete btn -->
-      <input type = "submit" name ="action" value = "Delete" class="btn btn-primary" />
+        <a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a>
+        <br>
+        <span class="glyphicon glyphicon-time"> {{ note[4] }}</span>
+        <form action="/note" method="POST">
+          <br>
+          <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
+          <input class="form-control" id="disabledInput" type="text" name="delid" value="{{ note[0] }}" readonly/>
+          <br>
+        </form>
+      </div>
     </div>
-  </form>
-    <!-- note db result  -->
-  <table class="table table-hover">
-      <thead>
-        <tr>
-          <th>id:</th>
-          <th>Note:</th>
-          <th>Topic:</th>
-          <th>Url:</th>
-          <th>Published:</th>
-        </tr>
-      </thead>
-      <tbody>
-          {% for note in note_data %}
-        <tr>
-          {% if 'Sql' in note[2] %}
-          <td><span style="color:hsl(4, 89%, 48%)">{{ note[0] }}</span></td>
-          {% else %}
-          <td>{{ note[0] }}</td>
-          {% endif %}
-          <td>{{ note[1] }}</td>
-          <td><span class="label label-primary">{{ note[2] }}</span></td>
-          <td><a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a></td>
-          <td><span class="glyphicon glyphicon-time"><br>{{ note[4] }}</span></td>
-        </tr>
-       
-      </tbody>
-     {% endfor %}
-    </table>
-       <!-- make a div with p, h1 not table  -->
-    <p>max id test: {{ m_id }}</p>
-    <p>type: {{ ty }}</p>
+  </div>
+
+
+
+  {% endfor %}
+
+
+
+  <!-- make a div with p, h1 not table  -->
+  <p>max id test: {{ m_id }}</p>
+  <p>type: {{ ty }}</p>
 
 </div>
 
 
 {% endblock %}
-
