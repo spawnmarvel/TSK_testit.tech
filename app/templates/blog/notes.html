@@ -9,7 +9,7 @@
     <h6>result: {{ result }}</h6>
   </form>
   <!-- Collapse btn -->
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#to_do_web">Post note</button>
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#to_do_web">Add note</button>
   <div id="to_do_web" class="collapse">
 
   <form action = "/note" method = "POST">
@@ -40,7 +40,7 @@
         <br>
         <br>
          <!-- post btn -->
-        <input type = "submit" name ="action" value = "PostNote" class="btn btn-primary" />
+        <input type = "submit" name ="action" value = "Add" class="btn btn-primary" />
         <br>
         <p>Delete id:</p>
         <p class="lead">Id:</p>
@@ -53,34 +53,34 @@
    <!-- Collapse btn div -->
   </div>
     <!-- note db result  -->
-  <table class="table table-hover">
-      <thead>
-        <tr>
-          <th>Note:</th>
-          <th>Topic:</th>
-          <th>Url:</th>
-          <th>Published:</th>
-        </tr>
-      </thead>
-      <tbody>
+  
           {% for note in note_data %}
-        <tr>
-          <td>{{ note[1] }}</td>
-          <td><span class="label label-primary">{{ note[2] }}</span></td>
-          <td><a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a></td>
-          <td><span class="glyphicon glyphicon-time"><br>{{ note[4] }}</span></td>
-          <td>
-              <form action = "/note" method = "POST">
-                <input type = "submit" name ="action" value = "DeleteNote" class="btn btn-primary" />
-                  <input class="form-control" id="disabledInput" type="text" name = "delid" value="{{ note[0] }}" readonly/>
-                  <br>          
-            </form>
-          </td>
-        </tr>
-      </tbody>
+        
+           <div class="card" style="background-color: rgb(235, 229, 229)">
+              <div class="card-block">
+                <h2 class="card-title">{{ note[2] }}:</h2>
+                <div class="card-block">
+                  <p class="card-text">{{ note[1] }}</p>
+                <span class="label label-success">{{ note[2] }}</span>
+                <br>
+                <br>
+                <a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a>
+                <br>
+                <span class="glyphicon glyphicon-time">  {{ note[4] }}</span>
+                <form action = "/note" method = "POST">
+                  <br>
+                  <input type = "submit" name ="action" value = "DeleteNote" class="btn btn-primary" />
+                    <input class="form-control" id="disabledInput" type="text" name = "delid" value="{{ note[0] }}" readonly/>
+                    <br>          
+              </form>
+            </div>
+            </div>
+          </div>
+         
+        
+       
      {% endfor %}
-    </table>
-
+    
 
 
        <!-- make a div with p, h1 not table  -->

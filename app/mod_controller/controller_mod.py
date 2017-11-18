@@ -5,10 +5,10 @@ def make_notes():
     print("controller.....->")
     tmp = sqlalchemy_statments.get_all()
     for x in range(len(tmp)):
-        print(tmp[x])
+        # print(tmp[x])
         for n in tmp[x]:
             # pass
-            print(n)
+            print("test")
             # item = notes_mod.Notes(n[0], n[1], n[2], n[3], n[4])
 
 
