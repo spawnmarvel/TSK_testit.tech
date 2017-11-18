@@ -26,7 +26,7 @@ def notes_db():
     if request.method == 'POST':
         logger.info("post action")
         if request.form["action"] == "Add":
-            logger.info("add note")
+            # logger.info("add note")
             note = request.form["nt"]
             topic = request.form["options"]
             topic_url = request.form["url"]
@@ -38,7 +38,7 @@ def notes_db():
                 result = sqlalchemy_statments.insert(note, topic,topic_url)
         
         elif request.form["action"] == "DeleteNote":
-            logger.info("delete note")
+            # logger.info("delete note")
             notes_id = request.form["delid"]
             result = sqlalchemy_statments.delete(notes_id)
            
@@ -47,6 +47,6 @@ def notes_db():
             pass
     else:
         result = "GET: " + str(dt)
-        logger.info("get notes page")
+        # logger.info("get notes page")
         return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
     return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)

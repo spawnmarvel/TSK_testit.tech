@@ -316,3 +316,115 @@
 [2017-11-18 23:28:54,749 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
 [2017-11-18 23:28:54,749 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
 [2017-11-18 23:28:54,765 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:30:01,205 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_technology\\views.py', reloading
+[2017-11-18 23:30:01,315 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-18 23:30:01,913 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-18 23:30:01,916 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-18 23:30:01,923 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:36:46,150 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\__init__.py', reloading
+[2017-11-18 23:36:46,212 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-18 23:36:46,790 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-18 23:36:46,790 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-18 23:36:46,806 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:36:53,115 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-18 23:36:53,146 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-18 23:36:53,770 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-18 23:36:53,770 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-18 23:36:53,770 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:38:54,842 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\__init__.py', reloading
+[2017-11-18 23:38:54,889 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-18 23:38:55,477 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-18 23:38:55,477 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-18 23:38:55,477 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:38:59,611 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-18 23:38:59,658 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-18 23:39:00,205 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-18 23:39:00,221 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-18 23:39:00,221 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:43:40,677 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-11-18 23:43:40,724 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-18 23:43:41,272 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-18 23:43:41,272 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-18 23:43:41,288 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-18 23:43:53,234 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-18 23:43:53,234 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-18 23:43:53,234 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-18 23:43:53,234 : INFO : views.py : 50 :             notes_db() ] get notes page
+[2017-11-18 23:43:53,297 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [18/Nov/2017 23:43:53] "GET /note HTTP/1.1" 200 -
+[2017-11-18 23:48:22,114 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [18/Nov/2017 23:48:22] "GET /github HTTP/1.1" 200 -
+[2017-11-18 23:48:39,272 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [18/Nov/2017 23:48:39] "GET /py HTTP/1.1" 200 -
+[2017-11-19 00:28:29,900 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:28:30,431 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:28:30,431 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:28:30,431 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:29:32,644 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:29:32,715 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:29:33,287 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:29:33,287 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:29:33,287 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:34:19,425 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:34:19,513 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:34:20,092 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:34:20,092 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:34:20,092 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:34:32,691 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:34:32] "GET /py HTTP/1.1" 200 -
+[2017-11-19 00:34:33,707 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:34:33,817 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:34:34,410 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:34:34,410 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:34:34,410 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:36:14,765 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:36:14,812 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:36:15,375 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:36:15,375 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:36:15,391 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:36:38,558 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:36:38,593 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:36:39,279 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:36:39,282 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:36:39,291 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:37:09,891 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:37:09,922 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:37:10,550 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:37:10,567 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:37:10,578 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:39:11,923 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 00:39:11,988 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 00:39:12,548 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 00:39:12,548 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 00:39:12,548 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 00:39:31,193 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:39:31,193 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:39:31,193 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:39:31,255 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:39:31] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:39:31,318 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:39:31] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-11-19 00:39:33,771 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:39:33,771 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:39:33,771 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:39:33,771 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:39:33] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:39:38,115 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:39:38,115 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:39:38,115 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:39:38,115 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:39:38] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:39:45,460 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:39:45] "GET /grafana HTTP/1.1" 200 -
+[2017-11-19 00:42:03,068 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:42:03] "GET /py HTTP/1.1" 200 -
+[2017-11-19 00:44:57,775 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:44:57,775 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:44:57,775 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:44:57,791 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:44:57] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:44:59,385 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:44:59,385 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:44:59,385 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:44:59,385 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:44:59] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:45:00,697 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:45:00,697 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:45:00,697 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:45:00,697 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:45:00] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:45:01,729 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:45:01,729 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:45:01,729 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:45:01,729 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:45:01] "GET /note HTTP/1.1" 200 -
+[2017-11-19 00:45:02,698 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 00:45:02,698 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 00:45:02,698 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 00:45:02,698 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:45:02] "GET /note HTTP/1.1" 200 -
