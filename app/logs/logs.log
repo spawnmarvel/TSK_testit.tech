@@ -429,3 +429,39 @@
 [2017-11-19 00:45:02,698 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
 [2017-11-19 00:45:02,698 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:45:02] "GET /note HTTP/1.1" 200 -
 [2017-11-19 00:46:51,385 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:46:51] "GET /github HTTP/1.1" 200 -
+[2017-11-19 12:15:47,919 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:15:48,501 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:15:48,517 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:15:48,517 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:16:09,737 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:16:09,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-11-19 12:16:09,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-11-19 12:16:09,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-11-19 12:16:09,799 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/main.css HTTP/1.1" 200 -
+[2017-11-19 12:16:09,862 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-11-19 12:17:24,213 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 12:17:24,260 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:17:24,856 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:17:24,856 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:17:24,871 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:17:55,086 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 12:17:55,111 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:17:55,967 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:17:55,972 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:17:55,984 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:18:46,641 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:18:46,656 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:18:46,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:46,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:46,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:18:50,875 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:01,105 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:06,669 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
