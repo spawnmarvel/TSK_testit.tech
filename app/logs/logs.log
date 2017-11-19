@@ -429,3 +429,351 @@
 [2017-11-19 00:45:02,698 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
 [2017-11-19 00:45:02,698 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:45:02] "GET /note HTTP/1.1" 200 -
 [2017-11-19 00:46:51,385 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 00:46:51] "GET /github HTTP/1.1" 200 -
+[2017-11-19 12:15:47,919 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:15:48,501 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:15:48,517 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:15:48,517 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:16:09,737 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:16:09,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-11-19 12:16:09,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-11-19 12:16:09,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-11-19 12:16:09,799 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /static/main.css HTTP/1.1" 200 -
+[2017-11-19 12:16:09,862 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:16:09] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-11-19 12:17:24,213 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 12:17:24,260 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:17:24,856 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:17:24,856 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:17:24,871 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:17:55,086 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\run.py', reloading
+[2017-11-19 12:17:55,111 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:17:55,967 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:17:55,972 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:17:55,984 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:18:46,641 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:18:46,656 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:18:46,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:46,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:46,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:18:50,875 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:18:50,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:18:50] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:01,105 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:01,120 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:01] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:06,669 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 12:19:07,403 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 12:19:07,419 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 12:19:07,419 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 12:19:10,232 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:10] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:10,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:10,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:10] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:10,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:10,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:10] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:11,451 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:11,466 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:11,482 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:11,482 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:11,482 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:11,638 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:11,654 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:11,669 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:11,669 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:11,669 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:11,826 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:11,841 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:11,841 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:11,857 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:11,857 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:11] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:12,013 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:12] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:19:12,044 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:19:12,044 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:12] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:12,044 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:19:12,044 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:12] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:19:18,248 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:18] "GET /about HTTP/1.1" 200 -
+[2017-11-19 12:19:19,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:19:19] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:20:03,275 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:03] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:20:03,307 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:20:03,307 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:03] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:20:03,307 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:20:03,307 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:03] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:20:51,687 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:51] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:20:51,702 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:20:51,702 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:51] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:20:51,718 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:20:51,718 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:20:51] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:21:10,290 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:10] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:21:10,306 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:21:10,306 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:10] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:21:10,322 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:21:10,322 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:10] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:21:35,164 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:35] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:21:35,179 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:21:35,179 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:35] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:21:35,179 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:21:35,179 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:21:35] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:22:41,881 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:22:41] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:22:41,897 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:22:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:22:41,912 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:22:41] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:22:41,912 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:22:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:22:41,912 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:22:41] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:24:16,275 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:16] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:24:16,290 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:24:16,290 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:16] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:24:16,290 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:16] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:24:16,290 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:16] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:24:52,138 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:52] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:24:52,157 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:24:52,159 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:52] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:24:52,163 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:24:52,167 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:24:52] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:25:28,478 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:25:28] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:25:28,493 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:25:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:25:28,509 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:25:28] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:25:28,509 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:25:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:25:28,509 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:25:28] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:26:07,135 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:26:07] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:26:07,150 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:26:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:26:07,150 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:26:07] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:26:07,150 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:26:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:26:07,150 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:26:07] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:27:19,409 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:27:19] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:27:19,440 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:27:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:27:19,440 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:27:19] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:27:19,440 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:27:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:27:19,440 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:27:19] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:30:29,746 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:29] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:30:29,762 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:30:29,777 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:30:29,777 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:30:29,777 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:29] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:30:46,114 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:46] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:30:46,130 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:30:46,146 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:30:46,146 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:30:46,146 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:30:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:31:36,063 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:31:36] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:31:36,079 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:31:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:31:36,079 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:31:36] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:31:36,079 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:31:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:31:36,079 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:31:36] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:32:05,712 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:05] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:32:05,728 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:32:05,728 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:05] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:32:05,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:32:05,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:05] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:32:54,442 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:54] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:32:54,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:32:54,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:54] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:32:54,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:32:54,473 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:32:54] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:33:06,500 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:06] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:33:06,516 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:33:06,518 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:06] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:33:06,521 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:06] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:33:06,525 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:06] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:33:26,859 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:26] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:33:26,875 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:33:26,875 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:26] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:33:26,890 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:33:26,890 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:33:26] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:34:15,923 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:15] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:34:15,938 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:34:15,938 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:15] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:34:15,954 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:34:15,954 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:15] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:34:36,790 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:36] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:34:36,806 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:34:36,806 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:36] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:34:36,806 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:34:36,806 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:34:36] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:35:44,514 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:35:44] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:35:44,530 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:35:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:35:44,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:35:44] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:35:44,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:35:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:35:44,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:35:44] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:36:22,156 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:36:22] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:36:22,171 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:36:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:36:22,171 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:36:22] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:36:22,171 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:36:22] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:36:22,187 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:36:22] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:38:17,723 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:17] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:38:17,739 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:38:17,739 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:17] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:38:17,739 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:38:17,739 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:17] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:38:28,844 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:28] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:38:28,860 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:38:28,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:28] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:38:28,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:38:28,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:38:28] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 12:44:01,143 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:44:01] "GET / HTTP/1.1" 200 -
+[2017-11-19 12:44:01,158 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:44:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 12:44:01,158 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:44:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 12:44:01,158 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:44:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 12:44:01,158 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 12:44:01] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 20:28:18,056 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 20:28:18,603 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 20:28:18,603 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 20:28:18,603 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 20:29:31,725 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:31] "GET / HTTP/1.1" 200 -
+[2017-11-19 20:29:31,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-11-19 20:29:31,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:31] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-11-19 20:29:31,772 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-11-19 20:29:31,772 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:31] "GET /static/main.css HTTP/1.1" 200 -
+[2017-11-19 20:29:31,819 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:31] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-11-19 20:29:55,957 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:55] "GET / HTTP/1.1" 200 -
+[2017-11-19 20:29:55,973 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 20:29:55,973 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 20:29:55,989 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 20:29:55,989 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:29:55] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 20:30:07,160 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:07] "GET / HTTP/1.1" 200 -
+[2017-11-19 20:30:07,176 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 20:30:07,179 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:07] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 20:30:07,181 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 20:30:07,186 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:07] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 20:30:14,191 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 20:30:14,191 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 20:30:14,191 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 20:30:14,300 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:14] "GET /note HTTP/1.1" 200 -
+[2017-11-19 20:30:14,362 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 20:30:14] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-11-19 21:08:10,571 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 21:08:11,134 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 21:08:11,134 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 21:08:11,149 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 21:08:20,400 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:08:20] "GET / HTTP/1.1" 200 -
+[2017-11-19 21:08:36,730 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:08:36,730 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:08:36,730 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:08:36,730 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:08:36] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:09:29,194 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:09:29,194 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:09:29,194 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:09:29,194 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:09:29] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:09:29,226 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:09:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:09:29,226 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:09:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:09:29,226 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:09:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:09:29,226 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:09:29] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:10:27,777 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:10:27,777 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:10:27,777 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:10:27,793 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:27] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:10:27,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:10:27,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:27] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:10:27,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:27] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:10:27,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:27] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:10:41,172 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:10:41,172 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:10:41,172 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:10:41,172 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:41] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:10:41,203 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:10:41,203 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:41] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:10:41,203 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:10:41,203 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:41] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:10:55,571 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:10:55,571 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:10:55,571 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:10:55,592 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:55] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:10:55,598 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:10:55,598 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:10:55,613 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:10:55,613 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:10:55] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:11:29,456 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:11:29,472 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:11:29,472 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:11:29,472 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:29] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:11:29,487 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:11:29,487 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:11:29,503 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:11:29,503 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:29] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:11:30,777 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:11:30,777 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:11:30,777 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:11:30,777 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:30] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:11:30,792 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:11:30,792 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:30] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:11:30,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:11:30,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:30] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:11:50,093 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:11:50,093 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:11:50,093 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:11:50,093 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:50] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:11:50,125 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:11:50,125 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:50] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:11:50,125 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:11:50,125 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:11:50] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:15:19,867 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:19] "GET / HTTP/1.1" 200 -
+[2017-11-19 21:15:23,493 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:15:23,493 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:15:23,493 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:15:23,508 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:23] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:15:41,575 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:15:41,578 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:15:41,579 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:15:41,587 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:41] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:15:41,608 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:15:41,613 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:41] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:15:41,617 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:15:41,619 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:15:41] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:16:15,357 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:16:15,358 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:16:15,359 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:16:15,371 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:15] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:16:15,377 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:16:15,377 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:15] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:16:15,392 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:16:15,392 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:15] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:16:16,581 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:16:16,581 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:16:16,581 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:16:16,581 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:16] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:16:44,639 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:16:44,639 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:16:44,639 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:16:44,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:44] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:16:44,655 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-11-19 21:16:44,671 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:44] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-11-19 21:16:44,671 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-11-19 21:16:44,671 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:16:44] "GET /static/main.css HTTP/1.1" 304 -
+[2017-11-19 21:18:15,986 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-11-19 21:18:16,022 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 21:18:16,743 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 21:18:16,746 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 21:18:16,755 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 21:18:49,543 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-11-19 21:18:49,575 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 21:18:50,280 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 21:18:50,284 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 21:18:50,294 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 21:18:53,499 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:18:53,499 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:18:53,499 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:18:53,546 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:18:53] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:19:07,579 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:19:07,579 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:19:07,579 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:19:07,595 : INFO : views.py : 27 :             notes_db() ] post action
+[2017-11-19 21:19:07,626 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:19:07] "POST /note HTTP/1.1" 400 -
+[2017-11-19 21:23:26,064 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-11-19 21:23:26,095 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-19 21:23:26,849 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-19 21:23:26,852 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-19 21:23:26,862 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-19 21:23:35,290 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:23:35,290 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:23:35,290 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:23:35,353 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:23:35] "GET /note HTTP/1.1" 200 -
+[2017-11-19 21:23:43,322 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:23:43,322 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:23:43,322 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:23:43,322 : INFO : views.py : 27 :             notes_db() ] post action
+[2017-11-19 21:23:43,322 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
+[2017-11-19 21:23:43,338 : DEBUG : sqlalchemy_statments.py : 79 :               insert() ] Added 1 row to sqlite3, with id 5
+[2017-11-19 21:23:43,338 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:23:43] "POST /note HTTP/1.1" 200 -
+[2017-11-19 21:23:45,169 : INFO : views.py : 17 :             notes_db() ] started note db form
+[2017-11-19 21:23:45,169 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(5, 'wwwwwwwwwwwww', 'linux', 'wwwwwwwwwwwwww', '2017-11-19 21:23:43.322764'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-11-19 21:23:45,184 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (5,)
+[2017-11-19 21:23:45,184 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [19/Nov/2017 21:23:45] "GET /note HTTP/1.1" 200 -

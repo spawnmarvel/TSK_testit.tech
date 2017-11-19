@@ -1,86 +1,117 @@
 {% extends "base.html" %} {% block title %}testit.tech{% endblock %} {% block body %}
 <div class="jumbotron">
-
   <!-- web section  -->
-  <p class="Lead">List of todo's, including web, other, finished and list of idea's</p>
-  <div class="container">
-    <p class="Lead">Web:</p>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#to_do_web">To do</button>
-    <div id="to_do_web" class="collapse">
-      <br>
-      <ul>
-        <li>Logging</li>
-        <li>Flask</li>
-        <li>Form</li>
-        <li>Sessions</li>
-        <li>Post / redirect</li>
-        <li>Error handling 404, 400, etc</li>
-        <li>ORM SQLAlchemy Sqlite3</li>
-        <li>Gunicorn / Nginx proxy (deploy user / small pro)</li>
-        <li>Postgresql</li>
-        <li>Upload the finished API (bootstrap on doc section)</li>
-        <li>HTML page for :Zabbix 3.2 + Zabbix API py, Octopus (pagenation)</li>
-      </ul>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">To Do: Web</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <br>
+        <ul>
+          <li>Use:data-toggle="collapse": for Blog</li>
+          <li>Pagenation</li>
+          <li>Logging</li>
+          <li>Flask</li>
+          <li>Form</li>
+          <li>Sessions</li>
+          <li>Post / redirect</li>
+          <li>Error handling 404, 400, etc</li>
+          <li>ORM SQLAlchemy Sqlite3</li>
+          <li>Gunicorn / Nginx proxy (deploy user / small pro)</li>
+          <li>Postgresql</li>
+          <li>Upload the finished API (bootstrap on doc section)</li>
+          <li>HTML page for :Zabbix 3.2 + Zabbix API py, Octopus (pagenation)</li>
+        </ul>
+      </div>
     </div>
   </div>
-
-  <br>
   <!-- other section  -->
-  <div class="container">
-    <p class="Lead">Other:</p>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#to_do">To do</button>
-    <div id="to_do" class="collapse">
-      <br>
-      <ul>
-        <li>Crash course 1-11, data visual 15-16</li>
-        <li>Logging</li>
-        <li>Psql advanced, efficent / time / index / jsonb</li>
-        <li>Zabbix 3.4</li>
-        <li>Improve doc / read me / structure on Github</li>
-        <li>Win service C#, CA for Zabbix API (WFA??</li>
-        <li>More Octopus / doc / make steps with scripts</li>
-      </ul>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">To Do: Other</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <br>
+        <ul>
+          <li>Crash course 1-11, data visual 15-16</li>
+          <li>Logging</li>
+          <li>Psql advanced:</li>
+          <li>Efficent / time / index / jsonb</li>
+          <li>Zabbix 3.4</li>
+          <li>Improve doc / read me / structure on Github</li>
+          <li>Win service C#, CA for Zabbix API (WFA??</li>
+          <li>More Octopus / doc / make steps with scripts</li>
+        </ul>
+      </div>
     </div>
   </div>
-
-  <br>
   <!-- idea section  -->
-  <div class="container">
-    <p class="Lead">Idea:</p>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#idea">To do</button>
-    <div id="idea" class="collapse">
-      <br>
-      <ul>
-        <li>Subject to learn more about (history, people, places)</li>
-        <li>Chat app</li>
-        <li>Machine learning</li>
-        <li>Blackjack OOP game cmd / Pygame</li>
-        <li>Kivy android</li>
-      </ul>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">To Do: Idea</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <br>
+        <ul>
+          <li>Subject to learn more about (history, people, places)</li>
+          <li>Chat app</li>
+          <li>Machine learning</li>
+          <li>Blackjack OOP game cmd / Pygame</li>
+          <li>Kivy android</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- done section  -->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Done:</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <br>
+        <ul>
+          <li>Sqlite3 simple CRUD blog</li>
+          <li>Sqlite3 CR form to save urls (id, url, date)</li>
+          <li>Visual Studio Code</li>
+          <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
+          <li>DigitalOcean</li>
+          <li>Linux Ubuntu 16.04</li>
+          <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean Linux</a>
+          <li>Pip virtualenv</li>
+          <li>Flask Gunicorn nginx</li>
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04"
+            target="_blank">Gunicorn</a>
+          <li>FilZilla SSH from Window to Linux on cloud</li>
+          <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04">FileZila SSH</a>
+        </ul>
+      </div>
     </div>
   </div>
 
-  <br>
-  <!-- done section  -->
+
+
+
+  <!-- tmp section  -->
   <div class="container">
-    <p class="Lead">Done:</p>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#done">Done</button>
+
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#done">Temporary:</button>
     <div id="done" class="collapse">
       <br>
       <ul>
-        <li>Sqlite3 simple CRUD blog</li>
-        <li>Sqlite3 CR form to save urls (id, url, date)</li>
-        <li>Visual Studio Code</li>
-        <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
-        <li>DigitalOcean</li>
-        <li>Linux Ubuntu 16.04</li>
-        <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean Linux</a>
-        <li>Pip virtualenv</li>
-        <li>Flask Gunicorn nginx</li>
-        <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04"
-          target="_blank">Gunicorn</a>
-        <li>FilZilla SSH from Window to Linux on cloud</li>
-        <a href="https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-16-04">FileZila SSH</a>
+        <li>TBD</li>
+        <li>TBD</li>
       </ul>
     </div>
   </div>

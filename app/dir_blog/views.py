@@ -30,12 +30,14 @@ def notes_db():
             note = request.form["nt"]
             topic = request.form["options"]
             topic_url = request.form["url"]
+            # drop = request.form["drop_option"]
         
             if len(note) < 5 or len(topic) < 2 or len(topic_url) < 2:
                 result = "Note must be > 5 and topic must be > 2"
             else:
                 max_id = cor_id
                 result = sqlalchemy_statments.insert(note, topic,topic_url)
+                # result += " " + drop
         
         elif request.form["action"] == "DeleteNote":
             # logger.info("delete note")

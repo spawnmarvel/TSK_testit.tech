@@ -44,7 +44,7 @@
         <br>
         <!-- post btn -->
         <input type="submit" name="action" value="Add" class="btn btn-primary" />
-        
+
       </div>
     </form>
     <!-- Collapse btn div -->
@@ -53,25 +53,25 @@
 
   {% for note in note_data %}
 
-  <div class="card" style="background-color: rgb(235, 229, 229)">
-    <div class="card-block">
-      <h2 class="card-title">{{ note[2] }}:</h2>
-      <div class="card-block">
-        <p class="card-text">{{ note[1] }}</p>
-        <span class="label label-success">{{ note[2] }}</span>
-        <br>
-        <br>
-        <a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a>
-        <br>
-        <span class="glyphicon glyphicon-time"> {{ note[4] }}</span>
-        <form action="/note" method="POST">
-          <br>
-          <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
-          <input class="form-control" id="disabledInput" type="text" name="delid" value="{{ note[0] }}" readonly/>
-          <br>
-        </form>
-      </div>
-    </div>
+  <div class="jumbotron" style="background-color: rgb(235, 229, 229)">
+
+    <h2>{{ note[2] }}:</h2>
+
+    <p class="card-text">{{ note[1] }}</p>
+    <span class="label label-success">{{ note[2] }}</span>
+    <br>
+    <br>
+    <a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a>
+    <br>
+    <span class="glyphicon glyphicon-time"> {{ note[4] }}</span>
+    <form action="/note" method="POST">
+      <br>
+      <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
+      <input class="form-control" id="disabledInput" type="text" name="delid" value="{{ note[0] }}" readonly/>
+      <br>
+    </form>
+
+
   </div>
 
 
