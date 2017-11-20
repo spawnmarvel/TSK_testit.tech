@@ -25,6 +25,7 @@ def notes_db():
     id_ = None
     result = "Emtpy"
     secret = ""
+    secret_key = ""
     dt = datetime.datetime.now()
     if request.method == 'POST':
         logger.info("post action")
@@ -54,6 +55,7 @@ def notes_db():
                 letters = random.choice(string.ascii_letters)
                 letters2 = random.choice(string.ascii_letters)
                 result += "  KEY" +  letters + str(nr) + letters2 + str(nr2)
+                secret = " Success"
 
     
             else:

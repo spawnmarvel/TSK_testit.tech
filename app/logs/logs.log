@@ -1327,3 +1327,10 @@
 [2017-11-20 19:54:08,415 : DEBUG : sqlalchemy_statments.py : 31 :              get_all() ] [(4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
 [2017-11-20 19:54:08,415 : DEBUG : sqlalchemy_statments.py : 50 :           get_max_id() ] (4,)
 [2017-11-20 19:54:08,415 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [20/Nov/2017 19:54:08] "GET /note HTTP/1.1" 200 -
+[2017-11-20 20:02:07,456 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-20 20:02:07,987 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-20 20:02:07,987 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-20 20:02:07,987 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-20 20:02:15,738 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [20/Nov/2017 20:02:15] "GET /py HTTP/1.1" 200 -
+[2017-11-20 20:02:15,769 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [20/Nov/2017 20:02:15] "GET /static/img/import_cls/app_form_mod.jpg HTTP/1.1" 200 -
+[2017-11-20 20:02:15,769 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [20/Nov/2017 20:02:15] "GET /static/img/import_cls/add_init.jpg HTTP/1.1" 200 -
