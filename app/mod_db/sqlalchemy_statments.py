@@ -89,7 +89,7 @@ def delete(id_):
             global sql_delete
             cur.execute(sql_delete, (id_,))
             conn.commit()
-            msg = "Delete 1 row, id " + str(id_)
+            msg = "Delete 1 row, id " + str(id_) + "."
     except sqlite3.OperationalError as e:
         msg = e
         conn.rollback()
