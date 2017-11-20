@@ -7,6 +7,8 @@ from app.mod_form import contactform
 from app.mod_db import sqlalchemy_statments
 from app.mod_controller import controller_mod
 # controller_mod.make_notes()
+import random
+import string
 
 import logging
 logger = logging.getLogger(__name__)
@@ -22,6 +24,8 @@ def notes_db():
     max_id = None
     id_ = None
     result = "Emtpy"
+    secret = ""
+    secret_key = ""
     dt = datetime.datetime.now()
     if request.method == 'POST':
         logger.info("post action")
@@ -41,8 +45,22 @@ def notes_db():
         
         elif request.form["action"] == "DeleteNote":
             # logger.info("delete note")
-            notes_id = request.form["delid"]
-            result = sqlalchemy_statments.delete(notes_id)
+            del_pa = "master"
+            tmp_del_pa = request.form["delpass"]
+            if tmp_del_pa.lower() == del_pa:
+                notes_id = request.form["delid"]
+                result = sqlalchemy_statments.delete(notes_id)
+                nr = random.randint(0, 333)
+                nr2 = random.randint(0, 99)
+                letters = random.choice(string.ascii_letters)
+                letters2 = random.choice(string.ascii_letters)
+                result += "  KEY" +  letters + str(nr) + letters2 + str(nr2)
+                secret = " Success"
+
+    
+            else:
+                result = "Secret key is wrong"
+                secret = "Secret key is wrong"
            
             
         else:
@@ -50,5 +68,5 @@ def notes_db():
     else:
         result = "GET: " + str(dt)
         # logger.info("get notes page")
-        return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
-    return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result)
+        return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result, secret=secret)
+    return render_template("blog/notes.html", note_data=note_data, m_id = max_id, ty=ty, result=result, secret=secret)
