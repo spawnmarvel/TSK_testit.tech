@@ -69,7 +69,7 @@ The website is served running gunicorn and Nginx
 
 
 ## Versioning
-Branch: Master and test
+Branch: master and test.
 For the versions available, see the [tags on this repository](https://github.com/spawnmarvel/TSK_testit.tech). 
 
 ## Authors
