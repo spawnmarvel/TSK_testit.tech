@@ -1,7 +1,8 @@
 # TSK_testit.tech 1.2.4
 
 testit.tech, website built for learning Python webdevelopment and
-for documenting the stuff i try out.
+for documenting the stuff I try out.
+It also contains a blog section with SQLite, tab->SQLite->Note Blog
 I.e Zabbix, Grafana, Octopus, etc.
 
 
@@ -60,7 +61,7 @@ The website is served running gunicorn and Nginx
 
 * [Flask](http://flask.pocoo.org/) - The web framework used
 * [SQLite](https://www.sqlite.org/) - Database
-* [Boostrap](https://getbootstrap.com/) - Bootstrap
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap
 * [gunicorn](http://gunicorn.org/) - gunicorn
 * [nginx](https://www.nginx.com/resources/wiki/) - nginx
 
@@ -81,9 +82,10 @@ For the versions available, see the [tags on this repository](https://github.com
 
 ## Acknowledgments
 
+* Tab->Links used (all the most important stuff for building this site)
 * Hat tip to anyone who's code was used
 * Inspiration
-* etc
+
 
 
 
