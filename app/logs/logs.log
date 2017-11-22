@@ -855,3 +855,16 @@
 [2017-11-22 22:07:02,427 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'wwwwwwwww', 'Programming', 'wwwwwwww', '2017-11-22 22:02:38.812969'), (7, 'wwwwwwwwwwwwwwww', 'Csharp', 'wwwwwwwwwwwwwww', '2017-11-21 20:29:11.469973'), (6, 'wwwwwwwwwwwwwwwww', 'Csharp', 'wwwwwwwwwwwwwwwwwwwww', '2017-11-21 20:23:59.979252'), (5, 'wwwwww', 'Programming', 'wwwwwww', '2017-11-21 20:23:30.956522'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
 [2017-11-22 22:07:02,427 : DEBUG : sqlalchemy_statments.py : 55 :           get_max_id() ] (8,)
 [2017-11-22 22:07:02,427 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [22/Nov/2017 22:07:02] "GET /note HTTP/1.1" 200 -
+[2017-11-22 22:12:21,546 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-22 22:12:22,077 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-22 22:12:22,077 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-22 22:12:22,092 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-22 22:12:36,574 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-22 22:12:37,106 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-22 22:12:37,121 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-22 22:12:37,121 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-11-22 22:12:42,406 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\config.py', reloading
+[2017-11-22 22:12:42,438 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-11-22 22:12:43,072 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-11-22 22:12:43,075 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-11-22 22:12:43,082 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
