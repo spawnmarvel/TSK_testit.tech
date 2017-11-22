@@ -9,37 +9,39 @@
   <!-- Collapse btn -->
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#to_do_web">Add note</button>
   <div id="to_do_web" class="collapse">
-
+    <br>
     <form action="/note" method="POST">
       <div class="form-group">
-        <p class="lead">Note:</p>
-        <input class="form-control" id="inputdefault" type="text" name="nt" />
+        <label>Note description:</label>
+        <input class="form-control" id="inputdefault" type="text" name="nt" placeholder="Some text about..." />
         <br>
         <!-- options -->
+        <label>Level:</label>
         <div class="radio">
           <label>
-            <input type="radio" checked="checked" name="options" value="Programming">Programming</label>
+            <input type="radio" checked="checked" name="options" value="High">High</label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="options" value="Sql">Sql</label>
+            <input type="radio" name="options" value="Medium">Medium</label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="options" value="html">Html</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="options" value="linux">Linux</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="options" value="other">Other</label>
+
+        <!--select tag -->
+        <div class="form-group">
+          <label for="sel1">Topic:</label>
+          <select class="form-control" name="selectvalue" id="sel1">
+            <option>Programming</option>
+            <option>Python</option>
+            <option>Csharp</option>
+            <option>Html</option>
+            <option>Linux</option>
+            <option>Other</option>
+          </select>
         </div>
         <!-- options -->
         <br>
-        <p class="lead">Url:</p>
-        <input class="form-control" id="inputdefault" type="text" name="url" />
+        <label>Url:</label>
+        <input class="form-control" id="inputdefault" type="text" name="url" placeholder="https://www.ba.no/" />
         <br>
         <br>
         <!-- post btn -->
@@ -52,11 +54,9 @@
   <!-- note db result  -->
 
   {% for note in note_data %}
-
+  <!-- for each note in db, make a jumbotron div with form-->
   <div class="jumbotron" style="background-color: rgb(235, 229, 229)">
-
     <h2>{{ note[2] }}:</h2>
-
     <p class="card-text">{{ note[1] }}</p>
     <span class="label label-success">{{ note[2] }}</span>
     <br>
@@ -67,15 +67,13 @@
     <form action="/note" method="POST">
       <br>
       <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
+
       <input class="form-control" id="disabledInput" type="text" name="delid" value="{{ note[0] }}" readonly/>
       <br>
-      <h6>Secret key?<h6>
       <input class="form-control" id="inputdefault" type="text" name="delpass" placeholder="Secret Key" />
-      <br>
       <h6>Key result: {{ secret }}</h6>
+      <br>
     </form>
-
-
   </div>
 
 

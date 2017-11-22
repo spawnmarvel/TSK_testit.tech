@@ -19,9 +19,6 @@ print(sys.path)
 UPLOAD_FOLDER = './uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
 
-# module start
-#list for notes db
-li = []
 
 
 @form.route('/form')
