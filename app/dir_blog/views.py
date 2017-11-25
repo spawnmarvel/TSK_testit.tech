@@ -23,26 +23,26 @@ def notes_db():
     note_data = sqlalchemy_statments.get_all()
     result = "Emtpy"
     secret = ""
-    current_time_ = datetime.datetime.now()
+    current_time = datetime.datetime.now()
     if request.method == 'POST':
         logger.info("post action")
         if request.form["action"] == "Add":
             # logger.info("add note")
-            note_ = request.form["nt"]
+            note = request.form["nt"]
             # level_ = request.form["options"]
-            topic_url_ = request.form["url"]
+            topic_url = request.form["url"]
             # drop = request.form["drop_option"]
-            topic_ = request.form["selectvalue"]
-            if len(note_) < 5 or len(topic_url_) < 6:
+            topic = request.form["selectvalue"]
+            if len(note) < 5 or len(topic_url) < 6:
                 result = "Note must be > 5 and url must be > 6"
             else:
-                result = sqlalchemy_statments.insert(note_, topic_, topic_url_)
-                result += " topic: " + str(topic_)
+                result = sqlalchemy_statments.insert(note, topic, topic_url)
+                result += " topic: " + str(topic)
         elif request.form["action"] == "DeleteNote":
             # logger.info("delete note")
-            del_pa = "master"
-            tmp_del_pa = request.form["delpass"]
-            if tmp_del_pa.lower() == del_pa:
+            del_pa_ = "master"
+            tmp_del_pa_ = request.form["delpass"]
+            if tmp_del_pa_.lower() == del_pa_:
                 notes_id = request.form["delid"]
                 result = sqlalchemy_statments.delete(notes_id)
                 num_1 = random.randint(0, 333)
@@ -57,7 +57,7 @@ def notes_db():
         else:
             pass
     else:
-        result = "GET: " + str(current_time_)
+        result = "GET: " + str(current_time)
         # logger.info("get notes page")
         return render_template("blog/notes.html", note_data=note_data, result=result, secret=secret)
     return render_template("blog/notes.html", note_data=note_data, result=result, secret=secret)
