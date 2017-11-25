@@ -6,14 +6,13 @@ from werkzeug import secure_filename
 import os
 #from sys print
 import sys
-import datetime
 
 
 #internal modules
 from app.mod_form import contactform
 from app import app # for the uploaded function
 from . import form
-import sys
+print("Sys path called in dir_form/views.py")
 print(sys.path)
 
 UPLOAD_FOLDER = './uploads'
@@ -28,17 +27,18 @@ def res():
 @form.route('/form',methods = ['POST', 'GET'])
 def result():
     if request.method == 'POST':
-        tmp_res = request.form["txt"]
-        res = ""
-        if len(tmp_res) < 3:
-            res = "To small file must be len(file) > 3 "
+        tmp_res_ = request.form["txt"]
+        result_ = ""
+        if len(tmp_res_) < 3:
+            result_ = "To small file must be len(file) > 3 "
         else:
-           res = tmp_res
-    return render_template("form/form_result.html",data = res)
+           result_ = tmp_res_
+    return render_template("form/form_result.html",data = result_)
 
 
 @form.route("/files")
 def upload_file():
+    """___"""
     return render_template("form/form_file.html")
 
 
@@ -47,7 +47,6 @@ def upload_files():
     res = ""
     if request.method == 'POST':
         fil = request.files['file']
-        suffix = fil.filename.split(".")
         file_format = fil.filename
         valid = False
         if file_format.endswith(".txt"):
@@ -84,5 +83,4 @@ def contact_form():
             flash('Error:All the form fields are required. ')
  
     return render_template('form/form_contact.html', form=form)
-
 

@@ -1,3 +1,5 @@
+"""___"""
+
 DEBUG = True
 WTF_CSRF_ENABLE =True
 SECRET_KEY = "fttftf122323434343<<a12784596!@"
