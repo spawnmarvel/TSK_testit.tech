@@ -13,7 +13,7 @@
     <form action="/note" method="POST">
       <div class="form-group">
         <label>Note description:</label>
-        <input class="form-control" id="inputdefault" type="text" name="nt" placeholder="Some text about..." />
+        <textarea class="form-control" id="inputdefault" type="text" name="nt" placeholder="Some text about..."></textarea>
         <br>
         <!-- options -->
         <label>Level:</label>
@@ -57,7 +57,7 @@
   <!-- for each note in db, make a jumbotron div with form-->
   <div class="jumbotron" style="background-color: rgb(235, 229, 229)">
     <h2>{{ note[2] }}:</h2>
-    <p class="card-text">{{ note[1] }}</p>
+    <p class="break_them">{{ note[1] }}</p>
     <span class="label label-success">{{ note[2] }}</span>
     <br>
     <br>
