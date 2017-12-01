@@ -1156,3 +1156,850 @@
 [2017-11-25 20:58:23,345 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [25/Nov/2017 20:58:23] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
 [2017-11-25 20:58:23,345 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [25/Nov/2017 20:58:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
 [2017-11-25 20:58:23,345 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [25/Nov/2017 20:58:23] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-01 23:13:17,318 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:13:17,869 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:13:17,869 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:13:17,884 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:13:34,191 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:34] "GET / HTTP/1.1" 200 -
+[2017-12-01 23:13:34,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-01 23:13:34,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:34] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-01 23:13:34,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-01 23:13:34,238 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:34] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-01 23:13:34,285 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:34] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-01 23:13:44,661 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /grafana HTTP/1.1" 200 -
+[2017-12-01 23:13:44,692 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/grafana_start.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:44,708 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/grafana_dash.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:44,708 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/table_postgre.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:44,708 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/grafana_datasource.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:44,723 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/grafana_panel.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:44,723 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/grafana_query.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:44,723 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:44] "GET /static/img/grafana/grafana_result.jpg HTTP/1.1" 200 -
+[2017-12-01 23:13:52,724 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:13:52] "GET /grafana HTTP/1.1" 200 -
+[2017-12-01 23:17:12,037 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_technology\\views.py', reloading
+[2017-12-01 23:17:12,069 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:17:12,744 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:17:12,744 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:17:12,760 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:17:24,473 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\config.py', reloading
+[2017-12-01 23:17:24,515 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:17:25,098 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:17:25,098 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:17:25,114 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:17:53,562 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:17:53,600 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:17:54,174 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:17:54,177 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:17:54,185 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:17:56,303 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:17:56,331 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:17:56,880 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:17:56,880 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:17:56,896 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:29:45,471 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:29:45,553 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:29:46,197 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:29:46,197 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:29:46,213 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:30:27,451 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:30:27,500 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:30:46,003 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:30:46,534 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:30:46,534 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:30:46,550 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:30:52,425 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess HTTP/1.1" 500 -
+[2017-12-01 23:30:52,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:30:52,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:30:52,504 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:30:52,519 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:30:52,566 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-01 23:30:52,566 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:30:52] "GET /sess?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:31:04,446 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:31:04,477 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:31:05,095 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:31:05,100 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:31:05,110 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:31:09,279 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:31:09,316 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:31:09,987 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:31:09,991 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:31:10,002 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:31:19,900 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:31:19] "GET /sess HTTP/1.1" 200 -
+[2017-12-01 23:31:19,931 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:31:19] "GET / HTTP/1.1" 200 -
+[2017-12-01 23:31:23,510 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:31:23] "GET /sess HTTP/1.1" 200 -
+[2017-12-01 23:32:52,142 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:32:52,177 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:32:52,845 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:32:52,850 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:32:52,858 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:32:58,118 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:32:58,165 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:32:58,865 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:32:58,881 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:32:58,881 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:33:01,028 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:33:01,088 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:33:01,668 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:33:01,668 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:33:01,668 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:40:02,620 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:40:02,651 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:40:03,267 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:40:03,283 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:40:03,283 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:40:05,360 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:40:05,406 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:40:05,971 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:40:05,971 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:40:05,971 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:40:09,048 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:40:09,157 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:40:09,808 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:40:09,811 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:40:09,820 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:40:19,025 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login HTTP/1.1" 500 -
+[2017-12-01 23:40:19,056 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:40:19,056 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:40:19,056 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:40:19,088 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:40:19,119 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-01 23:40:19,150 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:40:19] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:42:42,055 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:42:42,100 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:42:42,710 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:42:42,713 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:42:42,721 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:42:54,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:42:54] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:42:54,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:42:54] "GET / HTTP/1.1" 200 -
+[2017-12-01 23:42:58,279 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:42:58] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:43:33,283 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:33] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:43:45,849 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:45] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:43:45,864 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-01 23:43:45,880 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:45] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-01 23:43:45,880 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-01 23:43:45,880 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:45] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-01 23:43:56,598 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:56] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:43:56,617 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-01 23:43:56,619 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:56] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-01 23:43:56,622 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-01 23:43:56,625 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:43:56] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-01 23:44:22,588 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:44:22,603 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:44:22,603 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:44:22,619 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:44:22,634 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-01 23:44:22,650 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:44:22,713 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:44:22] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:45:06,556 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:45:06,571 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:45:07,230 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:45:07,230 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:45:07,245 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:45:18,836 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:45:18,867 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:45:19,527 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:45:19,531 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:45:19,539 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:45:36,932 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:36] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:45:40,963 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:40] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:45:40,979 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:40] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:45:40,979 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:40] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:45:40,979 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:40] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:45:41,010 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:41] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:45:41,088 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:45:41] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:47:09,616 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:47:09,650 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:47:10,330 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:47:10,334 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:47:10,342 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:47:39,358 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:39] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:47:42,014 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:42] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:47:42,030 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:42] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:47:42,030 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:42] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:47:42,030 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:42] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:47:42,061 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:42] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:47:42,139 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:42] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:47:51,359 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:51] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:47:55,781 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:55] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:47:55,797 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:55] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:47:55,797 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:55] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:47:55,812 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:55] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:47:55,844 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:55] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:47:55,906 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:47:55] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:50:11,234 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:50:11,266 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:50:11,903 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:50:11,906 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:50:11,913 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:50:13,984 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:50:14,038 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:50:14,656 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:50:14,659 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:50:14,669 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:50:31,537 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:50:31,565 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:50:32,136 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:50:32,136 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:50:32,152 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:51:02,560 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:51:02,600 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:51:03,173 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:51:03,176 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:51:03,184 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:51:06,337 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:51:06,389 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:51:06,953 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:51:06,953 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:51:06,953 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:51:25,295 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:25] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:51:29,795 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:29] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:51:29,811 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:29] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:51:29,811 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:29] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:51:29,811 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:29] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:51:29,858 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:29] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:51:29,920 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:51:29] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:52:12,101 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-01 23:52:12,154 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:52:12,799 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:52:12,804 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:52:12,814 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:52:20,320 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:20] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:52:23,508 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:23] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:52:23,539 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:23] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:52:23,539 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:23] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:52:23,539 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:23] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:52:23,571 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:52:23,633 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:52:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:53:42,213 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\__init__.py', reloading
+[2017-12-01 23:53:42,253 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:53:42,877 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:53:42,881 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:53:42,888 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:53:48,636 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:53:49,168 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:53:49,168 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:53:49,183 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:53:57,466 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:53:57] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:54:00,872 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:54:00] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:54:00,888 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:54:00] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:54:00,888 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:54:00] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:54:00,904 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:54:00] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:54:00,935 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:54:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:54:00,997 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:54:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:54:08,081 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\__init__.py', reloading
+[2017-12-01 23:54:08,117 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:54:08,820 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:54:08,824 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:54:08,831 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:56:57,050 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-01 23:56:57,596 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-01 23:56:57,596 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-01 23:56:57,612 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-01 23:57:08,479 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:08] "GET /login HTTP/1.1" 200 -
+[2017-12-01 23:57:12,354 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:12] "POST /login HTTP/1.1" 500 -
+[2017-12-01 23:57:12,370 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:12] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-01 23:57:12,370 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:12] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-01 23:57:12,370 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:12] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-01 23:57:12,401 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:12] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-01 23:57:12,479 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [01/Dec/2017 23:57:12] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 00:00:13,237 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:00:13,283 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:00:13,909 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:00:13,912 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:00:13,920 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:00:17,005 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:00:17,036 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:00:17,687 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:00:17,687 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:00:17,703 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:00:19,858 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:00:19,955 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:00:20,593 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:00:20,611 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:00:20,618 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:00:29,049 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:00:29,135 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:00:29,795 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:00:29,799 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:00:29,808 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:00:56,077 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:00:56,108 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:00:56,744 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:00:56,747 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:00:56,756 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:00:57,776 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:00:57,812 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:00:58,421 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:00:58,423 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:00:58,431 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:01:10,249 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:01:10] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:01:12,362 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:01:12] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:02:20,988 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:02:21,020 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:02:21,654 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:02:21,654 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:02:21,654 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:02:30,444 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:02:30] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:02:31,569 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:02:31] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:02:38,945 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:02:38] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:03:11,379 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:03:11,410 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:03:12,074 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:03:12,077 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:03:12,085 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:03:20,351 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:03:20] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:03:22,117 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:03:22] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:03:27,242 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:03:27] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:03:36,290 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:03:36] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:03:42,338 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:03:42] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:05:57,641 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:05:57,657 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:05:58,342 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:05:58,345 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:05:58,358 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:06:05,815 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:06:05] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:06:10,456 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:06:10] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:07:13,526 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:07:13,557 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:07:14,252 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:07:14,255 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:07:14,264 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:07:22,326 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:07:22] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:07:26,754 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:07:26] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:07:53,393 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:07:53,424 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:07:54,085 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:07:54,088 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:07:54,095 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:07:56,158 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:07:56,195 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:07:56,781 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:07:56,785 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:07:56,798 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:08:02,993 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:02] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:08:05,227 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:05] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:08:09,540 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:09] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:08:10,947 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:10] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:08:11,900 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:11] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:08:17,557 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:17] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:08:30,949 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:30] "POST /login HTTP/1.1" 500 -
+[2017-12-02 00:08:30,964 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:30] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-02 00:08:30,964 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:30] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-02 00:08:30,996 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:30] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-02 00:08:31,011 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:31] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 00:08:31,074 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:31] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-02 00:08:31,089 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:31] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 00:08:44,203 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:08:44,241 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:08:44,839 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:08:44,842 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:08:44,852 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:08:51,983 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:51] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:08:56,515 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:56] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:08:56,530 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:08:56] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:09:05,328 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:05] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:09:08,063 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:08] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:09,157 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:09] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:09,844 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:09] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:10,829 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:10] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:12,610 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:12] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:13,751 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:13] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:14,454 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:14] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:14,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:14] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:41,031 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:41] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:41,062 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:09:41,062 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:41] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:09:41,062 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:09:41,062 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:41] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:09:50,843 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:50] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:09:52,199 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:09:52] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:10:39,965 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:39] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:10:39,997 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-02 00:10:39,997 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:39] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-02 00:10:39,997 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-02 00:10:39,997 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:39] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-02 00:10:40,059 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:40] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 00:10:48,626 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:48] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:10:50,329 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:50] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:10:51,408 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:51] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:10:56,658 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:10:56] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:01,018 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:33,854 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:11:33,883 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:11:34,570 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:11:34,573 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:11:34,581 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:11:38,182 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:38] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:38,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:11:38,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:38] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:11:38,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:11:38,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:38] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:11:40,183 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:40] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:42,980 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:42] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:43,902 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:43] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:44,824 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:44] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:45,636 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:45] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:47,605 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:47] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:47,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:47] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:47,996 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:47] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:48,152 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:48] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:48,340 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:48] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:48,543 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:48] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:48,762 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:48] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:48,965 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:48] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:49,152 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:49] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:49,371 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:49] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:49,590 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:49] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:11:49,793 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:11:49] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:12:08,998 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:08] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:12:12,420 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:12] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:12:12,436 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:12] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:12:21,265 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:21] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:12:31,891 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:31] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:12:46,232 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:12:46,256 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:12:46,949 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:12:46,952 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:12:46,962 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:12:48,163 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:48] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:12:48,184 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:12:48,187 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:48] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:12:48,190 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:12:48,194 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:48] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:12:56,192 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:12:56] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:13:40,017 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:13:40,048 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:13:40,653 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:13:40,653 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:13:40,669 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:14:02,427 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:02] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:14:02,454 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:14:02,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:02] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:14:02,459 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:02] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:14:02,462 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:02] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:14:04,004 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:04] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:04,989 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:04] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:08,176 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:08] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:08,192 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:08] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:14:08,192 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:08] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:14:08,192 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:08] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:14:08,192 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:08] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:14:09,770 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:09] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:12,989 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:12] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:14:18,818 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:18] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:20,568 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:20] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:21,647 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:21] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:52,560 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:14:52,599 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:14:53,249 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:14:53,251 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:14:53,259 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:14:55,470 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:55] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:55,486 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:14:55,486 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:14:55,486 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:14:55,486 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:55] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:14:57,330 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:57] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:58,720 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:58] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:14:59,767 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:14:59] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:00,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:00] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:00,392 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:00] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:00,611 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:00] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:00,799 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:00] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:00,986 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:00] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:01,174 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:01,377 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:01,565 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:01,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:02,002 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:02,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:02,424 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:02,612 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:02,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:02,971 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:03,158 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:03] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:03,346 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:03] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:15:06,503 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:15:06] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:16:43,941 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:16:44,023 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:17:29,614 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:17:30,153 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:17:30,153 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:17:30,153 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:17:38,389 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:17:38] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:17:41,076 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:17:41] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:17:43,686 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:17:43] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:17:44,780 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:17:44] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:11,311 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:18:11,364 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:18:11,912 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:18:11,928 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:18:11,928 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:18:25,557 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:18:25,588 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:18:26,223 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:18:26,226 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:18:26,235 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:18:29,349 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:18:29,429 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:18:29,976 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:18:29,976 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:18:29,991 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:18:37,382 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:18:37,416 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:18:38,060 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:18:38,063 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:18:38,073 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:18:39,604 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:39] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:41,121 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:41] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:41,923 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:41] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:42,127 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:42] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:42,330 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:42] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:42,517 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:42] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:46,283 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:46] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:47,533 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:47] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:48,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:48] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:18:53,565 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:53] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:18:53,581 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:18:53] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:19:00,535 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:19:00] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:19:10,880 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:19:10,927 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:19:11,522 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:19:11,522 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:19:11,522 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:19:50,660 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:19:50,696 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:19:51,297 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:19:51,300 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:19:51,307 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:19:57,508 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:19:57,558 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:19:58,170 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:19:58,170 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:19:58,170 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:19:58,217 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:19:58] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:20:02,597 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:20:02] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:20:02,612 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:20:02] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:21:45,725 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:21:45,756 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:22:30,495 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:22:31,026 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:22:31,026 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:22:31,042 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:22:36,792 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:22:36] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:22:38,839 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:22:38] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:22:43,277 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:22:43] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:22:45,215 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:22:45] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:01,329 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:02,395 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:02,614 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:02,817 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:02] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:03,036 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:03] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:03,239 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:03] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:09,036 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:09] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:23:13,287 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:13] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:23:13,287 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:23:13] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:23:56,368 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:23:56,401 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:23:56,987 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:23:56,990 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:23:56,998 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:23:58,079 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:23:58,164 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:23:58,745 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:23:58,745 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:23:58,761 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:24:02,978 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:24:03,018 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:24:03,677 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:24:03,681 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:24:03,690 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:24:09,991 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:24:10,036 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:24:10,632 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:24:10,635 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:24:10,643 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:25:37,996 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:25:37] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:25:42,871 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:25:42] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:25:44,637 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:25:44] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:25:49,481 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:25:49] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:25:49,481 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:25:49] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:26:05,534 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:26:05,534 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:26:05,627 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:26:05] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:26:05,705 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:26:05] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-02 00:26:16,925 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:26:16] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:27:56,945 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:27:56] "GET /loging HTTP/1.1" 404 -
+[2017-12-02 00:27:59,992 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:27:59] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:28:01,618 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:01] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:28:05,868 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:05] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:28:05,868 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:05] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:28:09,978 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:28:09,994 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:28:09,994 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:09] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:28:14,072 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:14] "GET /form HTTP/1.1" 200 -
+[2017-12-02 00:28:18,463 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:18] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:28:46,333 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:46] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:28:46,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:28:46,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:28:46,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:28:46,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:28:58,131 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:28:58] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:29:00,912 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:29:00,912 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:29:00,912 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:29:00] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:30:04,394 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:30:04,394 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:30:04,394 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:04] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:30:04,409 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:30:04,425 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:04] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:30:04,431 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:30:04,435 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:04] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:30:13,477 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:13] "GET /about HTTP/1.1" 200 -
+[2017-12-02 00:30:20,181 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:20] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:30:22,259 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:22] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:30:26,306 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:26] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:30:26,306 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:26] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:30:54,421 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:54] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:30:54,437 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:30:54,437 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:54] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:30:54,437 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:30:54,437 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:30:54] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:18,300 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:18] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:31:18,316 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:31:18,331 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:18] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:18,331 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:18,331 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:18] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:26,104 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:31:26,651 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:31:26,651 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:31:26,651 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:31:29,073 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:29] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:31:29,088 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:31:29,088 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:29,088 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:29,104 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:29] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:30,948 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:30] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:31:30,964 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:31:30,964 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:30] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:30,964 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:30,979 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:30] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:32,182 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:32] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:31:32,198 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:31:32,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:32] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:32,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:32,214 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:32] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:35,730 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:35] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:31:35,745 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:31:35,745 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:35] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:35,761 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:35,761 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:35] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:36,839 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:36] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:31:36,855 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:31:36,870 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:36] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:36,870 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:31:36,870 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:36] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:31:58,846 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:58] "GET / HTTP/1.1" 500 -
+[2017-12-02 00:31:58,909 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:58] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-02 00:31:58,924 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:58] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-02 00:31:58,924 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:58] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-02 00:31:58,956 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:58] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 00:31:59,002 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:59] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-02 00:31:59,018 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:31:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 00:32:51,055 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:32:51,092 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:32:51,717 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:32:51,717 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:32:51,733 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:33:01,761 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:01] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:33:01,795 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-02 00:33:01,799 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-02 00:33:01,803 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-02 00:33:01,806 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:01] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-02 00:33:01,853 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:01] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 00:33:08,714 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:33:08,745 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:33:09,370 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:33:09,373 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:33:09,379 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:33:14,966 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:14] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:33:14,988 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:33:14,991 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:14] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:33:14,991 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:33:14,991 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:14] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:33:53,833 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:33:53,888 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:33:54,488 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:33:54,491 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:33:54,499 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:33:55,140 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:55] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:33:55,156 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:33:55,156 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:33:55,172 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:33:55,172 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:33:55] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:35:10,461 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:35:10,525 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:35:11,086 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:35:11,086 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:35:11,086 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:35:12,142 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:35:12,185 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:35:12,782 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:35:12,785 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:35:12,792 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:35:19,291 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:35:19] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:35:28,870 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:35:28] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:35:34,152 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:35:34] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:35:34,152 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:35:34] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:36:33,211 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:36:33,249 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:36:33,813 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:36:33,816 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:36:33,825 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:37:13,880 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:37:13,917 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:37:14,605 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:37:14,608 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:37:14,615 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:37:15,758 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:15] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:37:15,781 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:37:15,784 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:15] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:37:15,787 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:37:15,790 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:15] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:37:20,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:20] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:37:20,237 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:37:20] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:37:27,137 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:37:27,218 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:37:27,777 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:37:27,777 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:37:27,793 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:38:19,638 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:38:19] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:38:39,531 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:38:39] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:38:39,546 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:38:39] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:39:33,426 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:33] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:39:33,441 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:39:33,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:39:33,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:39:33,457 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:33] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:39:38,207 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:38] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:39:49,083 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:39:49,083 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:39:49,130 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:49] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:39:49,240 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:49] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-02 00:39:52,271 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:39:52] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:40:03,272 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:40:03] "GET /about HTTP/1.1" 200 -
+[2017-12-02 00:40:46,043 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:40:46] "GET /py HTTP/1.1" 200 -
+[2017-12-02 00:40:46,074 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:40:46] "GET /static/img/import_cls/app_form_mod.jpg HTTP/1.1" 200 -
+[2017-12-02 00:40:46,090 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:40:46] "GET /static/img/import_cls/add_init.jpg HTTP/1.1" 200 -
+[2017-12-02 00:40:54,137 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:40:54] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:41:53,800 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:41:53] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:42:38,281 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:42:38,315 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:42:39,000 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:42:39,003 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:42:39,014 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:42:54,814 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:42:54,845 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:42:55,426 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:42:55,441 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:42:55,450 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:42:58,350 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:42:58] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:43:13,395 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:43:13,435 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:43:14,128 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:43:14,131 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:43:14,141 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:43:15,200 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:15] "GET /login HTTP/1.1" 302 -
+[2017-12-02 00:43:15,223 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:15] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:43:15,244 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:43:15,247 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:15] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:43:15,250 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:43:15,256 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:15] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:43:31,123 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:43:31,686 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:43:31,686 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:43:31,686 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:43:39,143 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:43:39,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-02 00:43:39,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-02 00:43:39,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-02 00:43:39,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-02 00:43:39,283 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 00:43:39,283 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:39] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 00:43:41,658 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:41] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:43:44,549 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:43:44,549 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:43:44,549 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:44] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:43:44,612 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:44] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-02 00:43:56,269 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:43:56,269 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:43:56,269 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:43:56] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:44:01,754 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:01] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:44:05,333 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:05] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:44:09,599 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:09] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:44:09,615 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:09] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:44:15,381 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:15] "GET /login HTTP/1.1" 302 -
+[2017-12-02 00:44:15,381 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:15] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:44:31,117 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:31] "GET /login HTTP/1.1" 302 -
+[2017-12-02 00:44:31,117 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:44:31] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:45:22,825 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:45:22,856 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:45:37,156 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:45:37,687 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:45:37,687 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:45:37,703 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:45:45,079 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:45:45] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:45:47,285 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:45:47] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:45:51,193 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:45:51] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:45:51,193 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:45:51] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:45:56,209 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:45:56] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:45:58,647 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:45:58] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:46:30,678 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:46:30,768 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:46:31,404 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:46:31,406 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:46:31,413 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:46:41,210 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 00:46:41,210 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 00:46:41,257 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:46:41] "GET /note HTTP/1.1" 200 -
+[2017-12-02 00:46:42,960 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:46:42] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:48:52,189 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:48:52,220 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:48:52,940 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:48:52,943 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:48:52,953 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:48:56,543 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:48:56] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:48:56,559 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:48:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:48:56,559 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:48:56] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:48:56,559 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:48:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:48:56,559 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:48:56] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:49:01,544 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:01] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:49:01,560 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:01] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:49:07,154 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:07] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:49:43,690 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:49:43,721 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:49:44,392 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:49:44,398 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:49:44,405 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:49:46,110 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:46] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:49:46,141 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:49:46,141 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:49:46,141 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:49:46,141 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:49:49,350 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:49] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:49:53,209 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:53] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:49:53,209 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:49:53] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:51:21,485 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:51:21,516 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:51:22,205 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:51:22,209 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:51:22,217 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 00:51:23,498 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:23] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:51:23,516 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 00:51:23,518 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:23] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 00:51:23,521 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 00:51:23,525 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:23] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 00:51:30,838 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:30] "POST /login HTTP/1.1" 200 -
+[2017-12-02 00:51:36,229 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:36] "POST /login HTTP/1.1" 302 -
+[2017-12-02 00:51:36,245 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:36] "GET / HTTP/1.1" 200 -
+[2017-12-02 00:51:41,292 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:41] "GET /login HTTP/1.1" 200 -
+[2017-12-02 00:51:49,598 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading

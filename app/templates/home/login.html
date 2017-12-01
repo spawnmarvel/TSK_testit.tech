@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}Login {% endblock %} {% block body %}
+<div class="jumbotron">
+  <h2>Enter...</h2>
+  <p class="lead">Login session</p>
+  <p>must do session.pop</p>
+
+  <form action="/login" method="POST">
+    <div class="form-group">
+      <input class="form-control" id="inputdefault" type="text" name="usern" />
+      </br>
+      <input type="submit" value="submit" class="btn btn-primary" />
+    </div>
+  </form>
+  <p>{{ res }}</p>
+</div>
+{% endblock %}
