@@ -29,7 +29,7 @@
           <span class="icon-bar"></span>
         </button>
         <!-- nav testit.tech  -->
-        <a class="navbar-brand" href="#">testit.tech</a>
+        <a class="navbar-brand" href="/">testit.tech</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -166,12 +166,24 @@
             </ul>
           </li>
 
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ username }}
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                    <a href="/continue">Logout</a>
+                </li>
+  
+              </ul>
+            </li>
+
         </ul>
         <!-- nav ul  -->
       </div>
       <!-- div myNavnbar  -->
-      <a href="#">User: {{ username }}</a>
-      <a href="/continue">Logout</a>
+      
+      
     </div>
     <!-- div container fluid  -->
   </nav>

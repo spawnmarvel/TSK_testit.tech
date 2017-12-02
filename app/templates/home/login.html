@@ -1,14 +1,15 @@
 {% extends "base_auth.html" %} {% block title %}Login {% endblock %} {% block body %}
 <div class="jumbotron">
   <h2></h2>
-  <p class="lead">Login session</p>
-  <p>To use the Note database you must be logged in</p>
-  <p>must do session.pop</p>
-
+  <p>To use the SQLite Note database you must be logged in</p>
   <form action="/login" method="POST">
     <div class="form-group">
+      <label>username:</label>
       <input class="form-control" id="inputdefault" type="text" name="usern" />
       </br>
+      <label>secret key:</label>
+      <input class="form-control" id="inputdefault" type="text" name="usern" />
+    </br>
       <input type="submit" value="submit" class="btn btn-primary" />
     </div>
   </form>

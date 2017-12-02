@@ -33,7 +33,7 @@ def login():
         session['username'] = request.form["usern"]
         user = session["username"]
         if len(user) < 5:
-            res = "Please type a valid username"
+            res = "Not valid username / secret key"
         else:
             if "username" in session:
                 user = session["username"]
@@ -65,7 +65,7 @@ def continue_():
              return redirect(url_for("home.index"))
          elif request.form["action"] == "logout":
              session.pop("username", None)
-             res = "nONE"
+             res = "You are not logged in"
              return render_template("home/login.html", res=res)
      global username_
      res = username_
