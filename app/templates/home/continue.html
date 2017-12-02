@@ -1,7 +1,19 @@
 
 {% extends "base.html" %} {% block title %}Continue{% endblock %} {% block body %}
 <div class="jumbotron">
-  <h2>About page</h2>
+  <h2>Continue or logout from the session</h2>
   <p>continue or log out</p>
+
+  <form action="/continue" method="POST">
+    <div class="form-group">
+      <label></label>
+      <br>
+      <!-- post btn -->
+      <input type="submit" name="action" value="continue" class="btn btn-primary" />
+      <input type="submit" name="action" value="logout" class="btn btn-primary" />
+    </div>
+  </form>
+
+  
 </div>
 {% endblock %}

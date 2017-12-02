@@ -2003,3 +2003,215 @@
 [2017-12-02 00:51:36,245 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:36] "GET / HTTP/1.1" 200 -
 [2017-12-02 00:51:41,292 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 00:51:41] "GET /login HTTP/1.1" 200 -
 [2017-12-02 00:51:49,598 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 00:51:49,674 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 00:51:50,280 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 00:51:50,283 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 00:51:50,291 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 12:41:31,438 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 12:41:31] "GET /login HTTP/1.1" 200 -
+[2017-12-02 12:41:31,470 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 12:41:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 12:41:31,470 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 12:41:31] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 12:41:31,470 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 12:41:31] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 12:41:31,485 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 12:41:31] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 12:41:41,439 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 12:41:41] "GET / HTTP/1.1" 200 -
+[2017-12-02 12:42:14,409 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 12:42:14,474 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 12:42:15,101 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 12:42:15,105 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 12:42:15,113 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:03:23,013 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:03:23,551 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:03:23,567 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:03:23,567 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:03:38,131 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:38] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:03:38,256 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:38] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 13:03:42,274 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:42] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:03:44,040 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:44] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:03:45,055 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:45] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:03:57,697 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /grafana HTTP/1.1" 200 -
+[2017-12-02 13:03:57,713 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-02 13:03:57,728 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-02 13:03:57,728 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-02 13:03:57,728 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-02 13:03:57,728 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/grafana_start.jpg HTTP/1.1" 200 -
+[2017-12-02 13:03:57,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/grafana_dash.jpg HTTP/1.1" 200 -
+[2017-12-02 13:03:57,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/table_postgre.jpg HTTP/1.1" 200 -
+[2017-12-02 13:03:57,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/grafana_datasource.jpg HTTP/1.1" 200 -
+[2017-12-02 13:03:57,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/grafana_panel.jpg HTTP/1.1" 200 -
+[2017-12-02 13:03:57,744 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/grafana_query.jpg HTTP/1.1" 200 -
+[2017-12-02 13:03:57,760 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:03:57] "GET /static/img/grafana/grafana_result.jpg HTTP/1.1" 200 -
+[2017-12-02 13:04:02,479 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:02] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:04:11,433 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:11] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:04:23,294 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:23] "GET /grafana HTTP/1.1" 200 -
+[2017-12-02 13:04:25,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:25] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:04:32,726 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:32] "POST /login HTTP/1.1" 302 -
+[2017-12-02 13:04:32,747 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:32] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:04:34,354 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:34] "GET /about HTTP/1.1" 200 -
+[2017-12-02 13:04:36,339 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 13:04:36,339 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 13:04:36,339 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:36] "GET /note HTTP/1.1" 200 -
+[2017-12-02 13:04:39,761 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:39] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-02 13:04:41,105 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:04:41] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:06:57,909 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:06:57] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:06:57,925 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:06:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:06:57,940 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:06:57] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:06:57,940 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:06:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:06:57,940 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:06:57] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:07:34,979 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:34] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:07:35,011 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-02 13:07:35,011 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:35] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-02 13:07:35,011 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-02 13:07:35,011 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:35] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-02 13:07:35,073 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:35] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 13:07:57,810 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:07:57] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:08:23,507 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:08:24,039 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:08:24,039 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:08:24,039 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:08:34,931 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:34] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:08:34,962 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-12-02 13:08:34,962 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:34] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 -
+[2017-12-02 13:08:34,977 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-12-02 13:08:34,977 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:34] "GET /static/main.css HTTP/1.1" 200 -
+[2017-12-02 13:08:35,024 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:35] "GET /favicon.ico HTTP/1.1" 404 -
+[2017-12-02 13:08:50,760 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:50] "GET /py HTTP/1.1" 200 -
+[2017-12-02 13:08:50,792 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:50] "GET /static/img/import_cls/app_form_mod.jpg HTTP/1.1" 200 -
+[2017-12-02 13:08:50,792 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:50] "GET /static/img/import_cls/add_init.jpg HTTP/1.1" 200 -
+[2017-12-02 13:08:58,824 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:08:58] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:09:49,845 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:09:49] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:09:49,869 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:09:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:09:49,873 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:09:49] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:09:49,875 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:09:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:09:49,878 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:09:49] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:10:36,258 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:36] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:10:36,277 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:10:36,281 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:36] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:10:36,285 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:10:36,288 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:36] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:10:43,584 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:43] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:10:43,599 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:10:43,615 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:43] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:10:43,615 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:10:43,615 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:43] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:10:55,850 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:55] "POST /login HTTP/1.1" 302 -
+[2017-12-02 13:10:55,866 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:55] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:10:58,132 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 13:10:58,132 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 13:10:58,148 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:10:58] "GET /note HTTP/1.1" 200 -
+[2017-12-02 13:11:02,882 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:11:02] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-02 13:11:02,886 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:11:02] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:11:02,894 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:11:02] "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+[2017-12-02 13:12:47,034 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:12:47] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:20:51,581 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:20:51,639 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:24:52,555 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:24:53,086 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:24:53,086 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:24:53,102 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:25:02,868 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:02] "GET /continue HTTP/1.1" 500 -
+[2017-12-02 13:25:02,899 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:02] "GET /continue?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-02 13:25:02,899 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:02] "GET /continue?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-02 13:25:02,993 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:02] "GET /continue?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-02 13:25:02,993 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:02] "GET /continue?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 13:25:03,008 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:03] "GET /continue?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 13:25:03,040 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:03] "GET /continue?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-02 13:25:18,382 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:25:18,413 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:25:37,817 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:25:38,348 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:25:38,348 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:25:38,348 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:25:46,579 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:46] "GET /continue HTTP/1.1" 200 -
+[2017-12-02 13:25:59,737 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:25:59] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:27:09,313 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:27:09] "POST /continue HTTP/1.1" 200 -
+[2017-12-02 13:27:14,840 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:27:14] "POST /continue HTTP/1.1" 200 -
+[2017-12-02 13:28:30,613 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:28:30,647 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:28:31,281 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:28:31,281 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:28:31,297 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:28:34,428 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:28:34,463 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:28:35,095 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:28:35,098 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:28:35,106 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:28:36,341 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:28:36] "POST /continue HTTP/1.1" 200 -
+[2017-12-02 13:28:38,966 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:28:38] "POST /continue HTTP/1.1" 200 -
+[2017-12-02 13:29:28,664 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:29:28,690 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:29:29,322 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:29:29,326 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:29:29,333 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:29:30,478 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:30] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:29:30,496 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:29:30,499 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:30] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:29:30,502 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:29:30,505 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:30] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:29:38,791 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:38] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:29:42,729 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:42] "POST /login HTTP/1.1" 302 -
+[2017-12-02 13:29:42,729 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:42] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:29:48,808 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:48] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:29:50,964 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:50] "POST /continue HTTP/1.1" 200 -
+[2017-12-02 13:29:53,824 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:53] "POST /continue HTTP/1.1" 200 -
+[2017-12-02 13:29:57,574 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:57] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:29:58,371 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:29:58] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:30:03,544 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:03] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:30:12,263 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:12] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:30:36,462 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:30:36,516 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:30:37,133 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:30:37,137 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:30:37,146 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:30:39,783 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:39] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:30:39,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:30:39,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:39] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:30:39,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:30:39,814 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:39] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:30:41,658 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:41] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:30:50,815 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:50] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:30:53,409 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:53] "POST /login HTTP/1.1" 302 -
+[2017-12-02 13:30:53,425 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:30:53] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:31:05,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:31:05] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:31:08,239 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:31:08] "POST /continue HTTP/1.1" 302 -
+[2017-12-02 13:31:08,239 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:31:08] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:31:11,505 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 13:31:11,505 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 13:31:11,520 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:31:11] "GET /note HTTP/1.1" 200 -
+[2017-12-02 13:31:11,583 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:31:11] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+[2017-12-02 13:31:23,225 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:31:23] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:32:46,853 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:46] "GET /login HTTP/1.1" 200 -
+[2017-12-02 13:32:46,884 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:32:46,884 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:32:46,884 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:32:46,884 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:32:54,932 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:54] "GET /about HTTP/1.1" 200 -
+[2017-12-02 13:32:57,776 : INFO : views.py : 22 :             notes_db() ] started note db form
+[2017-12-02 13:32:57,776 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-02 13:32:57,776 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:32:57] "GET /note HTTP/1.1" 200 -
+[2017-12-02 13:33:08,074 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:33:08] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:33:10,746 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:33:10] "GET /continue HTTP/1.1" 200 -
+[2017-12-02 13:33:49,174 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:33:49,200 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:33:49,814 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:33:49,830 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:33:49,830 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:34:07,603 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-02 13:34:07,642 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-02 13:34:08,284 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-02 13:34:08,284 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-02 13:34:08,300 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-02 13:34:09,803 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:09] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:34:09,821 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-02 13:34:09,825 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:09] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-02 13:34:09,828 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-02 13:34:09,831 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:09] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-02 13:34:13,651 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:13] "POST /login HTTP/1.1" 200 -
+[2017-12-02 13:34:21,714 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:21] "POST /login HTTP/1.1" 302 -
+[2017-12-02 13:34:21,761 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:21] "GET / HTTP/1.1" 200 -
+[2017-12-02 13:34:25,230 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:25] "GET /continue HTTP/1.1" 500 -
+[2017-12-02 13:34:25,246 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:25] "GET /continue?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-02 13:34:30,840 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:30] "GET /continue?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-02 13:34:30,856 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:30] "GET /continue?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-02 13:34:30,856 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:30] "GET /continue?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 13:34:30,934 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:30] "GET /continue?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-02 13:34:30,981 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [02/Dec/2017 13:34:30] "GET /continue?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-02 13:34:52,080 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading

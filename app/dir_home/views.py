@@ -57,3 +57,16 @@ def login():
                     res = "You are logged in as " + user
                     return render_template("home/continue.html", res=res)
     return render_template("home/login.html", res=res)
+
+@home.route("/continue",methods=["GET", "POST"])
+def continue_():
+     if request.method == 'POST':
+         if request.form["action"] == "continue":
+             return redirect(url_for("home.index"))
+         elif request.form["action"] == "logout":
+             session.pop("username", None)
+             res = "nONE"
+             return render_template("home/login.html", res=res)
+     global username_
+     res = username_
+     return render_template("home/continue.html", res=res)
