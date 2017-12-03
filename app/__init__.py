@@ -1,6 +1,6 @@
 """___"""
 # app/ __init__.py
-from flask import Flask
+from flask import Flask, render_template
 
 # initialize the app
 
@@ -27,3 +27,7 @@ app.register_blueprint(form_blueprint)
 
 # load the config
 app.config.from_object("config")
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template("error/404.html")
