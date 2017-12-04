@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %}Account{% endblock %} {% block body %}
+<div class="jumbotron">
+      <h2></h2>
+      <p>Create account</p>
+      <form action="/account" method="post" role="form">
+          {{ form.csrf }}
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="name">
+              <br>
+              <label for="name">Mail:</label>
+              <input type="text" class="form-control" id="name" name="mail" placeholder="mail">
+              <br>
+              <label for="name">Secret key:</label>
+              <input type="text" class="form-control" id="name" name="secret1" placeholder="secret key">
+              <br>
+              <label for="name">Retype secret key:</label>
+              <input type="text" class="form-control" id="name" name="secret2" placeholder="secret key">
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+  
+      <br> {% with messages = get_flashed_messages(with_categories=true) %} {% if messages %} {% for message in messages %} {%
+      if "Error" not in message[1]: %}
+      <div class="alert alert-info">
+          <strong>Success! </strong> {{ message[1] }}
+      </div>
+      {% endif %} {% if "Error" in message[1]: %}
+      <div class="alert alert-warning">
+          {{ message[1] }}
+      </div>
+      {% endif %} {% endfor %} {% endif %} {% endwith %}
+
+</div>
+{% endblock %}

@@ -76,7 +76,8 @@ def dummy_data():
             global sql_insert_holder
             global sql_insert_user
             # cur.execute(sql_insert_holder, (1,"Test note","topic","www.bla.com", timeNow))
-            cur.execute(sql_insert_user, ("espen","master"))
+            # cur.execute(sql_insert_user, ("espen","master"))
+            cur.execute("delete from users where id > 1")
             conn.commit()
             msg = "added row"
     except sqlite3.OperationalError as e:

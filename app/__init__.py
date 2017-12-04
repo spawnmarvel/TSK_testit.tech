@@ -31,3 +31,11 @@ app.config.from_object("config")
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template("error/404.html")
+
+@app.errorhandler(400)
+def page_not_found(error):
+    return render_template("error/400.html")
+
+@app.errorhandler(405)
+def page_not_found(error):
+    return render_template("error/405.html")

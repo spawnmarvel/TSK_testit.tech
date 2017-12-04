@@ -4623,3 +4623,768 @@
 [2017-12-04 20:44:14,531 : INFO : views.py : 40 :             notes_db() ] started note db form
 [2017-12-04 20:44:14,531 : DEBUG : sqlalchemy_statments.py : 35 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
 [2017-12-04 20:44:14,531 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 20:44:14] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:04:59,071 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-04 21:04:59,136 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:04:59,697 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:04:59,697 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:04:59,713 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:05:21,952 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-04 21:05:22,018 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:05:22,611 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:05:22,611 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:05:22,611 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:05:44,782 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-04 21:05:44,816 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:05:45,522 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:05:45,526 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:05:45,535 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:05:55,029 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-04 21:05:55,061 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:05:55,757 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:05:55,761 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:05:55,774 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:06:24,186 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-04 21:06:24,218 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:06:24,877 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:06:24,881 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:06:24,891 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:06:57,673 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-04 21:06:57,704 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:06:58,452 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:06:58,455 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:06:58,464 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:07:00,512 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-04 21:07:00,559 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:07:01,145 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:07:01,148 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:07:01,157 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:08:14,033 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:08:14,064 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:11:00,194 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:11:00,735 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:11:00,735 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:11:00,735 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:11:09,311 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:11:09] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:11:17,406 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:11:17] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:11:32,376 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:11:32] "POST /continue HTTP/1.1" 200 -
+[2017-12-04 21:11:33,751 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:11:33] "POST /continue HTTP/1.1" 302 -
+[2017-12-04 21:11:33,767 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:11:33] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:11:34,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:11:34] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:11:55,825 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:11:55,856 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:11:56,497 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:11:56,500 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:11:56,509 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:12:00,916 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(6, 'espen', 'master'), (5, 'espen', 'master'), (4, 'espen', 'master'), (3, 'espen', 'master'), (2, 'espen', 'master'), (1, 'espen', 'master')]
+[2017-12-04 21:12:00,916 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:12:00] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:12:09,242 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:12:09,306 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:12:09,861 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:12:09,864 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:12:09,866 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:13:26,970 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:13:26,993 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:13:27,569 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:13:27,586 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:13:27,593 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:13:29,925 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(6, 'espen', 'master'), (5, 'espen', 'master'), (4, 'espen', 'master'), (3, 'espen', 'master'), (2, 'espen', 'master'), (1, 'espen', 'master')]
+[2017-12-04 21:13:29,925 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:13:29] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:13:29,956 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:13:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:13:29,956 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:13:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:13:29,956 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:13:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:13:29,956 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:13:29] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:14:12,956 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-04 21:14:12,991 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:14:13,656 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:14:13,661 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:14:13,669 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:14:20,038 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-04 21:14:20,071 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:14:20,802 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:14:20,807 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:14:20,817 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:14:23,017 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(6, 'espen', 'master'), (5, 'espen', 'master'), (4, 'espen', 'master'), (3, 'espen', 'master'), (2, 'espen', 'master'), (1, 'espen', 'master')]
+[2017-12-04 21:14:23,032 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:23] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:14:23,048 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:14:23,048 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:23] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:23,064 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:23,064 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:23] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:14:24,474 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(6, 'espen', 'master'), (5, 'espen', 'master'), (4, 'espen', 'master'), (3, 'espen', 'master'), (2, 'espen', 'master'), (1, 'espen', 'master')]
+[2017-12-04 21:14:24,474 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:24] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:14:24,489 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:14:24,489 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:24,489 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:24,505 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:24] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:14:30,396 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-04 21:14:30,435 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:14:31,135 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:14:31,139 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:14:31,148 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:14:40,184 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:14:40,200 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:40] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:14:40,215 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:14:40,215 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:40] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:40,231 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:40,231 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:40] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:14:45,858 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-04 21:14:45,890 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:14:46,531 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:14:46,534 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:14:46,544 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:14:47,624 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-04 21:14:47,673 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:14:48,241 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:14:48,245 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:14:48,252 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:14:49,369 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:14:49,376 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:49] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:14:49,392 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:14:49,407 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:49] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:49,407 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:14:49,407 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:14:49] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:15:05,147 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:05] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:15:15,273 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:15] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:15:18,258 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:18] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:15:22,336 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:22] "POST /continue HTTP/1.1" 302 -
+[2017-12-04 21:15:22,352 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:22] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:15:44,984 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:44] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:15:45,001 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:15:45,004 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:45] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:15:45,007 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:15:45,009 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:45] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:15:47,623 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:47] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:15:47,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:15:47,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:15:47,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:15:47,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:47] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:15:54,671 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:15:54] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:16:06,322 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:06] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:16:06,338 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:16:06,338 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:06] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:16:06,353 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:06] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:16:06,353 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:06] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:16:14,395 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:14] "GET /about HTTP/1.1" 200 -
+[2017-12-04 21:16:16,364 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:16] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:16:20,630 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:20] "POST /login HTTP/1.1" 302 -
+[2017-12-04 21:16:20,645 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:16:20,645 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:16:20,661 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:20] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:16:23,567 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:23] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:16:24,943 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:24] "POST /continue HTTP/1.1" 302 -
+[2017-12-04 21:16:27,708 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:16:27,708 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:16:27,724 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:27] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:16:32,631 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:32] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:16:51,009 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:51] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:16:51,025 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:16:51,028 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:51] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:16:51,034 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:16:51,038 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:51] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:16:58,068 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:16:58] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:17:00,630 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:00] "POST /continue HTTP/1.1" 200 -
+[2017-12-04 21:17:02,787 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:02] "POST /continue HTTP/1.1" 200 -
+[2017-12-04 21:17:03,881 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:03] "POST /login HTTP/1.1" 200 -
+[2017-12-04 21:17:07,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:07] "POST /login HTTP/1.1" 302 -
+[2017-12-04 21:17:07,756 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:17:07,756 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:17:07,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:07] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:17:11,491 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:11] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:17:25,430 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:25] "GET /py HTTP/1.1" 200 -
+[2017-12-04 21:17:25,477 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:25] "GET /static/img/import_cls/app_form_mod.jpg HTTP/1.1" 304 -
+[2017-12-04 21:17:25,477 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:25] "GET /static/img/import_cls/add_init.jpg HTTP/1.1" 304 -
+[2017-12-04 21:17:32,509 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:17:32,509 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:17:32,524 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:32] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:17:35,681 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:35] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:17:36,775 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:36] "POST /continue HTTP/1.1" 200 -
+[2017-12-04 21:17:39,634 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:39] "POST /continue HTTP/1.1" 302 -
+[2017-12-04 21:17:39,666 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:39] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:17:50,823 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:17:50] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:18:24,858 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:24] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:18:24,873 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:18:24,889 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:18:24,889 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:18:24,889 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:24] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:18:44,719 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:44] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:56,174 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:56] "POST /login HTTP/1.1" 302 -
+[2017-12-04 21:18:56,174 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:56,174 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:56,174 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:56] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:58,690 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:58,690 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:58,690 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:58] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:59,190 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:59,190 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:59,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:59] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:59,361 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:59,361 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:59,361 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:59] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:59,549 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:59,549 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:59,549 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:59] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:59,705 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:59,705 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:59,705 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:59] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:18:59,862 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:18:59,862 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:18:59,877 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:18:59] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:00,033 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:19:00,033 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:19:00,033 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:00] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:00,205 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:19:00,205 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:19:00,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:00] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:00,362 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:19:00,362 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:19:00,377 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:00] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:00,549 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:19:00,549 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:19:00,549 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:00] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:00,737 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:19:00,737 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:19:00,737 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:00] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:00,908 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 21:19:00,908 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 21:19:00,908 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:00] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:03,784 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:03] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 21:19:08,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:08] "POST /continue HTTP/1.1" 200 -
+[2017-12-04 21:19:11,925 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:11] "POST /continue HTTP/1.1" 302 -
+[2017-12-04 21:19:11,941 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:11] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:19:14,191 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:14] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:19:48,292 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:19:48] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:20:48,982 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:20:48] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:20:48,998 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:20:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:20:48,998 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:20:48] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:20:48,998 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:20:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:20:48,998 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:20:48] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:20:56,043 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:20:56,043 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:20:56] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:22:17,166 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:17] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:22:17,174 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:22:17,174 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:17] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:22:17,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:22:17,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:17] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:22:24,221 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:22:24,299 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account HTTP/1.1" 500 -
+[2017-12-04 21:22:24,331 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-04 21:22:24,331 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-04 21:22:24,346 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-04 21:22:24,378 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-04 21:22:24,456 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-04 21:22:24,471 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:24] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-04 21:22:47,627 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:22:47,630 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:47] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:22:47,649 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:22:47,652 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:22:47,658 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:22:47,661 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:47] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:22:54,678 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:22:54,678 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:22:54] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:23:04,314 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:23:04,316 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:04] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:23:04,320 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:23:04,335 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:04] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:23:04,335 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:23:04,335 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:04] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:23:24,089 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:23:24,095 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:24] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:23:24,112 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:23:24,115 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:23:24,118 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:23:24,122 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:24] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:23:58,939 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:23:58,955 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:58] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:23:58,955 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:23:58,970 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:58] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:23:58,970 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:23:58,970 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:23:58] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:26:42,773 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:26:42,811 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:26:43,415 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:26:43,418 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:26:43,426 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:27:28,977 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:27:29,029 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:27:29,667 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:27:29,667 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:27:29,683 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:29:22,752 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:29:22,787 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:30:33,266 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:30:33,797 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:30:33,813 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:30:33,813 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:30:44,090 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:30:44,137 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account HTTP/1.1" 500 -
+[2017-12-04 21:30:44,168 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-04 21:30:44,168 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-04 21:30:44,168 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-04 21:30:44,199 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-04 21:30:44,231 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-04 21:30:44,262 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:30:44] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-04 21:31:25,872 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:31:26,450 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:31:26,450 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:31:26,450 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:31:35,295 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:31:35,342 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:31:35] "GET /account HTTP/1.1" 500 -
+[2017-12-04 21:31:35,373 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:31:35] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-04 21:31:35,373 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:31:35] "GET /account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-04 21:31:35,373 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:31:35] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-04 21:31:35,404 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:31:35] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-04 21:31:35,467 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:31:35] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-04 21:32:15,210 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:32:15,236 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:35:56,244 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:35:56,791 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:35:56,791 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:35:56,791 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:36:00,639 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:00,655 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:00] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:36:00,670 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:36:00,670 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:00] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:36:00,686 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:00] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:36:00,686 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:00] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:36:03,060 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:03,060 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:03] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:05,529 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:05,529 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:05] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:16,010 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:16,010 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:16] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:17,151 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:17,151 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:17] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:17,682 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:17,682 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:17] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:17,854 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:17,870 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:17] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:18,026 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:18,026 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:18,229 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:18,229 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:18,417 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:18,417 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:18,588 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:18,588 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:18,776 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:18,792 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:18,979 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:18,979 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:36:31,636 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:36:31,679 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:36:32,352 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:36:32,357 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:36:32,366 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:36:52,422 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:36:52,435 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:36:52] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:37:16,798 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:37:16,835 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:37:17,522 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:37:17,525 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:37:17,533 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:37:28,012 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:37:28,043 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:37:28,713 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:37:28,729 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:37:28,737 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:37:38,297 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:37:38,383 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:37:39,021 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:37:39,024 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:37:39,032 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:37:47,441 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:37:47,476 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:37:48,224 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:37:48,227 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:37:48,235 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:38:01,437 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:38:01,453 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:01] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:38:01,468 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:38:01,468 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:38:01,484 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:38:01,484 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:01] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:38:03,938 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:38:03,938 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:03] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:38:27,649 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:38:27,649 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:38:27] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:39:11,807 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:39:11,823 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:11] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:39:11,838 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:39:11,838 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:11] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:39:11,854 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:39:11,854 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:11] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:39:19,995 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:39:19,995 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:19] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:39:22,417 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:39:22,417 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:22] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:39:30,822 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:39:30,824 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:30] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:39:49,706 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:39:49,706 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:49] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:39:49,738 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:39:49,738 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:49] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:39:49,753 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:39:49,753 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:49] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:39:53,472 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:39:53,472 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:39:53] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:40:20,371 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:40:20,387 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:20] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:40:20,402 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:40:20,402 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:20] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:40:20,418 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:40:20,418 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:20] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:40:21,684 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:40:21,684 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:21] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:40:36,930 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:40:36,946 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:36] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:40:36,962 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:40:36,962 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:36] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:40:36,977 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:40:36,977 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:36] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:40:38,384 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:40:38,384 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:38] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:40:41,931 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:40:41,931 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:40:41] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:41:55,784 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:41:55,831 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:41:56,435 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:41:56,438 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:41:56,445 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:41:59,050 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:41:59,066 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:41:59] "POST /account HTTP/1.1" 400 -
+[2017-12-04 21:43:31,918 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\__init__.py', reloading
+[2017-12-04 21:43:31,951 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:43:32,743 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:43:32,766 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:43:32,774 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:43:41,957 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:43:41] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:43:44,087 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:43:44] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:43:45,831 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:43:45,838 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:43:45] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:43:48,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:43:48] "POST / HTTP/1.1" 405 -
+[2017-12-04 21:43:57,878 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:43:57] "POST / HTTP/1.1" 405 -
+[2017-12-04 21:44:32,392 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\__init__.py', reloading
+[2017-12-04 21:44:32,434 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:44:33,147 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:44:33,150 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:44:33,161 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:45:06,845 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:45:06] "GET / HTTP/1.1" 200 -
+[2017-12-04 21:45:09,492 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:45:09] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:45:11,363 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:45:11,378 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:45:11] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:45:13,880 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:45:13] "POST / HTTP/1.1" 200 -
+[2017-12-04 21:45:22,334 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:45:22] "GET /note HTTP/1.1" 200 -
+[2017-12-04 21:46:18,214 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:46:18,245 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:46:18,802 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:46:18,802 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:46:18,802 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:46:30,400 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:46:30,463 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:46:30] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:46:32,197 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:46:32] "POST / HTTP/1.1" 200 -
+[2017-12-04 21:47:28,932 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:47:29,016 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:47:29,604 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:47:29,607 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:47:29,615 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:47:55,764 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:47:55,780 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:47:55] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:47:55,796 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:47:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:47:55,796 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:47:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:47:55,796 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:47:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:47:55,796 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:47:55] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:47:57,236 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:47:57,236 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:47:57] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:48:00,721 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:48:00,721 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:00] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:48:21,082 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:48:21,082 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:21] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:48:21,113 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:48:21,113 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:21] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:48:21,113 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:48:21,113 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:21] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:48:22,848 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:48:22,848 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:22] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:48:26,395 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:48:26,395 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:26] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:48:27,583 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:48:27,583 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:48:27] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:49:12,271 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:49:12,271 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:12] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:49:12,302 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:49:12,302 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:12] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:49:12,302 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:49:12,302 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:12] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:49:33,498 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:49:33,514 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:33] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:49:33,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:49:33,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:49:33,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:49:33,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:33] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:49:44,309 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:49:44,309 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:44] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:49:44,340 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:49:44,340 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:44] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:49:44,340 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:49:44,340 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:49:44] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:50:12,849 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 21:50:12,880 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:50:13,510 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:50:13,510 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:50:13,526 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:50:15,616 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 21:50:15,692 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:50:16,270 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:50:16,273 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:50:16,280 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:50:17,106 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:50:17,125 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:50:17] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:50:20,856 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:50:20,856 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:50:20] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:50:25,653 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:50:25,653 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:50:25] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:50:35,217 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:50:35,232 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:50:35] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:50:38,861 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:50:38,862 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:50:38] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:50:42,587 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 21:50:42,618 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:50:43,231 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:50:43,247 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:50:43,247 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:51:08,467 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:51:08,522 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:51:09,196 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:51:09,196 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:51:09,196 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:51:15,567 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:51:15,602 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:51:16,273 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:51:16,277 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:51:16,286 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:51:18,359 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:51:18,374 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:18] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:51:18,390 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:51:18,390 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:18] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:51:18,390 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:51:18,405 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:18] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:51:22,690 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:51:22,690 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:22] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:51:34,150 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:51:34,183 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:51:34,857 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:51:34,861 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:51:34,869 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:51:48,475 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:51:48,503 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:51:49,169 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:51:49,173 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:51:49,182 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:51:52,171 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:51:52,187 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:52] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:51:52,202 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:51:52,218 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:52] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:51:52,218 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:51:52,218 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:52] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:51:53,187 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:51:53,187 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:53] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:51:57,437 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:51:57,437 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:51:57] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:52:00,617 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:52:00,685 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:52:01,264 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:52:01,264 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:52:01,264 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:53:00,071 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:53:00,087 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:00] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:53:00,118 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:53:00,118 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:00] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:53:00,118 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:00] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:53:00,118 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:00] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:53:19,868 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:53:19,868 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:19] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:53:19,899 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 21:53:19,899 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:19] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 21:53:19,899 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 21:53:19,899 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:53:19] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 21:54:07,246 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 21:54:07,288 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:54:07,842 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:54:07,842 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:54:07,858 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:54:14,230 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 21:54:14,277 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:54:14,841 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:54:14,841 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:54:14,841 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:54:16,936 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 21:54:16,968 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:54:17,517 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:54:17,517 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:54:17,532 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:54:45,956 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:54:45,989 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:54:46,615 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:54:46,615 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:54:46,631 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:55:35,591 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:55:35,656 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:55:36,219 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:55:36,219 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:55:36,219 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:56:28,135 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:56:28,180 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:56:28,850 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:56:28,850 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:56:28,865 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:56:44,731 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:56:44,776 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:57:24,641 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:57:25,172 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:57:25,187 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:57:25,187 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:57:33,864 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:57:33,926 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:57:33] "GET /account HTTP/1.1" 200 -
+[2017-12-04 21:57:35,630 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:57:35,645 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:57:35] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:57:45,834 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:57:45,834 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:57:45] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:57:58,956 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:57:58,991 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:57:59,655 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:57:59,658 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:57:59,667 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 21:58:00,150 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:58:00,175 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:58:00] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:58:20,398 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:58:20,398 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:58:20] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:58:26,195 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:58:26,195 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:58:26] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:58:33,649 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:58:33,649 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:58:33] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:59:37,516 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 21:59:37,516 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 21:59:37] "POST /account HTTP/1.1" 200 -
+[2017-12-04 21:59:40,411 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 21:59:40,476 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 21:59:41,037 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 21:59:41,037 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 21:59:41,037 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:14,974 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:00:15,021 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:15,571 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:15,586 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:15,586 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:19,792 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:00:19,830 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:20,482 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:20,486 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:20,495 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:21,536 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:00:21,613 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:22,258 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:22,261 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:22,269 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:26,465 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:00:26,511 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:27,084 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:27,089 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:27,103 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:31,327 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:00:31,435 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:31,991 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:31,991 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:32,007 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:34,112 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:00:34,176 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:34,707 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:34,723 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:34,723 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:00:38,962 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:00:38,998 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:00:39,553 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:00:39,556 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:00:39,563 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:01:01,669 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:01:01,757 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:01:02,305 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:01:02,321 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:01:02,321 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:03:49,302 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:03:49,333 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:03:49] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:03:49,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:03:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 22:03:49,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:03:49] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 22:03:49,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:03:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 22:03:49,349 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:03:49] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 22:04:11,876 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:04:11,923 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:04:12,486 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:04:12,486 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:04:12,502 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:04:24,969 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:04:25,065 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:04:25,651 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:04:25,651 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:04:25,667 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:06:10,840 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:06:10,965 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:06:11,619 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:06:11,622 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:06:11,630 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:06:37,973 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:06:38,007 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:06:38,592 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:06:38,595 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:06:38,604 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:06:46,079 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:06:46,095 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:06:46] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:06:46,126 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:06:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 22:06:46,126 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:06:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 22:06:46,126 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:06:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 22:06:46,126 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:06:46] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 22:06:58,143 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:06:58,143 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:06:58] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:09,863 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:09,863 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:09] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:23,333 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:23,333 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:23] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:24,896 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:24,896 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:24] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:25,677 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:25,677 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:25] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:25,912 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:25,912 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:25] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:32,272 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:32,272 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:32] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:39,985 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:07:40,000 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:07:40,665 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:07:40,669 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:07:40,679 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:07:41,599 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:41,616 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:41] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:47,384 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:07:47,384 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:07:47] "POST /account HTTP/1.1" 200 -
+[2017-12-04 22:07:54,371 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_home\\accountform.py', reloading
+[2017-12-04 22:07:54,403 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:07:55,044 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:07:55,047 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:07:55,055 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:08:05,754 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:05] "GET / HTTP/1.1" 200 -
+[2017-12-04 22:08:05,770 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:05] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:08:07,551 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:08:07,567 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:07] "GET /account HTTP/1.1" 200 -
+[2017-12-04 22:08:09,473 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:09] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:08:13,396 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:13] "POST /login HTTP/1.1" 302 -
+[2017-12-04 22:08:13,411 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 22:08:13,411 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 22:08:13,427 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:13] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:08:16,083 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 22:08:16,083 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 22:08:16,083 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:16] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:08:16,677 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-04 22:08:16,677 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-04 22:08:16,677 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:16] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:08:18,615 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:18] "GET /continue HTTP/1.1" 200 -
+[2017-12-04 22:08:19,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:19] "POST /continue HTTP/1.1" 200 -
+[2017-12-04 22:08:22,725 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:22] "POST /continue HTTP/1.1" 302 -
+[2017-12-04 22:08:22,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:22] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:08:24,975 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:24] "GET /note HTTP/1.1" 200 -
