@@ -10,7 +10,7 @@ CONN = None
 DATABASE_ = "app/mod_db/DATABASE.db"
 SQL_SELECT_ALL = "select * from holder order by id desc"
 SQL_SELECT_MAX_ID = "select max(id) from holder"
-SQL_INSERT = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
+SQL_INSERT = "insert into holder (note, topic, url, published) values (?, ?, ?, ?)"
 SQL_DELETE = "Delete from holder where id = ?"
 
 LOGGER = logging.getLogger(__name__)
@@ -67,10 +67,12 @@ def insert(note, topic, url_to_save):
             time_now = datetime.datetime.now()
             global SQL_INSERT
             # get max id and increase it with 1
-            tmp_id = get_max_id()
-            max_id = tmp_id[0] + 1
-            cur.execute(SQL_INSERT, (max_id, note, topic, url_to_save, time_now))
+            # tmp_id = get_max_id()
+            # max_id = tmp_id[0] + 1
+            # changed to autoincrement in sqlite
+            cur.execute(SQL_INSERT, (note, topic, url_to_save, time_now))
             CONN.commit()
+            max_id = get_max_id()
             msg = "Added 1 row to sqlite3, with id " + str(max_id)
 
     except sqlite3.OperationalError as error_:
@@ -106,7 +108,8 @@ def delete(id_):
     LOGGER.debug(msg)
     return msg
 
-sqlalchemy_declarative.init()
+sqlalchemy_declarative.init_holder()
+sqlalchemy_declarative.init_user()
 # print(get_all())
 #print(get_max_id())
 #x = get_max_id()

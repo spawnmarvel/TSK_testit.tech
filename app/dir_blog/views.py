@@ -79,7 +79,7 @@ def notes_db():
             # logger.info("get notes page")
             return render_template("blog/notes.html", note_data=note_data, result=result, secret=secret)
 
-        return render_template("blog/notes.html", note_data=note_data, result=result, secret=secret, cur_user=cur_user)
+        return render_template("blog/notes.html", note_data=note_data, result=result, secret=secret)
     else:
         res = "not logged in from dir blog viwes"
         return render_template("blog/login.html", res=res)
