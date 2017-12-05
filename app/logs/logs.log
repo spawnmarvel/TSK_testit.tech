@@ -5388,3 +5388,250 @@
 [2017-12-04 22:08:22,725 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:22] "POST /continue HTTP/1.1" 302 -
 [2017-12-04 22:08:22,756 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:22] "GET /note HTTP/1.1" 200 -
 [2017-12-04 22:08:24,975 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:08:24] "GET /note HTTP/1.1" 200 -
+[2017-12-04 22:09:17,283 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-04 22:09:17,345 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-04 22:09:17,972 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-04 22:09:17,975 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-04 22:09:17,982 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-04 22:09:25,981 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:09:26,013 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:26] "GET /account HTTP/1.1" 200 -
+[2017-12-04 22:09:44,422 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:09:44,422 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:44] "GET /account HTTP/1.1" 200 -
+[2017-12-04 22:09:44,453 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-04 22:09:44,453 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:44] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-04 22:09:44,453 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-04 22:09:44,453 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:44] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-04 22:09:45,987 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-04 22:09:45,987 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [04/Dec/2017 22:09:45] "POST /account HTTP/1.1" 200 -
+[2017-12-05 19:27:47,488 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-05 19:27:47,504 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:27:47] "POST /account HTTP/1.1" 200 -
+[2017-12-05 19:27:47,520 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:27:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 19:27:47,520 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:27:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 19:27:47,535 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:27:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 19:27:47,535 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:27:47] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 19:27:55,317 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-05 19:27:55,317 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:27:55] "POST /account HTTP/1.1" 200 -
+[2017-12-05 19:28:03,224 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-05 19:28:03,224 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 19:28:03] "POST /account HTTP/1.1" 200 -
+[2017-12-05 22:23:24,085 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-05 22:23:24,101 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:23:24] "POST /account HTTP/1.1" 200 -
+[2017-12-05 22:23:24,116 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:23:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:23:24,116 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:23:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:23:24,132 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:23:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:23:24,132 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:23:24] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:23:25,882 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-05 22:23:25,882 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:23:25] "POST /account HTTP/1.1" 200 -
+[2017-12-05 22:24:23,230 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-05 22:24:23,262 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-05 22:24:24,216 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-05 22:24:24,221 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-05 22:24:24,231 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-05 22:24:40,970 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_tips\\views.py', reloading
+[2017-12-05 22:24:41,008 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-05 22:24:41,619 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-05 22:24:41,622 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-05 22:24:41,629 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-05 22:25:32,427 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_technology\\views.py', reloading
+[2017-12-05 22:25:32,458 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-05 22:25:33,125 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-05 22:25:33,125 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-05 22:25:33,141 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-05 22:32:20,792 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_technology\\views.py', reloading
+[2017-12-05 22:32:20,874 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-05 22:32:21,463 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-05 22:32:21,463 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-05 22:32:21,479 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-05 22:33:18,490 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-05 22:33:18,521 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:18] "POST /account HTTP/1.1" 200 -
+[2017-12-05 22:33:18,537 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:33:18,537 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:18] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:33:18,537 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:33:18,552 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:18] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:33:26,553 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:26] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:33:26,631 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:26] "GET /static/img/sqlite/select.jpg HTTP/1.1" 200 -
+[2017-12-05 22:33:47,786 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:47] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:33:47,817 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:33:47,817 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:33:47,833 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:33:47,833 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:47] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:33:47,868 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:33:47] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:34:07,305 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:34:07] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:34:07,336 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:34:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:34:07,336 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:34:07] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:34:07,336 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:34:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:34:07,336 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:34:07] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:34:07,367 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:34:07] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:05,897 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:05] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:35:05,912 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:35:05,928 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:05] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:35:05,928 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:35:05,928 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:05] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:35:05,959 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:05] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,023 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /grafana HTTP/1.1" 200 -
+[2017-12-05 22:35:15,085 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/grafana_start.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,085 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/grafana_dash.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,085 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/table_postgre.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,085 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/grafana_datasource.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,101 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/grafana_panel.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,101 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/grafana_query.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:15,101 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:15] "GET /static/img/grafana/grafana_result.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:47,926 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:47] "GET /grafana HTTP/1.1" 200 -
+[2017-12-05 22:35:47,949 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:35:47,951 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:35:47,954 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:35:47,960 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:47] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:35:47,997 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:47] "GET /static/img/grafana/grafana_start.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:48,001 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:48] "GET /static/img/grafana/grafana_dash.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:48,003 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:48] "GET /static/img/grafana/table_postgre.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:48,009 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:48] "GET /static/img/grafana/grafana_datasource.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:48,012 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:48] "GET /static/img/grafana/grafana_panel.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:48,015 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:48] "GET /static/img/grafana/grafana_query.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:48,018 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:48] "GET /static/img/grafana/grafana_result.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:52,928 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /grafana HTTP/1.1" 200 -
+[2017-12-05 22:35:52,944 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:35:52,944 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:35:52,959 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:35:52,959 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:35:52,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/img/grafana/grafana_start.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:52,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/img/grafana/grafana_dash.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:52,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/img/grafana/table_postgre.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:52,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:52] "GET /static/img/grafana/grafana_datasource.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:53,006 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:53] "GET /static/img/grafana/grafana_panel.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:53,006 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:53] "GET /static/img/grafana/grafana_query.jpg HTTP/1.1" 304 -
+[2017-12-05 22:35:53,006 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:35:53] "GET /static/img/grafana/grafana_result.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,179 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /grafana HTTP/1.1" 200 -
+[2017-12-05 22:36:28,194 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:36:28,194 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:36:28,194 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:36:28,210 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:36:28,241 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/grafana_start.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,241 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/grafana_dash.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,241 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/table_postgre.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,241 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/grafana_datasource.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,241 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/grafana_panel.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,257 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/grafana_query.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:28,257 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:28] "GET /static/img/grafana/grafana_result.jpg HTTP/1.1" 304 -
+[2017-12-05 22:36:34,960 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:34] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:36:58,541 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:58] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:36:58,557 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:36:58,557 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:58] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:36:58,557 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:36:58,574 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:58] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:36:58,605 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:36:58] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:37:54,536 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:37:54,552 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:37:54,552 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:37:54,567 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:37:54,567 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:37:54,567 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /static/img/sqlite/open.jpg HTTP/1.1" 200 -
+[2017-12-05 22:37:54,599 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:37:54] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:09,294 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:38:09,312 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:38:09,318 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:09,322 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:09,324 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:38:09,357 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:09,360 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:09] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:10,608 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:38:10,624 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:38:10,624 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:10,624 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:10,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:38:10,671 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:10,671 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:10] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:17,607 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:38:17,621 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:38:17,625 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:17,629 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:17,633 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:38:17,665 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:17,669 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:17] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:33,137 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:38:33,152 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:38:33,168 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:33,168 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:38:33,168 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:38:33,199 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:38:33,199 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:38:33] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:12,488 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:42:12,504 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:42:12,504 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:12,519 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:12,519 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:42:12,519 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/img/sqlite/db.jpg HTTP/1.1" 200 -
+[2017-12-05 22:42:12,551 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:12,551 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:12] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:21,541 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:42:21,559 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:42:21,561 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:21,566 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:21,571 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:42:21,607 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:21,609 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:21,612 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:21] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:33,612 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:42:33,627 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:42:33,627 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:33,643 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:33,643 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:42:33,674 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:33,674 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:33,674 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:33] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:35,205 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:42:35,220 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:42:35,220 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:35,236 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:35,236 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:42:35,267 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:35,267 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:35,283 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:35] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:43,853 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:42:43,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:42:43,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:43,883 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:43,886 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:42:43,925 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:43,928 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:43,931 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:43] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:54,127 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:42:54,143 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:42:54,143 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:54,143 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:42:54,159 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:42:54,190 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:54,190 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:42:54,190 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:42:54] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:43:01,845 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:43:01,861 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:43:01,861 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:43:01,861 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:43:01,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:43:01,908 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:43:01,908 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:43:01,908 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:01] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:43:24,865 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:43:24,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:43:24,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:43:24,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:43:24,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:43:24,910 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:43:24,926 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:43:24,926 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:43:24] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:44:42,582 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:44:42,599 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:44:42,601 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:44:42,604 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:44:42,609 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:44:42,612 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/img/sqlite/save.jpg HTTP/1.1" 200 -
+[2017-12-05 22:44:42,641 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:44:42,645 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:44:42,647 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:44:42] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:45:06,019 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:45:06,041 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:45:06,043 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:45:06,047 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:45:06,051 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:45:06,087 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:45:06,090 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:45:06,093 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:45:06,095 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/save.jpg HTTP/1.1" 304 -

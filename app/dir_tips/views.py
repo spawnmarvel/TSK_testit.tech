@@ -18,3 +18,4 @@ def github_tips():
 @tips.route("/boot")
 def bootstrap_tips():
     return render_template("tips/bootstraptips.html")
+

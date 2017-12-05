@@ -15,4 +15,9 @@ def grafana():
     # logger.info("get grafana" )
     return render_template("technology/grafana_test.html")
 
+@technology.route("/sqliteonline")
+def sqllite_online():
+    # logger.info("get grafana" )
+    return render_template("technology/sqlite.html")
+
 

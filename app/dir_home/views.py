@@ -15,6 +15,7 @@ def index():
 def about():
     return render_template("home/about.html")
 
+
 @home.route("/account", methods=["GET", "POST"])
 def account():
     res = sqlalchemy_statments.get_all_user()
