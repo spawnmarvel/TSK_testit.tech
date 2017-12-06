@@ -7,15 +7,23 @@ import logging
 from flask import render_template, request, redirect, url_for, session
 # internal
 from app.mod_db import sqlalchemy_statments
+
+tmp = sqlalchemy_statments.get_user()
+# print(tmp[0])
 # from app.mod_controller import controller_mod
 # controller_mod.make_notes()
 from . import blog
 from app.dir_blog import login_req
 
-username_ = ""
+username_ = " "
 
 logger = logging.getLogger(__name__)
 
+def get_user_sql():
+    db_user = sqlalchemy_statments.get_user()
+    # us = db_user[0]
+    us = "espen"
+    return us
 
 def get_user():
     global username_
@@ -87,6 +95,7 @@ def notes_db():
 @blog.route("/login",methods=["GET", "POST"])
 def login():
     res = ""
+    adm_user = get_user_sql()
     if request.method == "POST":
         global username_
         # if espen in username return the page
@@ -99,7 +108,8 @@ def login():
         else:
             if "username" in session:
                 user = session["username"]
-                if "espen" in user:
+            
+                if adm_user in user:
                     global username_
                     username_ = user
                     return redirect(url_for("blog.notes_db"))
@@ -111,8 +121,7 @@ def login():
         res = "HTTP GET"
         if "username" in session:
                 user = session["username"]
-                if "espen" in user:
-                    global username_
+                if adm_user in user:
                     username_ = user
                     # return "you are logged in"
                     # return redirect(url_for("home.index"))
@@ -123,6 +132,7 @@ def login():
 @blog.route("/continue",methods=["GET", "POST"])
 def continue_():
      if request.method == 'POST':
+         global username_
          if request.form["action"] == "continue":
              return redirect(url_for("blog.notes_db"))
          elif request.form["action"] == "logout":
@@ -132,9 +142,8 @@ def continue_():
              else:
                  res = "you are now logged out"
                  session.pop("username", None)
-                 global username_
                  username_ = ""
                  return render_template("blog/continue.html", res=res)
-     global username_
+     username_
      res = username_
      return render_template("blog/continue.html", res=res)

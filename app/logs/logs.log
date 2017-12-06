@@ -5635,3 +5635,883 @@
 [2017-12-05 22:45:06,090 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
 [2017-12-05 22:45:06,093 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
 [2017-12-05 22:45:06,095 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:45:06] "GET /static/img/sqlite/save.jpg HTTP/1.1" 304 -
+[2017-12-05 22:46:17,975 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:17] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:46:17,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-05 22:46:17,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:17] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-05 22:46:17,990 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-05 22:46:18,006 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:18] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-05 22:46:18,037 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:18] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-05 22:46:18,037 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:18] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-05 22:46:18,037 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:18] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-05 22:46:18,037 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:18] "GET /static/img/sqlite/save.jpg HTTP/1.1" 304 -
+[2017-12-05 22:46:25,112 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:25] "GET /note HTTP/1.1" 200 -
+[2017-12-05 22:46:29,237 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:29] "POST /login HTTP/1.1" 302 -
+[2017-12-05 22:46:29,253 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-05 22:46:29,253 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-05 22:46:29,284 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:29] "GET /note HTTP/1.1" 200 -
+[2017-12-05 22:46:29,347 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:29] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+[2017-12-05 22:46:30,800 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-05 22:46:30,800 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-05 22:46:30,800 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:30] "GET /note HTTP/1.1" 200 -
+[2017-12-05 22:46:32,425 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:32] "GET /continue HTTP/1.1" 200 -
+[2017-12-05 22:46:33,535 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:33] "POST /continue HTTP/1.1" 200 -
+[2017-12-05 22:46:36,848 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:36] "POST /continue HTTP/1.1" 302 -
+[2017-12-05 22:46:36,879 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:36] "GET /note HTTP/1.1" 200 -
+[2017-12-05 22:46:39,582 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:39] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-05 22:46:42,926 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:42] "GET /grafana HTTP/1.1" 200 -
+[2017-12-05 22:46:50,052 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [05/Dec/2017 22:46:50] "GET /about HTTP/1.1" 200 -
+[2017-12-06 20:37:33,771 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:37:33] "GET / HTTP/1.1" 200 -
+[2017-12-06 20:37:33,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:37:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-06 20:37:33,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:37:33] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-06 20:37:33,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:37:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-06 20:37:33,798 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:37:33] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-06 20:41:18,079 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:18] "GET / HTTP/1.1" 200 -
+[2017-12-06 20:41:18,110 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-06 20:41:18,110 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:18] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-06 20:41:18,110 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:18] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-06 20:41:18,110 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:18] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-06 20:41:39,158 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:39] "GET / HTTP/1.1" 200 -
+[2017-12-06 20:41:39,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-06 20:41:39,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:39] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-06 20:41:39,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-06 20:41:39,189 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:39] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-06 20:41:51,225 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:41:51] "GET /note HTTP/1.1" 200 -
+[2017-12-06 20:42:13,165 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:13] "GET /sqliteonline HTTP/1.1" 200 -
+[2017-12-06 20:42:13,227 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:13] "GET /static/img/sqlite/open.jpg HTTP/1.1" 304 -
+[2017-12-06 20:42:13,227 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:13] "GET /static/img/sqlite/db.jpg HTTP/1.1" 304 -
+[2017-12-06 20:42:13,243 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:13] "GET /static/img/sqlite/select.jpg HTTP/1.1" 304 -
+[2017-12-06 20:42:13,243 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:13] "GET /static/img/sqlite/save.jpg HTTP/1.1" 304 -
+[2017-12-06 20:42:20,256 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:20] "GET / HTTP/1.1" 200 -
+[2017-12-06 20:42:20,271 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:42:20] "GET /note HTTP/1.1" 200 -
+[2017-12-06 20:42:50,088 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 20:42:50,153 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 20:42:50,942 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 20:42:50,946 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 20:42:50,949 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 20:42:52,997 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 20:42:53,063 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 20:42:53,673 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 20:42:53,676 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 20:42:53,684 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 20:43:10,543 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 20:43:10,632 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 20:43:11,185 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 20:43:11,185 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 20:43:11,201 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 20:43:35,411 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\config.py', reloading
+[2017-12-06 20:43:35,438 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 20:43:37,181 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 20:43:49,288 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:43:49] "GET /about HTTP/1.1" 200 -
+[2017-12-06 20:43:53,413 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:43:53] "GET /note HTTP/1.1" 200 -
+[2017-12-06 20:44:00,086 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:00] "POST /login HTTP/1.1" 302 -
+[2017-12-06 20:44:00,086 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-06 20:44:00,102 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-06 20:44:00,133 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:00] "GET /note HTTP/1.1" 200 -
+[2017-12-06 20:44:00,180 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:00] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+[2017-12-06 20:44:09,321 : INFO : views.py : 40 :             notes_db() ] started note db form
+[2017-12-06 20:44:09,321 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(15, 'daaaaaaaaaaaa', 'Programming', 'aaaaadd', '2017-12-04 20:27:38.226627'), (13, 'qqqqqqqqqqqqqqqqq', 'Programming', 'qqqqqqqqqqaaaaaaaa', '2017-12-04 20:26:54.765365'), (12, 'aaaaaaaaaaa', 'Programming', 'aaaaaaaaaaaaaaaa', '2017-12-04 19:55:04.143725'), (11, 'eeeeeeeeeeeeee', 'Programming', 'eeeeeeeeeeeeee', '2017-12-04 19:53:15.222451'), (10, 'loging', 'Html', 'loging', '2017-12-03 21:35:50.941147'), (9, 'wwwwwwwwwwwwwww', 'Programming', 'wwwwwwwwwwwwwww', '2017-12-02 13:36:37.369621'), (8, 'espenahhahhahfhhgisihahghivhagiaoihoihoiOIHAGIOSIHVJHOIHAGOIOISHHOIHGOAOIHOIHOGIAOSHOIH', 'Html', 'HFIAUHIHHFOPAHHPAOHI', '2017-11-25 20:55:30.213354'), (7, 'WWWWWWWWWWWWW', 'Programming', 'WWWWWWWWWWWWW', '2017-11-25 13:54:07.178630'), (6, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQQQQQQ', '2017-11-25 13:53:30.238391'), (5, 'QQQQQQQQQQQQQQQ', 'Programming', 'QQQQQQQQQQQQQQQQ', '2017-11-25 13:53:14.062529'), (4, 'Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components.  Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they値l naturally fill the full width of its parent element. This is easily customized with our various sizing options.', 'html', 'https://v4-alpha.getbootstrap.com/components/card/', '2017-11-18 17:29:34.954090'), (3, 'sqlite python delete', 'Sql', 'http://www.sqlitetutorial.net/sqlite-python/delete/', '2017-11-12 21:47:53.364441'), (2, 'PEP 8 Python', 'Programming', 'https://www.python.org/dev/peps/pep-0008/#naming-conventions', '2017-11-12 21:46:04.969567')]
+[2017-12-06 20:44:09,321 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:09] "GET /note HTTP/1.1" 200 -
+[2017-12-06 20:44:31,091 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:31] "GET /continue HTTP/1.1" 200 -
+[2017-12-06 20:44:32,388 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:32] "POST /continue HTTP/1.1" 200 -
+[2017-12-06 20:44:35,264 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:35] "POST /continue HTTP/1.1" 302 -
+[2017-12-06 20:44:35,264 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:35] "GET /note HTTP/1.1" 200 -
+[2017-12-06 20:44:36,701 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-06 20:44:36,717 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:36] "GET /account HTTP/1.1" 200 -
+[2017-12-06 20:44:42,311 : DEBUG : sqlalchemy_statments.py : 56 :         get_all_user() ] [(1, 'espen', 'master')]
+[2017-12-06 20:44:42,327 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:44:42] "POST /account HTTP/1.1" 200 -
+[2017-12-06 20:45:48,310 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:45:48] "GET / HTTP/1.1" 200 -
+[2017-12-06 20:45:51,529 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:45:51] "GET /py HTTP/1.1" 200 -
+[2017-12-06 20:45:51,545 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:45:51] "GET /static/img/import_cls/app_form_mod.jpg HTTP/1.1" 304 -
+[2017-12-06 20:45:56,311 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 20:45:56] "GET /static/img/import_cls/add_init.jpg HTTP/1.1" 304 -
+[2017-12-06 21:38:42,558 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:38:43,105 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:38:43,105 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:38:43,120 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:38:50,121 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:50] "GET / HTTP/1.1" 200 -
+[2017-12-06 21:38:52,433 : DEBUG : sqlalchemy_statments.py : 56 :             get_user() ] None
+[2017-12-06 21:38:52,449 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:52] "GET /note HTTP/1.1" 500 -
+[2017-12-06 21:38:52,465 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:52] "GET /note?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 21:38:57,153 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:57] "GET /note?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 21:38:57,246 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:57] "GET /note?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 21:38:57,246 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:57] "GET /note?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:38:57,262 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:57] "GET /note?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:38:57,309 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:38:57] "GET /note?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-06 21:39:22,438 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:39:22,473 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:39:23,228 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:39:23,235 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:39:23,245 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:39:28,050 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:39:28,581 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:39:28,597 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:39:28,597 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:39:38,784 : DEBUG : sqlalchemy_statments.py : 56 :             get_user() ] None
+[2017-12-06 21:39:38,831 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:38] "GET /note HTTP/1.1" 500 -
+[2017-12-06 21:39:38,862 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:38] "GET /note?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 21:39:38,862 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:38] "GET /note?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 21:39:38,862 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:38] "GET /note?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 21:39:38,893 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:38] "GET /note?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:39:38,956 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:38] "GET /note?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:39:42,558 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:42] "GET / HTTP/1.1" 200 -
+[2017-12-06 21:39:44,667 : DEBUG : sqlalchemy_statments.py : 56 :             get_user() ] None
+[2017-12-06 21:39:44,667 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:44] "GET /note HTTP/1.1" 500 -
+[2017-12-06 21:39:44,699 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:44] "GET /note?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 21:39:49,594 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:49] "GET /note?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 21:39:49,610 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:49] "GET /note?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 21:39:49,625 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:49] "GET /note?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:39:49,672 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:39:49] "GET /note?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:39:59,851 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:40:00,398 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:40:00,398 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:40:00,414 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:40:20,312 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:40:20,337 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:40:21,037 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:40:21,041 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:40:21,051 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:40:40,038 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:40:40,057 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:40:40,757 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:40:40,762 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:40:40,770 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:40:47,018 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:40:47,049 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:40:47,732 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:40:47,737 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:40:47,746 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:40:54,122 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:40:54,169 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:40:54,738 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:40:54,738 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:40:54,738 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:43:12,612 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:43:12,655 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:43:13,363 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:43:13,369 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:43:13,379 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:44:19,082 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:44:19,160 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:44:19,790 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:44:19,793 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:44:19,799 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:44:26,071 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:44:26,098 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:44:27,563 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:44:27,566 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:44:27,574 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:44:44,515 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:44:44,561 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:44:45,217 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:44:45,217 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:44:45,217 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:44:50,522 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:44:50,587 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:44:51,182 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:44:51,182 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:44:51,198 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:45:15,479 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:45:15,529 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:45:16,202 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:45:16,205 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:45:16,214 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:45:45,968 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:45:46,000 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:45:46,728 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:45:46,733 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:45:46,742 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:45:53,062 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:45:53,096 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:45:53,768 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:45:53,768 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:45:53,768 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:45:55,865 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:45:55,925 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:45:56,523 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:45:56,523 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:45:56,538 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:45:58,624 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:45:58,667 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:45:59,311 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:45:59,316 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:45:59,324 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:46:47,151 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:46:47,189 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:46:47,919 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:46:47,927 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:46:47,936 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:46:57,313 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:46:57,394 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:47:12,210 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:47:12,741 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:47:12,757 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:47:12,757 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:47:29,796 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:47:29,864 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:47:30,417 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:47:30,417 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:47:30,432 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:47:49,592 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:47:49,679 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:47:50,353 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:47:50,355 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:47:50,362 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:48:15,827 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:48:15,858 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:48:16,519 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:48:16,519 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:48:16,519 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:48:26,047 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:48:26,087 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:48:26,749 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:48:26,752 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:48:26,762 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:48:52,258 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:48:52,274 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:48:52,964 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:48:52,964 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:48:52,964 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:49:04,589 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:49:04,641 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:49:05,309 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:49:05,309 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:49:05,325 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:49:09,432 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:49:09,469 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:49:29,812 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:49:30,343 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:49:30,343 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:49:30,359 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:49:50,453 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:49:50,473 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:49:51,133 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:49:51,137 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:49:51,147 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:49:59,598 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:49:59,637 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:50:00,292 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:50:00,297 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:50:00,306 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:50:11,890 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:50:11,952 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:50:12,514 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:50:12,517 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:50:12,525 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:50:48,363 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:50:48,403 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:50:50,118 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:50:50,121 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:50:50,130 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:50:56,431 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:50:56,469 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:50:57,157 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:50:57,160 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:50:57,168 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:51:07,613 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:51:07,676 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:51:08,366 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:51:08,366 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:51:08,382 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:51:23,188 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:51:23,233 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:51:23,918 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:51:23,921 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:51:23,930 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:52:14,850 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:52:14,928 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:52:15,519 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:52:15,522 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:52:15,529 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:52:20,704 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:20] "GET / HTTP/1.1" 200 -
+[2017-12-06 21:52:22,876 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:22] "GET / HTTP/1.1" 200 -
+[2017-12-06 21:52:22,892 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-06 21:52:22,892 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:22] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-06 21:52:22,907 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:22] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-06 21:52:22,907 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:22] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-06 21:52:29,955 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:29] "GET /py HTTP/1.1" 200 -
+[2017-12-06 21:52:31,877 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:31] "GET /note HTTP/1.1" 200 -
+[2017-12-06 21:52:36,549 : DEBUG : sqlalchemy_statments.py : 56 :             get_user() ] None
+[2017-12-06 21:52:36,565 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "POST /login HTTP/1.1" 500 -
+[2017-12-06 21:52:36,596 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 21:52:36,596 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 21:52:36,596 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 21:52:36,627 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-06 21:52:36,627 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:52:36,690 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 21:52:36] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 21:53:48,825 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:53:48,921 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:53:49,540 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:53:49,543 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:53:49,544 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:54:21,234 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 21:54:21,295 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:54:21,961 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:54:21,965 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:54:21,974 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:54:49,477 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:54:49,503 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:54:50,224 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:54:50,228 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:54:50,236 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:55:25,069 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:55:25,103 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:55:25,753 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:55:25,753 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:55:25,769 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:55:41,687 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:55:41,706 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:55:42,399 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:55:42,402 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:55:42,411 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:55:55,123 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:55:55,155 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:55:55,919 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:55:55,922 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:55:55,930 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:58:19,659 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:58:19,690 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:58:20,314 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:58:20,314 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:58:20,330 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:59:29,176 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:59:29,257 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:59:29,852 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:59:29,867 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:59:29,867 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:59:34,101 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:59:34,214 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 21:59:34,807 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 21:59:34,807 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 21:59:34,823 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 21:59:43,254 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 21:59:43,298 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:00:01,192 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:00:01,739 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:00:01,739 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:00:01,739 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:00:31,432 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:00:31,541 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:00:32,120 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:00:32,123 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:00:32,129 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:00:57,535 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:00:57,596 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:00:58,202 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:00:58,218 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:00:58,218 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:01:34,947 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:01:34] "GET / HTTP/1.1" 200 -
+[2017-12-06 22:01:44,042 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:01:44] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:02:11,518 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:02:11,580 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:02:12,129 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:02:12,129 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:02:12,145 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:03:25,888 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:03:25,969 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:03:26,562 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:03:26,565 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:03:26,574 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:03:33,905 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:03:33,991 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:03:34,571 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:03:34,571 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:03:34,571 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:03:53,565 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:03:53,596 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:03:54,374 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:03:54,379 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:03:54,390 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:04:02,626 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:04:03,173 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:04:03,173 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:04:03,173 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:04:21,105 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:04:21,139 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:04:21,860 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:04:21,865 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:04:21,875 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:04:34,468 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:04:34,527 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:04:35,235 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:04:35,235 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:04:35,235 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:04:55,397 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:04:55,439 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:04:56,107 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:04:56,107 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:04:56,123 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:05:24,612 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:05:24,646 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:05:25,327 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:05:25,330 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:05:25,337 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:05:28,431 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:05:28,471 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:05:29,172 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:05:29,177 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:05:29,186 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:05:38,674 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:05:38,725 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:05:39,384 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:05:39,384 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:05:39,399 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:05:54,190 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:05:54,246 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:05:54,918 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:05:54,921 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:05:54,930 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:06:26,754 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:06:26,782 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:06:27,471 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:06:27,476 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:06:27,486 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:06:56,029 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:06:56,064 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:06:56,728 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:06:56,728 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:06:56,728 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:07:17,925 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:07:17,956 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:07:18,663 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:07:18,666 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:07:18,673 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:07:35,545 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:07:35,581 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:07:36,263 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:07:36,266 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:07:36,274 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:07:49,868 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:07:49,898 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:07:50,547 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:07:50,547 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:07:50,563 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:08:06,530 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:08:06,572 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:08:07,262 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:08:07,268 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:08:07,276 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:08:27,203 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:08:27,235 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:08:27,900 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:08:27,905 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:08:27,913 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:08:33,205 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:08:33,250 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:08:33,838 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:08:33,838 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:08:33,838 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:09:14,967 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:09:15,033 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:09:15,628 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:09:15,631 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:09:15,639 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:18:59,246 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:18:59,793 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:18:59,793 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:18:59,793 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:19:05,190 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:05] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:19:05,221 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-06 22:19:05,221 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:05] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-06 22:19:05,221 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-06 22:19:05,221 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:05] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-06 22:19:08,190 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:19:08,190 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:08] "POST /login HTTP/1.1" 500 -
+[2017-12-06 22:19:08,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:08] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 22:19:08,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:08] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 22:19:08,222 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:08] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 22:19:08,253 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 22:19:08,315 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:08] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 22:19:21,991 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:19:22,022 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:19:22,689 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:19:22,692 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:19:22,696 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:19:26,152 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:26] "GET / HTTP/1.1" 200 -
+[2017-12-06 22:19:27,980 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:27] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:19:33,215 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:19:33,246 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:33] "POST /login HTTP/1.1" 500 -
+[2017-12-06 22:19:33,278 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:33] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 22:19:33,278 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:33] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 22:19:33,293 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:33] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 22:19:33,325 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:33] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 22:19:33,387 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:19:33] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 22:19:56,660 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:19:56,690 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:19:57,431 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:19:57,434 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:19:57,443 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:20:05,051 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:20:05,598 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:20:05,598 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:20:05,614 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:20:40,509 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:20:40,540 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:20:41,231 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:20:41,236 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:20:41,245 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:21:06,456 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:21:06,487 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:21:07,163 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:21:07,163 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:21:07,178 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:21:16,617 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:21:16,654 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:21:17,380 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:21:17,383 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:21:17,393 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:21:31,063 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:21:31,078 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:21:31,829 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:21:31,832 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:21:31,840 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:21:52,043 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:21:52,059 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:21:52,737 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:21:52,741 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:21:52,748 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:22:04,287 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:22:04,315 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:22:05,008 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:22:05,012 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:22:05,023 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:22:11,333 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:22:11,364 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:22:12,051 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:22:12,054 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:22:12,063 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:22:17,355 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:22:17,395 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:22:18,068 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:22:18,072 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:22:18,081 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:22:36,111 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:22:36,144 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:22:36,826 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:22:36,829 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:22:36,838 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:22:52,675 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:22:52,710 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:23:06,778 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:23:07,341 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:23:07,357 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:23:07,357 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:23:15,782 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:23:15,813 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:23:16,475 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:23:16,475 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:23:16,491 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:23:50,373 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:23:50,405 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:23:51,080 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:23:51,080 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:23:51,096 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:24:01,513 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:24:01,544 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:24:02,190 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:24:02,206 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:24:02,206 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:24:08,556 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:24:08,590 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:24:09,306 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:24:09,309 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:24:09,317 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:24:11,384 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:24:11,444 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:24:12,095 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:24:12,095 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:24:12,095 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:24:17,775 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:24:17] "GET / HTTP/1.1" 200 -
+[2017-12-06 22:24:20,025 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:24:20] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:24:21,948 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:24:21,948 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:24:21] "POST /login HTTP/1.1" 200 -
+[2017-12-06 22:24:26,511 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:24:26,526 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:24:26] "POST /login HTTP/1.1" 302 -
+[2017-12-06 22:24:26,526 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:24:26,526 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:24:26,542 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:24:26] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:24:32,139 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:24:32,170 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:24:32,726 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:24:32,726 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:24:32,742 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:24:38,004 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:24:38,069 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:24:38,677 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:24:38,677 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:24:38,693 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:26:58,510 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:26:58,548 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:26:59,249 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:26:59,253 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:26:59,263 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:29:04,944 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:29:04,975 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:29:05,682 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:29:05,686 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:29:05,696 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:29:08,833 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:29:08,857 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:29:09,559 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:29:09,564 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:29:09,572 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:29:12,729 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:29:12,761 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:29:13,443 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:29:13,447 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:29:13,457 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:29:15,544 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:29:15,583 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:29:16,260 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:29:16,263 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:29:16,264 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:29:18,300 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:29:18,341 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:29:19,040 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:29:19,040 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:29:19,040 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:30:00,116 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:30:00,142 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:30:00,805 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:30:00,808 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:30:00,816 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:30:08,164 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:30:08,195 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:30:08,862 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:30:08,878 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:30:08,878 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:31:47,677 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:31:47,724 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:31:48,288 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:31:48,288 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:31:48,307 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:32:07,301 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:32:07,332 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:32:08,036 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:32:08,040 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:32:08,049 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:32:28,172 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:32:28,208 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:32:28,965 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:32:28,970 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:32:28,981 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:32:40,770 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:40] "GET /continue HTTP/1.1" 200 -
+[2017-12-06 22:32:44,270 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:44] "POST /continue HTTP/1.1" 200 -
+[2017-12-06 22:32:47,833 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:47] "POST /continue HTTP/1.1" 302 -
+[2017-12-06 22:32:47,880 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:47] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:32:49,974 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:32:49,974 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:49] "POST /login HTTP/1.1" 200 -
+[2017-12-06 22:32:53,943 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:32:53,943 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:53] "POST /login HTTP/1.1" 302 -
+[2017-12-06 22:32:53,943 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:32:53,943 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:32:53,959 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:32:53] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:32:58,514 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:32:58,578 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:32:59,159 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:32:59,162 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:32:59,169 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:33:19,302 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:33:19,427 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:33:20,074 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:33:20,077 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:33:20,084 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:34:35,119 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:34:35,162 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:34:35,902 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:34:35,906 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:34:35,914 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:35:48,019 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:35:48,054 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:35:48,701 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:35:48,705 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:35:48,714 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:36:25,642 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:36:25,689 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:38:35,703 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:38:36,241 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:38:36,241 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:38:36,257 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:38:41,552 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:38:41,599 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:38:42,214 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:38:42,217 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:38:42,224 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:40:58,380 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:40:58,430 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:40:59,156 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:40:59,160 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:40:59,169 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:43:39,245 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:43:39,279 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:43:39,968 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:43:39,971 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:43:39,980 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:43:53,872 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:43:53] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:43:55,529 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:43:55,529 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:43:55] "POST /login HTTP/1.1" 200 -
+[2017-12-06 22:43:59,138 : DEBUG : sqlalchemy_statments.py : 57 :             get_user() ] ('espen',)
+[2017-12-06 22:43:59,138 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:43:59] "POST /login HTTP/1.1" 302 -
+[2017-12-06 22:43:59,138 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:43:59,138 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:43:59,170 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:43:59] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:44:00,514 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:44:00,514 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:44:00,529 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:44:00] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:44:01,529 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:44:01,529 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:44:01,529 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:44:01] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:44:01,701 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:44:01,701 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:44:01,717 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:44:01] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:44:01,907 : INFO : views.py : 47 :             notes_db() ] started note db form
+[2017-12-06 22:44:01,907 : DEBUG : sqlalchemy_statments.py : 38 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 22:44:01,907 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 22:44:01] "GET /note HTTP/1.1" 200 -
+[2017-12-06 22:44:38,036 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:44:38,098 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:44:38,718 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:44:38,718 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:44:38,718 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:44:44,886 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_declarative.py', reloading
+[2017-12-06 22:44:44,995 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:44:45,548 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:44:45,548 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:44:45,563 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:44:52,893 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:44:52,989 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:44:53,551 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:44:53,551 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:44:53,551 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:45:27,350 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:45:27,389 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:45:28,090 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:45:28,096 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:45:28,105 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:45:31,287 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:45:31,354 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:45:31,949 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:45:31,952 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:45:31,961 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:45:42,614 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:45:42,677 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:45:43,226 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:45:43,226 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:45:43,226 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:47:03,246 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\__init__.py', reloading
+[2017-12-06 22:47:03,325 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:47:03,958 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:47:03,958 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:47:03,974 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:47:20,850 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:47:20,892 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:47:21,576 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:47:21,576 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:47:21,592 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:47:26,856 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:47:26,916 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:47:27,468 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:47:27,468 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:47:27,483 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:48:06,499 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:48:06,530 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:48:07,244 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:48:07,247 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:48:07,255 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:48:18,890 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:48:18,921 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:48:19,580 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:48:19,586 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:48:19,595 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:50:18,213 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 22:50:18,255 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:50:31,122 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:50:31,667 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:50:31,667 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:50:31,667 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 22:50:36,905 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 22:50:36,966 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 22:50:37,559 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 22:50:37,562 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 22:50:37,570 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:05:14,548 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:05:14,597 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:05:15,403 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:05:15,407 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:05:15,418 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:06:49,215 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:06:49,247 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:06:50,070 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:06:50,080 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:06:50,091 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:06:51,110 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:06:51,145 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:06:51,845 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:06:51,849 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:06:51,859 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:06:58,508 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:06:58] "GET /note HTTP/1.1" 200 -
+[2017-12-06 23:06:58,524 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:06:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+[2017-12-06 23:06:58,524 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:06:58] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+[2017-12-06 23:06:58,524 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:06:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+[2017-12-06 23:06:58,539 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:06:58] "GET /static/main.css HTTP/1.1" 304 -
+[2017-12-06 23:06:59,852 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:06:59] "POST /login HTTP/1.1" 200 -
+[2017-12-06 23:07:03,415 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:07:03] "POST /login HTTP/1.1" 302 -
+[2017-12-06 23:07:03,430 : INFO : views.py : 48 :             notes_db() ] started note db form
+[2017-12-06 23:07:03,430 : DEBUG : sqlalchemy_statments.py : 39 :              get_all() ] [(2, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:39.230148'), (1, 'Test note', 'topic', 'www.bla.com', '2017-12-06 22:05:29.000496')]
+[2017-12-06 23:07:03,446 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:07:03] "GET /note HTTP/1.1" 200 -
+[2017-12-06 23:07:58,360 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:07:58,411 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:07:59,054 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:07:59,058 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:07:59,067 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:08:39,022 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:08:39,084 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:08:39,742 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:08:39,746 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:08:39,755 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:09:54,159 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:09:54,203 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:09:55,063 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:09:55,068 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:09:55,078 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:10:49,723 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_blog\\views.py', reloading
+[2017-12-06 23:10:49,755 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:10:50,569 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:10:50,574 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:10:50,583 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:11:50,577 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\mod_db\\sqlalchemy_statments.py', reloading
+[2017-12-06 23:11:50,609 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:12:10,225 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:12:10,835 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:12:10,850 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:12:10,850 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:12:20,725 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:20] "GET /continue HTTP/1.1" 200 -
+[2017-12-06 23:12:22,710 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:22] "POST /continue HTTP/1.1" 200 -
+[2017-12-06 23:12:26,647 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:26] "POST /continue HTTP/1.1" 302 -
+[2017-12-06 23:12:26,647 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:26] "GET /note HTTP/1.1" 200 -
+[2017-12-06 23:12:27,913 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:27] "GET /account HTTP/1.1" 500 -
+[2017-12-06 23:12:27,929 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:27] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 23:12:33,711 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:33] "GET /account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 23:12:33,789 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:33] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 23:12:33,789 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:33] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 23:12:33,804 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:33] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 23:12:33,836 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:12:33] "GET /account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-12-06 23:12:58,963 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-06 23:12:59,012 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:12:59,757 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:12:59,762 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:12:59,772 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:13:08,623 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:13:09,232 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:13:09,232 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:13:09,232 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:13:17,639 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:17] "GET /account HTTP/1.1" 500 -
+[2017-12-06 23:13:17,670 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:17] "GET /account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-12-06 23:13:17,670 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:17] "GET /account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-12-06 23:13:17,686 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:17] "GET /account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-12-06 23:13:17,717 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:17] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 23:13:17,779 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:17] "GET /account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-12-06 23:13:26,152 : INFO : _internal.py : 87 :                 _log() ]  * Detected change in 'C:\\Users\\espen\\virtualEnvs\\web\\app\\dir_home\\views.py', reloading
+[2017-12-06 23:13:26,183 : INFO : _internal.py : 87 :                 _log() ]  * Restarting with stat
+[2017-12-06 23:13:26,977 : WARNING : _internal.py : 87 :                 _log() ]  * Debugger is active!
+[2017-12-06 23:13:26,981 : INFO : _internal.py : 87 :                 _log() ]  * Debugger PIN: 707-408-214
+[2017-12-06 23:13:26,992 : INFO : _internal.py : 87 :                 _log() ]  * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+[2017-12-06 23:13:34,029 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:34] "GET /account HTTP/1.1" 200 -
+[2017-12-06 23:13:35,419 : INFO : _internal.py : 87 :                 _log() ] 127.0.0.1 - - [06/Dec/2017 23:13:35] "POST /account HTTP/1.1" 200 -

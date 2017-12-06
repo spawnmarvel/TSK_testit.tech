@@ -18,7 +18,8 @@ def about():
 
 @home.route("/account", methods=["GET", "POST"])
 def account():
-    res = sqlalchemy_statments.get_all_user()
+    # res = sqlalchemy_statments.get_all_user()
+    res = ""
     msg = ""
     form = accountform.ReusableForm(request.form)
     if request.method == 'POST':

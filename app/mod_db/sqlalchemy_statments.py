@@ -2,19 +2,20 @@
 import sqlite3
 import datetime
 import logging
-from app.mod_db import sqlalchemy_declarative
+# from app.mod_db import sqlalchemy_declarative
 
 
 
 CONN = None
-DATABASE_ = "app/mod_db/DATABASE.db"
+# DATABASE_ = sqlalchemy_declarative.get_database()
+DATABASE_ = "database_.db"
 #holder
 SQL_SELECT_ALL = "select * from holder order by id desc"
 SQL_SELECT_MAX_ID = "select max(id) from holder"
 SQL_INSERT = "insert into holder (note, topic, url, published) values (?, ?, ?, ?)"
 SQL_DELETE = "Delete from holder where id = ?"
 #user
-SQL_SELECT_ALL_USER = "select * from users order by id desc"
+SQL_SELECT_USER = "select usern from users where id = 1"
 
 LOGGER = logging.getLogger(__name__)
 
@@ -41,7 +42,7 @@ def get_all():
         LOGGER.debug(msg)
     return msg
 
-def get_all_user():
+def get_user():
     """___"""
     msg = ""
     global CONN
@@ -49,10 +50,11 @@ def get_all_user():
         CONN = sqlite3.connect(get_database())
         with CONN:
             cur = CONN.cursor()
-            global SQL_SELECT_ALL_USER
-            cur.execute(SQL_SELECT_ALL_USER)
-            row = cur.fetchall()
+            global SQL_SELECT_USER
+            cur.execute(SQL_SELECT_USER)
+            row = cur.fetchone()
             msg = row
+            # print(msg)
             LOGGER.debug(msg)
     except sqlite3.OperationalError as error_:
         msg = str(error_)
@@ -129,10 +131,11 @@ def delete(id_):
     LOGGER.debug(msg)
     return msg
 
-sqlalchemy_declarative.init_holder()
-sqlalchemy_declarative.init_user()
+# sqlalchemy_declarative.init_holder()
+# sqlalchemy_declarative.init_user()
 # print(get_all())
 #print(get_max_id())
 #x = get_max_id()
 #y = x[0]
 #print(str(y))
+print(get_user())

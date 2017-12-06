@@ -6,9 +6,9 @@ import datetime
 
 conn = None
 # statments
-database_ = "app/mod_db/database.db"
+database_ = "database_.db"
 sql_create_holder = "create table if not exists holder(id INTEGER PRIMARY KEY autoincrement, note TEXT, topic TEXT, url TEXT, published NUMERIC)"
-sql_insert_holder = "insert into holder (id, note, topic, url, published) values (?, ?, ?, ?, ?)"
+sql_insert_holder = "insert into holder (note, topic, url, published) values (?, ?, ?, ?)"
 # print("\nSQLite3 project " + str(datetime.now()) + " data\n")
 
 sql_create_users = "create table if not exists users(id INTEGER PRIMARY KEY autoincrement, usern TEXT NOT NULL, passw TEXT NOT NULL)"
@@ -41,6 +41,7 @@ def init_holder():
             logger.info(msg)
     except sqlite3.OperationalError as e:
         msg = str(e)
+        msg = msg + " hm"
     return msg
 
 def init_user():
@@ -75,15 +76,15 @@ def dummy_data():
             timeNow = datetime.datetime.now()
             global sql_insert_holder
             global sql_insert_user
-            # cur.execute(sql_insert_holder, (1,"Test note","topic","www.bla.com", timeNow))
+            # cur.execute(sql_insert_holder, ("Test note","topic","www.bla.com", timeNow))
             # cur.execute(sql_insert_user, ("espen","master"))
-            cur.execute("delete from users where id > 1")
-            conn.commit()
+            # cur.execute("delete from users where id > 1")
+            # conn.commit()
             msg = "added row"
     except sqlite3.OperationalError as e:
         print(e)
-        conn.rollback()
-    print(msg)
+        # conn.rollback()
+    return msg
 
 
 
@@ -94,4 +95,4 @@ def dummy_data():
 
 print(init_holder())
 print(init_user())
-# dummy_data()
+# print(dummy_data())

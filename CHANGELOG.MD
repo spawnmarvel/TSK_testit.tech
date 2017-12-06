@@ -12,6 +12,10 @@ moved methods from home to blog
 
 #TSK_testit.tech 1.2.6 TODO
 create separate tabel for separate users = done
+added sqlite.html and /sqliteonline views
+must python 3 (do = 2.7)
+gives error for get_user_sql():
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04
 make create account
 move to digital ocean
 
