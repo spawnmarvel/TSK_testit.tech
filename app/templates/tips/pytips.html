@@ -1,15 +1,31 @@
 {% extends "base.html" %} {% block title %}Py tips{% endblock %} {% block body %}
 <div class="jumbotron">
-  <h2>Py tips</h2>
-  <p class="lead">Flask and Digital Ocean</p>
+  <h2>Python</h2>
+  <p class="lead">Python:</p>
   <p>If you import a class from your "app" folder:</p>
   <img src="/static/img/import_cls/app_form_mod.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
     height="236">
-  <p>And you get ImportError: No module named, add: <br> __init__.py to that folder</p>
+  <p>And you get ImportError: No module named, add:
+    <br> __init__.py to that folder</p>
   <img src="/static/img/import_cls/add_init.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
     height="236">
-  <p>It worked with out that file in my computer, but for some reason it did not work after pushing the files to server. In test
-    I had no errors, but for prod server the ImportError came</p>
+  <br>
+  <p>Files named __init__.py are used to mark directories on disk as a Python package directories. If you have the files</p>
+
+  <code>mydir/spam/__init__.py</code>
+  <br>
+  <code>mydir/spam/module.py</code>
+
+  <p>and mydir is on your path, you can import the code in module.py as:</p>
+
+  <code>import spam.module</code>
+
+  <p>or</p>
+
+  <code>from spam import module</code>
+
+  <p>If you remove the __init__.py file, Python will no longer look for submodules inside that directory, so attempts to import
+    the module will fail.</p>
 
   <p class="lead">Gunicorn</p>
   <p>Create a wsgi.py file with the code</p>
@@ -36,6 +52,12 @@
   </ul>
   </br>
   <p class="lead">Virtual envs</p>
+  <ul>
+    <li>Start in test mode:source webenv/bin/activate</li>
+    <li>Stop test mode: deactivate</li>
+  </ul>
+
+  <p class="lead">Python:</p>
   <ul>
     <li>Start in test mode:source webenv/bin/activate</li>
     <li>Stop test mode: deactivate</li>

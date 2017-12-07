@@ -2,7 +2,7 @@
 import sqlite3
 import datetime
 import logging
-# from app.mod_db import sqlalchemy_declarative
+from app.mod_db import sqlalchemy_declarative
 
 
 
@@ -131,8 +131,9 @@ def delete(id_):
     LOGGER.debug(msg)
     return msg
 
-# sqlalchemy_declarative.init_holder()
-# sqlalchemy_declarative.init_user()
+sqlalchemy_declarative.init_holder()
+sqlalchemy_declarative.init_user()
+# sqlalchemy_declarative.dummy_data()
 # print(get_all())
 #print(get_max_id())
 #x = get_max_id()

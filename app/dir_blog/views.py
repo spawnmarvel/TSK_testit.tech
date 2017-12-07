@@ -9,7 +9,6 @@ from flask import render_template, request, redirect, url_for, session
 from app.mod_db import sqlalchemy_statments
 
 tmp = sqlalchemy_statments.get_user()
-# print(tmp[0])
 # from app.mod_controller import controller_mod
 # controller_mod.make_notes()
 from . import blog
@@ -20,10 +19,14 @@ username_ = " "
 logger = logging.getLogger(__name__)
 
 def get_user_sql():
-    db_user = sqlalchemy_statments.get_user()
-    # us = db_user[0]
-    us = "espen"
-    return us
+    rv = ""
+    try:
+        db_user = sqlalchemy_statments.get_user()
+        rv = db_user[0]
+    except Exception as msg:
+        # had to insert at runtime a user...arg
+        rv = msg
+    return rv
 
 def get_user():
     global username_
@@ -39,6 +42,13 @@ def check_user():
              valid = True
 
      return valid
+
+
+@blog.route("/test")
+def test():
+    get_user = get_user_sql()
+    return render_template("blog/test.html", get_user=get_user)
+
 
 @blog.route("/note", methods=['GET', 'POST'])
 # @login_req.login_required

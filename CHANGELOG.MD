@@ -6,18 +6,27 @@ It also contains a blog section bulit with SQLite, tab->SQLite->Note Blog.
 
 # TSK_testit.tech 1.2.5
 
-added auth for notes db.
-made base_auth, continue and login and 404.html (error)
+Added auth for notes db.
+Made base_auth, continue and login and 404.html (error)
 moved methods from home to blog
 
-#TSK_testit.tech 1.2.6 TODO
-create separate tabel for separate users = done
+# TSK_testit.tech 1.2.6
+Create login for Notes db
+create separate tabel for admin user
 added sqlite.html and /sqliteonline views
-must python 3 (do = 2.7)
-gives error for get_user_sql():
+updated python from 2.3 to 3.5.3 on Digitaol Ocean
+Solved : get_user_sql():
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04
-make create account
-move to digital ocean
+Made error: 400.html and 405.html
+
+# TSK_testit.tech 1.2.7
+Move tips to technology, do more tech stuff
+Change tips to Python learning (D.B)
+use <code> tag
+
+
+
+
 
 
 
