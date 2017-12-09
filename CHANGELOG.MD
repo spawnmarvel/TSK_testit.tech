@@ -9,6 +9,7 @@ It also contains a blog section bulit with SQLite, tab->SQLite->Note Blog.
 Added auth for notes db.
 Made base_auth, continue and login and 404.html (error)
 moved methods from home to blog
+merged test->master
 
 # TSK_testit.tech 1.2.6
 Create login for Notes db
