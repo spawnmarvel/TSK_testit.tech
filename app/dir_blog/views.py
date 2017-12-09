@@ -23,6 +23,7 @@ def get_user_sql():
     try:
         db_user = sqlalchemy_statments.get_user()
         rv = db_user[0]
+       
     except Exception as msg:
         # had to insert at runtime a user...arg
         rv = msg

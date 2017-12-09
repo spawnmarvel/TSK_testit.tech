@@ -3,7 +3,7 @@
   <h2>Note DB</h2>
   <!-- form for get btn -->
   <form action="/note" method="GET">
-    <input type="submit" value="Get" class="btn btn-primary" />
+    <input type="submit" value="Refresh" class="btn btn-primary" />
     <h6>result: {{ result }}</h6>
   </form>
   <!-- Collapse btn -->
@@ -68,7 +68,7 @@
     <form action="/note" method="POST">
       <br>
       <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
-
+      <br>
       <input class="form-control" id="disabledInput" type="text" name="delid" value="{{ note[0] }}" readonly/>
       <br>
       <input class="form-control" id="inputdefault" type="text" name="delpass" placeholder="Secret Key" />
