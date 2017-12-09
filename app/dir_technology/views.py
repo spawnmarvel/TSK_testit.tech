@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import render_template, make_response
 
 from . import technology
 
@@ -14,5 +14,10 @@ def init():
 def grafana():
     # logger.info("get grafana" )
     return render_template("technology/grafana_test.html")
+
+@technology.route("/sqliteonline")
+def sqllite_online():
+    # logger.info("get grafana" )
+    return render_template("technology/sqlite.html")
 
 

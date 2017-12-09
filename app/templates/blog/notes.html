@@ -1,9 +1,9 @@
-{% extends "base.html" %} {% block title %}Note{% endblock %} {% block body %}
+{% extends "base_auth.html" %} {% block title %}Note{% endblock %} {% block body %}
 <div class="jumbotron">
   <h2>Note DB</h2>
   <!-- form for get btn -->
   <form action="/note" method="GET">
-    <input type="submit" value="Get" class="btn btn-primary" />
+    <input type="submit" value="Refresh" class="btn btn-primary" />
     <h6>result: {{ result }}</h6>
   </form>
   <!-- Collapse btn -->
@@ -13,7 +13,7 @@
     <form action="/note" method="POST">
       <div class="form-group">
         <label>Note description:</label>
-        <input class="form-control" id="inputdefault" type="text" name="nt" placeholder="Some text about..." />
+        <textarea class="form-control" id="inputdefault" type="text" name="nt" placeholder="Some text about..."></textarea>
         <br>
         <!-- options -->
         <label>Level:</label>
@@ -33,6 +33,7 @@
             <option>Programming</option>
             <option>Python</option>
             <option>Csharp</option>
+            <option>SQL</option>
             <option>Html</option>
             <option>Linux</option>
             <option>Other</option>
@@ -57,7 +58,7 @@
   <!-- for each note in db, make a jumbotron div with form-->
   <div class="jumbotron" style="background-color: rgb(235, 229, 229)">
     <h2>{{ note[2] }}:</h2>
-    <p class="card-text">{{ note[1] }}</p>
+    <p class="break_them">{{ note[1] }}</p>
     <span class="label label-success">{{ note[2] }}</span>
     <br>
     <br>
@@ -67,7 +68,7 @@
     <form action="/note" method="POST">
       <br>
       <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
-
+      <br>
       <input class="form-control" id="disabledInput" type="text" name="delid" value="{{ note[0] }}" readonly/>
       <br>
       <input class="form-control" id="inputdefault" type="text" name="delpass" placeholder="Secret Key" />
