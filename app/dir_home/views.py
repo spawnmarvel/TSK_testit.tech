@@ -1,4 +1,5 @@
 """___"""
+import logging
 from flask import render_template, request, flash
 
 from . import home
@@ -6,13 +7,15 @@ from . import home
 from app.mod_db import sqlalchemy_statments
 from app.mod_home import accountform
 
-
+logger = logging.getLogger(__name__)
 @home.route("/")
 def index():
+    logger.debug("index route")
     return render_template("home/index.html")
 
 @home.route("/about")
 def about():
+    logger.debug("about route")
     return render_template("home/about.html")
 
 
