@@ -20,4 +20,16 @@ def sqllite_online():
     # logger.info("get grafana" )
     return render_template("technology/sqlite.html")
 
+@technology.route("/ftp")
+def ftp_file():
+    return render_template("technology/ftpFilezilla.html")
+
+@technology.route("/github")
+def github_tips():
+    return render_template("technology/github.html")
+
+@technology.route("/boot")
+def bootstrap_tips():
+    return render_template("technology/bootstraptips.html")
+
 
