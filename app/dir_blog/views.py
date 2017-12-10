@@ -27,6 +27,7 @@ def get_user_sql():
     except Exception as msg:
         # had to insert at runtime a user...arg
         rv = msg
+    logger.info(rv)
     return rv
 
 def get_user():
@@ -41,7 +42,7 @@ def check_user():
          username = session["username"]
          if "espen" in username:
              valid = True
-
+     logger.debug(valid)
      return valid
 
 
