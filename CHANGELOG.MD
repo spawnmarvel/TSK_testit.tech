@@ -22,7 +22,7 @@ Made error: 400.html and 405.html
 Move tips to technology, do more tech stuff
 Change tips to Python learning (D.B)
 use <code> tag
-
+requiremnets.txt
 
 
 
