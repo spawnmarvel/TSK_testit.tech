@@ -10,6 +10,10 @@ def py_tips():
 def py_gen():
      return render_template("tips/pytips2_gen_enum_dec.html")
 
+@tips.route("/ligunicorn")
+def li_guni():
+     return render_template("tips/linux_gunicorn.html")
+
 
 
 
