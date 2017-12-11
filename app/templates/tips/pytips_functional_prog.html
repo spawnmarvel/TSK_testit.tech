@@ -1,0 +1,46 @@
+{% extends "base.html" %} {% block title %}Py tips{% endblock %} {% block body %}
+<div class="jumbotron">
+  <h2>Python</h2>
+
+  <br>
+  <p>Functional programming</p>
+  <a href="https://docs.python.org/3.5/howto/functional.html" target="_blank">Python doc</a>
+  <p>Functional programming can be considered the opposite of object-oriented programming. Objects are little capsules containing
+    some internal state along with a collection of method calls that let you modify this state, and programs consist of making
+    the right set of state changes. Functional programming wants to avoid state changes as much as possible and works with
+    data flowing between functions.</p>
+  <br>
+  <p>In a functional program, input flows through a set of functions. Each function operates on its input and produces some
+    output. Functional style discourages functions with side effects that modify internal state or make other changes that
+    aren’t visible in the function’s return value. Functions that have no side effects at all are called purely functional.
+    Avoiding side effects means not using data structures that get updated as a program runs; every function’s output must
+    only depend on its input.</p>
+  <br>
+  <p>Python language feature that’s an important foundation for writing functional-style programs: iterators.</p>
+  <br>
+  <p>An iterator is an object representing a stream of data; this object returns the data one element at a time. A Python iterator
+    must support a method called
+    <code>__next__()</code> that takes no arguments and always returns the next element of the stream. If there are no more elements in the stream,
+    <code>__next__()</code> must raise the
+    <code>StopIteration</code> exception. </p>
+    <br>
+    <img src="/static/img/functional_prog/iter.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="236">
+  <br>
+  <a href="https://docs.python.org/2.3/whatsnew/section-enumerate.html" target="_blank">Python doc</a>
+  <p>The built-in function,
+    <code>enumerate()</code>, will make certain loops a bit clearer. enumerate(thing), where thing is either an iterator or a sequence, returns a
+    iterator that will return (0, thing[0]), (1, thing[1]), (2, thing[2]), and so forth.</p>
+    <br>
+    <code>for i in range(len(L)):</code>
+    <br>
+    <code>for i, item in enumerate(L):</code>
+    <br>
+    <br>
+    <img src="/static/img/functional_prog/enumerate.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+    height="236">
+    
+  <br>
+  <p class="lead"> Iterator / Generator / Enumerator</p>
+</div>
+{% endblock %}

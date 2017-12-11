@@ -2,16 +2,16 @@ from flask import render_template
 from . import tips
 
 
-@tips.route("/py")
-def py_tips():
+@tips.route("/pyinit")
+def py_init():
      return render_template("tips/pytips.html")
 
-@tips.route("/pyGen")
-def py_gen():
-     return render_template("tips/pytips2_gen_enum_dec.html")
+@tips.route("/pyfunctional")
+def py_functional():
+     return render_template("tips/pytips_functional_prog.html")
 
 @tips.route("/ligunicorn")
-def li_guni():
+def li_gunicorn():
      return render_template("tips/linux_gunicorn.html")
 
 
