@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block title %}Py tips{% endblock %} {% block body %}
 <div class="jumbotron">
   <h2>Python</h2>
-  <p class="lead">Python:</p>
+  <p class="lead">__init__</p>
   <p>If you import a class from your "app" folder:</p>
   <img src="/static/img/import_cls/app_form_mod.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
     height="236">
@@ -26,42 +26,6 @@
 
   <p>If you remove the __init__.py file, Python will no longer look for submodules inside that directory, so attempts to import
     the module will fail.</p>
-
-  <p class="lead">Gunicorn</p>
-  <p>Create a wsgi.py file with the code</p>
-  <ul>
-    <li>from app import app
-      </br>
-      if __name__ =="__main__":
-      </br>app.run()</li>
-  </ul>
-  <p>The you can preform the following:</p>
-  <p>Start your env first</p>
-  <ul>
-    <li>(myprojectenv) $ gunicorn --bind 0.0.0.0:port wsgi:app</li>
-    <li>(myprojectenv) $ deactivate</li>
-    <li>sudo lsof -i:port</li>
-    <li>kill pid</li>
-    <li>Not finding pid?, pkill gunicorn</li>
-    <li>Templates / Static not loading after SFTP?:</li>
-    <li>stop gunicorn and start it again</li>
-    </br>
-
-    <li>Start env: source webenv/bin/activate</li>
-    <li>Stop env: deactivate</li>
-  </ul>
-  </br>
-  <p class="lead">Virtual envs</p>
-  <ul>
-    <li>Start in test mode:source webenv/bin/activate</li>
-    <li>Stop test mode: deactivate</li>
-  </ul>
-
-  <p class="lead">Python:</p>
-  <ul>
-    <li>Start in test mode:source webenv/bin/activate</li>
-    <li>Stop test mode: deactivate</li>
-  </ul>
 
 </div>
 {% endblock %}
