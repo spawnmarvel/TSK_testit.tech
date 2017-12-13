@@ -2,12 +2,15 @@
 import logging
 from flask import render_template, request, flash
 
-from . import home
+
 
 from app.mod_db import sqlalchemy_statments
 from app.mod_home import accountform
 
 logger = logging.getLogger(__name__)
+
+from . import home
+
 @home.route("/")
 def index():
     logger.debug("index route")

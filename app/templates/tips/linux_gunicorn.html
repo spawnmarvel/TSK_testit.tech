@@ -2,8 +2,67 @@
 <div class="jumbotron">
   <h2></h2>
   <p>Deploy flask app Digital Ocean with Nginx / Gunicorn Ubuntu 16.04.3 LTS </p>
+  <a href="https://www.youtube.com/watch?v=kDRRtPO0YPA" target="_blank">Flask Gunicorn Nginx</a>
   <p>Install Nginx, remove default site, create your site</p>
-  
+  <ul>
+    <li>sudo apt-get update</li>
+    <li>Python 2, sudo apt-get install python-pip python-dev nginx (or just install Nginx)</li>
+    <li>Python 3,sudo apt-get install python3-pip python3-dev nginx</li>
+    <li>
+      <img src="/static/img/nginx/installnginx.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+
+    <li>Remove default Nginx (I had one more folder to remove)</li>
+    <li>
+      <img src="/static/img/nginx/removedefault.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+    <li>Create a new file for you flask app</li>
+    <li>
+      <img src="/static/img/nginx/flask_settings.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+    <li>Make symlink</li>
+    <li>
+        <img src="/static/img/nginx/sym.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+          height="236">
+      </li>
+      <li>Test Nginx configuration before / after etc</li>
+      <li>
+          <img src="/static/img/nginx/testnginx.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+            height="236">
+        </li>
+    <li>Python2, sudo pip install virtualenv</li>
+    <li>Python 3, sudo pip3 install virtualenv</li>
+    <li>
+      <img src="/static/img/nginx/installvirtual.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin"
+        width="500" height="236">
+    </li>
+    <li>Make folder, create virtualenv, activate it and install gunicorn / flask</li>
+    <li>(This already done here with mkdir)</li>
+    <li>
+      <img src="/static/img/nginx/installgunicornflask.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin"
+        width="500" height="236">
+    </li>
+    <li>Create you Flask app (I have used blueprints in __init__.py</li>
+    <li>
+      <img src="/static/img/nginx/init.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+    <li>The app is called from run.py</li>
+    <li>
+      <img src="/static/img/nginx/run.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+
+    <li>Folder->__init__, views</li>
+    <li>
+      <img src="/static/img/nginx/folder.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+  </ul>
+
   <p class="lead">Virtual envs</p>
   <ul>
     <li>Start in test mode:source webenv/bin/activate</li>
