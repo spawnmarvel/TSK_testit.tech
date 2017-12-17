@@ -1,7 +1,8 @@
 {% extends "base.html" %} {% block title %}Py tips{% endblock %} {% block body %}
 <div class="jumbotron">
-  <h2>Python</h2>
-  <p class="lead">__init__</p>
+  <h2>Modules / Packages: __init__.py</h2>
+  <a href="https://docs.python.org/3.5/tutorial/modules.html" target="_blank">Modules / Packages doc</a>
+  <p>The primary use of __init__.py is to initialize Python packages. The easiest way to demonstrate this is to take a look at the structure of a standard Python module.</p>
   <p>If you import a class from your "app" folder:</p>
   <img src="/static/img/import_cls/app_form_mod.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="304"
     height="236">
@@ -27,5 +28,27 @@
   <p>If you remove the __init__.py file, Python will no longer look for submodules inside that directory, so attempts to import
     the module will fail.</p>
 
-</div>
+    <h2>Data model</h2>
+    <p>Objects, values and types</p>
+    <p>Objects are Python’s abstraction for data. All data in a Python program is represented by objects or by relations between objects. (In a sense, and in conformance to Von Neumann’s model of a “stored program computer,” code is also represented by objects.)</p>
+    <p>Every object has an identity, a type and a value. An object’s identity never changes once it has been created; you may think of it as the object’s address in memory. </p>
+    <ul>
+      <li><code>type()</code> function returns an object’s type</li>
+      <li>The value of some objects can change. Objects whose value can change are said to be mutable; 
+        objects whose value is unchangeable once they are created are called immutable.</li>
+    <li>(The value of an immutable container object that contains a reference to a mutable object can change when the latter’s value is changed; 
+      however the container is still considered immutable, because the collection of objects it contains cannot be changed. 
+      So immutability is not strictly the same as having an unchangeable value, it is more subtle.) </li>
+      <li>An object’s mutability is determined by its type; for instance, numbers, strings and tuples are immutable, while dictionaries and lists are mutable.</li>
+    <li>Objects are never explicitly destroyed; however, when they become unreachable they may be garbage-collected.</li>
+  <li>Some objects contain references to “external” resources such as open files or windows. 
+    It is understood that these resources are freed when the object is garbage-collected, 
+    but since garbage collection is not guaranteed to happen, such objects also provide an explicit way to release the external resource:</li>  
+    <li><code>close()</code></li>
+    <li><code>try...except...finally</code></li>
+    <li><code>with</code></li>
+  </ul>
+  <a href="https://docs.python.org/3.5/reference/datamodel.html" target="_blank">Data model doc</a>
+  
+  </div>
 {% endblock %}
