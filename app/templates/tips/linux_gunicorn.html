@@ -25,19 +25,24 @@
     </li>
     <li>Make symlink</li>
     <li>
-        <img src="/static/img/nginx/sym.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
-          height="236">
-      </li>
-      <li>Test Nginx configuration before / after etc</li>
-      <li>
-          <img src="/static/img/nginx/testnginx.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
-            height="236">
-        </li>
+      <img src="/static/img/nginx/sym.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500" height="236">
+    </li>
+
+    <li>Nginx configuration</li>
+    <li>
+      <img src="/static/img/nginx/nginx_config.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
+    <li>Test Nginx configuration before / after etc</li>
+    <li>
+      <img src="/static/img/nginx/testnginx.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
+    </li>
     <li>Python2, sudo pip install virtualenv</li>
     <li>Python 3, sudo pip3 install virtualenv</li>
     <li>
-      <img src="/static/img/nginx/installvirtual.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin"
-        width="500" height="236">
+      <img src="/static/img/nginx/installvirtual.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+        height="236">
     </li>
     <li>Make folder, create virtualenv, activate it and install gunicorn / flask</li>
     <li>(This already done here with mkdir)</li>
@@ -47,22 +52,40 @@
     </li>
     <li>Create you Flask app (I have used blueprints in __init__.py</li>
     <li>
-      <img src="/static/img/nginx/init.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
-        height="236">
-    </li>
-    <li>The app is called from run.py</li>
-    <li>
-      <img src="/static/img/nginx/run.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
-        height="236">
+      <img src="/static/img/nginx/init.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500" height="236">
     </li>
 
     <li>Folder->__init__, views</li>
     <li>
       <img src="/static/img/nginx/folder.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
-        height="236">
+        height="200">
     </li>
-  </ul>
+  
 
+  <li>The app is called from run.py for testing</li>
+  <li>
+    <img src="/static/img/nginx/run.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500" height="236">
+  </li>
+  <li>The app is called from wsgi.py for production (gunicorn)</li>
+  <li>
+    <img src="/static/img/nginx/run_gunicorn.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="370"
+      height="236">
+  </li>
+
+
+  <li>When you have tested and are ready to host / run the app:</li>
+  <li>Restart and test Nginx, load activate you env, start gunicorn</li>
+  <li>Here, gunicorn is started with 2 workers</li>
+  <li>
+    <img src="/static/img/nginx/run_app.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+      height="236">
+  </li>
+  <li>Now vist your IP or domian</li>
+  <li>
+    <img src="/static/img/nginx/domain.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="500"
+      height="236">
+  </li>
+  </ul>
   <p class="lead">Virtual envs</p>
   <ul>
     <li>Start in test mode:source webenv/bin/activate</li>
