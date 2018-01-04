@@ -29,7 +29,9 @@
           <span class="icon-bar"></span>
         </button>
         <!-- nav testit.tech  -->
-        <a class="navbar-brand" href="/"><span style="color:rgb(180, 230, 19)">testit.tech</span></a>
+        <a class="navbar-brand" href="/">
+          <span style="color:rgb(180, 230, 19)">testit.tech</span>
+        </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -56,11 +58,14 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-                <li>
-                    <a href="ligunicorn">Gunicorn (nginx)</a>
-                  </li>
               <li>
-                <a href="pyinit">__init__</a>
+                <a href="pybuilt">Built-in functions</a>
+              </li>
+              <li>
+                  <a href="pyinit">__init__</a>
+                </li>
+              <li>
+                <a href="ligunicorn">Gunicorn (nginx)</a>
               </li>
               <li>
                 <a href="pyfunctional">Functional programming</a>
@@ -180,11 +185,11 @@
                   target="_blank">Install Python3, pip3 (migarated from 2.7 on D0)</a>
               </li>
               <li>
-                  <a href="https://www.youtube.com/watch?v=7lmCu8wz8ro" target="_blank">What Does It Take To Be An Expert At Python? (James Powell) Coding Tech</a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/watch?v=kDRRtPO0YPA" target="_blank">Deploying Flask Apps to an Ubuntu Server</a>
-                </li>
+                <a href="https://www.youtube.com/watch?v=7lmCu8wz8ro" target="_blank">What Does It Take To Be An Expert At Python? (James Powell) Coding Tech</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=kDRRtPO0YPA" target="_blank">Deploying Flask Apps to an Ubuntu Server</a>
+              </li>
             </ul>
           </li>
 
@@ -205,30 +210,31 @@
     {% block body %} {% endblock %}
     <footer class="footer">
       <br>
-      <p><span style="color:rgb(180, 230, 19)">testit.tech</span> is powered by:</p>
-      <p>Nginx HTTP server and reverse proxy  
+      <p>
+        <span style="color:rgb(180, 230, 19)">testit.tech</span> is powered by:</p>
+      <p>Nginx HTTP server and reverse proxy
         <a href="https://www.nginx.com/resources/wiki/" target="_blank">
           <span style="color:rgb(180, 230, 19)">Nginx</span>
         </a>
-      
-      . Gunicorn Python WSGI HTTP server for UNIX  
+
+        . Gunicorn Python WSGI HTTP server for UNIX
         <a href="http://gunicorn.org/" target="_blank">
           <span style="color:rgb(180, 230, 19)">Gunicorn</span>
 
-          </a>
-      
-    . Cloud computing, designed for developers 
+        </a>
+
+        . Cloud computing, designed for developers
         <a href="https://www.digitalocean.com/" target="_blank">
           <span style="color:rgb(180, 230, 19)">DigitalOcean</span>
 
-          </a>
-      
-      . Domain at doimainnameshop
-          <a href="https://domainname.shop/?currency=GBP&lang=en" target="_blank">
-            <span style="color:rgb(180, 230, 19)">doimainnameshop</span>
-  
-            </a>
-        </p>
+        </a>
+
+        . Domain at doimainnameshop
+        <a href="https://domainname.shop/?currency=GBP&lang=en" target="_blank">
+          <span style="color:rgb(180, 230, 19)">doimainnameshop</span>
+
+        </a>
+      </p>
       <p>&copy jekl 30.09.2017</p>
     </footer>
   </div>

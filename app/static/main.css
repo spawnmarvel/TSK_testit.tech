@@ -1,11 +1,12 @@
 body {
-    background-color:rgb(150, 153, 139)
+    background-color:rgb(12, 12, 1)
 }
-/*
+
+
 .jumbotron {
-    background-color:#B7EEEB
+    background-color:rgb(201, 211, 150)
 }
-*/
+
 .break_them {
     word-break: break-all
 }
@@ -15,5 +16,8 @@ body {
     border-radius: 10px;
 
 }
+
+
+
 
 
