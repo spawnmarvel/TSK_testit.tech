@@ -25,6 +25,9 @@ app.register_blueprint(blog_blueprint)
 from .dir_form import form as form_blueprint
 app.register_blueprint(form_blueprint)
 
+from .dir_chat import chat as chat_blueprint
+app.register_blueprint(chat_blueprint)
+
 # load the config
 app.config.from_object("config")
 

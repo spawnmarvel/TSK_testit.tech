@@ -1,0 +1,71 @@
+{% extends "base.html" %} {% block title %}testit.tech{% endblock %} {% block body %}
+<div class="jumbotron">
+    <div class="container">
+        <p>Chatbot, talk to me about, hm...</p>
+
+        <form action="/chat" method="POST">
+            <div class="form-group">
+                <input type="submit" name="action" value="Clear" class="btn btn-primary btn pull-right" />
+            </div>
+
+        </form>
+
+        <a href=" http://www.nltk.org/book/" target="_blank">Natural Language Processing with Python (assignments)</a>
+        <br>
+        <a href=" https://botpublication.com/your-chatbot-should-have-a-game-loop-1a491ae370b5" target="_blank">your-chatbot-should-have-a-game-loop</a>
+
+        <br>
+        <a href=" https://apps.worldwritable.com/tutorials/chatbot/" target="_blank">tutorial chatbot</a>
+
+        <!-- form input section  -->
+        <form action="/chat" method="POST">
+            <div class="form-group">
+                <input class="form-control" id="inputdefault" type="text" name="chat_text" />
+                </br>
+                <input type="submit" name="action" value="Chat" class="btn btn-primary" />
+            </div>
+        </form>
+        <!-- chatbot section  -->
+        {% for con in conversation_list %}
+
+
+        <div class="container_user darker">
+            <img src="/static/img/chat/robot.jpg" alt="robot">
+            <p class="break_them">{{ con[1] }}</p>
+            <span class="time-right">{{ chat_time }}</span>
+        </div>
+        <!-- user section -->
+        <div class="container_user">
+            <img src="/static/img/chat/boy.jpg" alt="user">
+            <p class="break_them">{{ con[0] }}</p>
+            <span class="time-right">{{ chat_time }}</span>
+        </div>
+
+
+        {% endfor %}
+        <!-- log section, debug
+        <br>
+        <p>list items...:</p>
+        {% for con in conversation_list %}
+        <p>0 -> {{ con[0] }}</p>
+        <p>1 -> {{ con[1] }}</p>
+        {% endfor %}
+         -->
+
+    </div>
+
+</div>
+
+
+
+
+<!-- tmp section  -->
+<div class="container">
+    <p>
+
+    </p>
+
+</div>
+<!-- jumbo section  -->
+</div>
+{% endblock %}

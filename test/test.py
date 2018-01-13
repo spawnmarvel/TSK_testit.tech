@@ -33,11 +33,13 @@ def test_zip():
     zipped = zip(x, y)
     for item_x in zipped:
         print(item_x)
+        print(item_x[0])
 
-y = "128"
-print(type(y))
-x = int(y)
-print(type(x))
+test_zip()
+# y = "128"
+# print(type(y))
+# x = int(y)
+# print(type(x))
 # test_zip()
 # test_range()
 # test_enumerator(NUM_LIST)
