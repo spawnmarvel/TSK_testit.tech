@@ -1,8 +1,3 @@
-class human:
-
-    """base class human"""
-    def __init__(self):
-        self.data = None
-    
-    def talk(data_in):
-        pass
+from . import player
+class Human(player.Player):
+    pass
