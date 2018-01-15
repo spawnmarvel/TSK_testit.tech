@@ -35,7 +35,17 @@ def test_zip():
         print(item_x)
         print(item_x[0])
 
-test_zip()
+def check_greeting(data_in):
+    rv = ""
+    input_hi = ["hi", "hello", "good day", "greetings", "how"]
+    for x in input_hi:
+        if x == data_in.lower():
+            rv = "yes"
+    return rv
+
+print(check_greeting("hi"))
+# test_zip()
+
 # y = "128"
 # print(type(y))
 # x = int(y)

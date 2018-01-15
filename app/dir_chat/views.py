@@ -6,7 +6,7 @@ from functools import wraps, update_wrapper
 from datetime import datetime
 import random
 import datetime as dt
-from . import controller as cont
+from . import controller as controller
 from .model import chatbot as chatbot
 from .model import human as human
 from . import chat
@@ -21,6 +21,9 @@ start_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 initial_tup = ("......","Hi, I am your chatbot, please say hi",start_time)
 conversation_list.append(initial_tup)
 count_loop = 0
+
+state_list = []
+
 
 # username_ = " "
 
@@ -45,8 +48,8 @@ def nocache(view):
 @chat.route('/chat',methods = ['POST', 'GET'])
 # @nocache
 def result():
-    reward = cont.get_response_reward()
-    progress = cont.get_progress()
+    reward = controller.get_response_reward()
+    progress = controller.get_progress()
     global count_loop
     robot_data = ""
     global conversation_list
@@ -54,22 +57,30 @@ def result():
     chat_counter = len(conversation_list)
     chat_time = get_chat_time()
     logger.debug("chat route")
+
+    tmp_state = controller.get_state()
+
     if request.method == 'POST':
+
+        logger.debug("state -> " +controller.get_state())
+
         if request.form["action"] == "Chat":
             count_loop += 1 # for debug
             # user input
             tmp_user_data = request.form["chat_text"]
             user_data = str(tmp_user_data)
             # robot input based on user input
-            tmp_state = cont.get_state()
-            tmp_li = cont.conversation(user_data, tmp_state)
+            
+            #15.01.2018 moved getstate to before post
+            tmp_state = controller.get_state()
+            tmp_li = controller.conversation(user_data, tmp_state)
            
             logger.debug("check list")
             logger.debug(str(tmp_li))
             robot_data = tmp_li[0]
             tmp_state = tmp_li[1]
             # instances
-            #if we nned the state for logging
+            #if we need the state for logging
             human_current = human.Human(user_data + " : (state:" + tmp_state + ")")
             #state is gone, just input
             # human_current = human.Human(user_data)
@@ -81,18 +92,18 @@ def result():
             # debug
             logger.debug(user_data)
             logger.debug("obj " + str(chatbot_current.statment))
-            logger.debug(cont.get_state())
+            logger.debug(controller.get_state())
         
        
             
-            logger.debug(conversation_list)
+            # logger.debug(conversation_list)
         elif request.form["action"] == "Clear":
             conversation_list = []
-            start_fresh_tup = ("","Ok, we start again, I am your chatbot. Learning, learning. Please say Hi.",)
+            start_fresh_tup = ("Human had to think...","Ok, we start again, I am your chatbot. Learning, learning. Please say Hi.",)
             conversation_list.append(start_fresh_tup)
-            cont.set_state("start")
-            cont.set_progress(5)
-            cont.clear_response_reward()
+            controller.set_state("initial")
+            controller.set_progress(5)
+            controller.clear_response_reward()
             # global username_
             # session.pop("username", None)
         else:
@@ -104,5 +115,5 @@ def result():
         # conversation_list.reverse()
         #is GET
         
-        return render_template("chat/chat.html", conversation_list = conversation_list, chat_time = chat_time, progress = progress, reward = reward  )
-    return render_template("chat/chat.html", conversation_list = conversation_list, chat_time = chat_time, progress = progress, reward = reward)
+        return render_template("chat/chat.html", conversation_list = conversation_list, chat_time = chat_time, progress = progress, reward = reward, tmp_state = tmp_state )
+    return render_template("chat/chat.html", conversation_list = conversation_list, chat_time = chat_time, progress = progress, reward = reward, tmp_state = tmp_state)

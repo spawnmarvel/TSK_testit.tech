@@ -7,7 +7,8 @@ ai_response = responses.Responses()
 math_stack = stack.Stack()
 math_stack.push(2)
 math_stack.push(2)
-state = "start"
+
+state = "initial"
 
 first = 0
 second = 0
@@ -58,45 +59,31 @@ def number_check(data_in):
     return any(i.isdigit() for i in data_in)
 
 def check_answer(data_in):
-    li = []
-    rv = ""
+    rv = "Ah, ...no answer, huh.."
     input_ans_pos = ["yes", "agree", "ok", "deal"]
     for ans in input_ans_pos:
         if ans in data_in.lower():
             rv = answer_positive()
-            set_state("pos")
-        else:
-            pass
 
     input_ans_neg = ["no", "nope", "never", "sorry"]
     for ans in input_ans_neg:
         if ans in data_in.lower():
             rv = answer_negative()
-            set_state("neg")
-        else:
-            pass
-    li.append(rv)
-    li.append(get_state())
-    return li
+    return rv
 
 def check_greeting(data_in):
-    li = []
-    rv = ""
+    rv = "Hm...no even a duplicate Hi?"
     input_hi = ["hi", "hello", "good day", "greetings", "how"]
     for greet in input_hi:
-        if greet in data_in.lower():
+        if greet == data_in.lower():
             rv = greeting()
-            set_state("greeting")
-
-    li.append(rv)
-    li.append(get_state())
-    return li
+    return rv
 
 def validate_input(data_in):
-    valid = True
+    valid = False
     try:
-        if len(data_in) < 1:
-            valid = False
+        if len(data_in) > 1:
+            valid = True
     except TypeError:
         pass
     return valid
@@ -123,35 +110,33 @@ def conversation(data_in, state_in):
     li = []
     rv = ""
     # state
-    if state_in in "start":
-        if validate_input(data_in):
-            tmp_li = check_greeting(data_in)
-            rv = tmp_li[0]
-            set_progress(5)
-        else:
-            rv = "A malfunction, error, error, please say Hi"   
-    
-    elif state_in is "greeting":
-        if validate_input(data_in):
-            if "math" in data_in.lower():
-                set_state("math")
-                rv = "Ok, math then, type yes"
-            else:
-                rv = "Let's do math, multiplication, type yes or no"
-                set_state("math")
-        else:
-            rv = "Eh, math now, type yes"
-            set_state("math")
+    if state_in == "initial":
+        rv = "Waking up, be-bo-di"
+        set_state("start")
 
-    elif state_in in "math":
+    # work
+    if state_in == "start":
         if validate_input(data_in):
-            tmp_li = check_answer(data_in)
-            rv = tmp_li[0]
-            if len(rv) < 1:
-                rv = "Ah, you are a maybe person, and don't like to answer correct, hm. "
-                rv += " Math, math, make a multiplication quiz, ready Yes?"
-            else:
-                 rv += " Math, math, make a multiplication quiz, ready Yes?"
+            result_response = check_greeting(data_in)
+            rv = result_response
+            set_progress(5)
+            set_state("greeting")
+        else:
+            rv = "A malfunction, error, error, please say Hi"
+            set_state("start")  
+    
+    elif state_in == "greeting":
+        rv = "Greeting...."
+        if validate_input(data_in):
+            rv = "Let's do math, multiplication, type yes or no"
+            set_state("math")
+        else:
+            rv = "Eh, math now, type math or whatever you like."
+            set_state("greeting")
+
+    elif state_in == "math":
+        if validate_input(data_in):
+            rv = "You typed something, great, let's do multiplication"
             set_state("mult")
         else:
             wait_response = ["So you like to say nothing?", "Ah, the silent one, may the force be with you", "Come on....", "Are you human?", "Look at yourself, hu..", "Questions is, can you handle it?"]
@@ -159,9 +144,9 @@ def conversation(data_in, state_in):
             rv = wait+  ". Yes or no, please!"
             set_state("math")
     
-    elif state_in in "mult":
-        #multiplication
-        global first, second
+    elif state_in == "mult":
+        global first
+        global second
         m_li = multiplication()
         first = m_li[0]
         second = m_li[1]
@@ -170,8 +155,9 @@ def conversation(data_in, state_in):
         set_state("thinking")
         
 
-    elif state_in in "thinking":
-        global first, second
+    elif state_in == "thinking":
+        global first
+        global second
         
         bad_user = ai_response.get_bad_response()
         answer_this = " What is " + str(first) + " * " + str(second)
@@ -191,14 +177,19 @@ def conversation(data_in, state_in):
                     else:
                         if user_try > answer:
                             rv = bad_user +  ". Sorry, try again, to high. " + answer_this # + " result " + str(answer)
+                            set_state("thinking")
                         else:
                             rv =  bad_user +  ". Sorry, try again, to low. " + answer_this # + " result " + str(answer)
+                            set_state("thinking")
                 except ValueError:
                     rv = "Please give a number. " + answer_this #  + " result " + str(answer)
+                    set_state("thinking")
                 except TypeError:
                     rv = "You did not pass anything. " + answer_this # + " result " + str(answer)
+                    set_state("thinking")
         else:
             rv = ai_response.get_nan_response() + answer_this
+            set_state("thinking")
         
     # rv += " (" + data_in + ")"
     li.append(rv)
