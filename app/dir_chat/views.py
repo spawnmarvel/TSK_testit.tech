@@ -22,7 +22,7 @@ initial_tup = ("......","Hi, I am your chatbot, please say hi",start_time)
 conversation_list.append(initial_tup)
 count_loop = 0
 
-username_ = " "
+# username_ = " "
 
 def get_chat_time():
      chat_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
