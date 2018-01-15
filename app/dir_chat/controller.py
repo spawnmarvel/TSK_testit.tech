@@ -1,8 +1,7 @@
 
 import random
 
-from . import stack
-from . import responses
+from .response import responses, stack
 ai_response = responses.Responses()
 
 math_stack = stack.Stack()
@@ -130,7 +129,7 @@ def conversation(data_in, state_in):
             rv = tmp_li[0]
             set_progress(5)
         else:
-            rv = "A malfunction is the state of something that functions wrongly or does not function at all, please say Hi"   
+            rv = "A malfunction, error, error, please say Hi"   
     
     elif state_in is "greeting":
         if validate_input(data_in):

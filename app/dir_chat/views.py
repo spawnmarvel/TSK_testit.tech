@@ -1,11 +1,14 @@
 """___"""
 import logging
-from flask import render_template, request, flash
+from flask import render_template, request, flash, session
+from flask import make_response
+from functools import wraps, update_wrapper
+from datetime import datetime
 import random
 import datetime as dt
 from . import controller as cont
-from . import chatbot as chatbot
-from . import human as human
+from .model import chatbot as chatbot
+from .model import human as human
 from . import chat
 
 logger = logging.getLogger(__name__)
@@ -19,11 +22,28 @@ initial_tup = ("......","Hi, I am your chatbot, please say hi",start_time)
 conversation_list.append(initial_tup)
 count_loop = 0
 
+username_ = " "
+
 def get_chat_time():
      chat_time = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
      return chat_time
 
+
+def nocache(view):
+    @wraps(view)
+    def no_cache(*args, **kwargs):
+        response = make_response(view(*args, **kwargs))
+        response.headers['Last-Modified'] = datetime.now()
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '-1'
+        return response
+        
+    return update_wrapper(no_cache, view)
+
+
 @chat.route('/chat',methods = ['POST', 'GET'])
+# @nocache
 def result():
     reward = cont.get_response_reward()
     progress = cont.get_progress()
@@ -50,9 +70,9 @@ def result():
             tmp_state = tmp_li[1]
             # instances
             #if we nned the state for logging
-            # human_current = human.Human(user_data + " : (state:" + tmp_state + ")")
+            human_current = human.Human(user_data + " : (state:" + tmp_state + ")")
             #state is gone, just input
-            human_current = human.Human(user_data)
+            # human_current = human.Human(user_data)
             chatbot_current = chatbot.ChatBot(robot_data)
             # tuple of current conversation
             conversation_tup = (human_current.statment, chatbot_current.statment, get_chat_time())
@@ -67,12 +87,14 @@ def result():
             
             logger.debug(conversation_list)
         elif request.form["action"] == "Clear":
-            conversation_list.clear()
+            conversation_list = []
             start_fresh_tup = ("","Ok, we start again, I am your chatbot. Learning, learning. Please say Hi.",)
             conversation_list.append(start_fresh_tup)
             cont.set_state("start")
             cont.set_progress(5)
             cont.clear_response_reward()
+            # global username_
+            # session.pop("username", None)
         else:
             pass
 
