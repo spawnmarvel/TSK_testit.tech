@@ -55,7 +55,9 @@ def test():
 @blog.route("/note", methods=['GET', 'POST'])
 # @login_req.login_required
 def notes_db():
+
     """___"""
+   
     if check_user():
         logger.info("started note db form")
         note_data = sqlalchemy_statments.get_all()

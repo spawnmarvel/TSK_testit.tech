@@ -1,0 +1,57 @@
+{% extends "base.html" %} {% block title %}Py tips{% endblock %} {% block body %}
+<div class="jumbotron">
+  <h2>Python 3.4.7 Built-in Functions (subset)</h2>
+  <br>
+  <a href="https://docs.python.org/3.4/library/functions.html" target="_blank">Python Built-in Functions</a>
+  <br>
+  <br>
+  <a href="https://docs.python.org/3.4/library/index.html" target="_blank">Python Standard Library</a>
+  <br>
+  <br>
+  <code>enumerate()</code>
+  <p>Return an enumerate object. iterable must be a sequence, an iterator, or some other object which supports iteration. 
+    The __next__() method of the iterator returned by enumerate() returns a tuple containing a count (from start which defaults to 0) 
+    and the values obtained from iterating over iterable.</p>
+  <br>
+  <img src="/static/img/builtin/enumerate.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="400"
+  height="150">
+  <br>
+  <code>range()</code>
+  <p>range(stop), range(start, stop[, step]), Rather than being a function, range is actually an immutable sequence type, 
+    as documented in Ranges and Sequence Types — list, tuple, range.</p>
+  <img src="/static/img/builtin/range.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="400"
+  height="150">
+  <br>
+  <code>zip()</code>
+  <p>Make an iterator that aggregates elements from each of the iterables.
+      
+      Returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument sequences or iterables. 
+      The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples.</p>
+  <img src="/static/img/builtin/zip.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="400"
+  height="150">
+  <br>
+  <code>str()</code>
+  <p>
+      class str(object='')
+      class str(object=b'', encoding='utf-8', errors='strict')
+      
+          Return a str version of object. See str() for details.
+      
+          str is the built-in string class. For general information about strings, see Text Sequence Type — str.
+      </p>
+  <img src="/static/img/builtin/str.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="400"
+  height="150">
+  <br>
+    <p>Convert:</p>
+    <img src="/static/img/builtin/convert.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="400"
+    height="150">
+  <br>
+  <code>len() + format()</code>
+  <p>Len:Return the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).</p>
+  <p>Format:Convert a value to a “formatted” representation, as controlled by format_spec. The interpretation of format_spec will depend on the type of the value argument, however there is a standard formatting syntax that is used by most built-in types: Format Specification Mini-Language.</p>
+  <p>The default format_spec is an empty string which usually gives the same effect as calling str(value).</p>
+  <img src="/static/img/builtin/len.jpg" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="400"
+  height="150">
+
+  </div>
+{% endblock %}

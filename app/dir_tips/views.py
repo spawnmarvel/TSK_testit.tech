@@ -15,5 +15,10 @@ def li_gunicorn():
      return render_template("tips/linux_gunicorn.html")
 
 
+@tips.route("/pybuilt")
+def py_builtIn():
+     return render_template("tips/builtIn_functions.html")
+
+
 
 

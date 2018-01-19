@@ -1,13 +1,17 @@
 {% extends "base_auth.html" %} {% block title %}Note{% endblock %} {% block body %}
 <div class="jumbotron">
-  <h2>Note DB</h2>
+  <h2>Notebook</h2>
   <!-- form for get btn -->
   <form action="/note" method="GET">
-    <input type="submit" value="Refresh" class="btn btn-primary" />
-    <h6>result: {{ result }}</h6>
+    <input type="submit" value="Refresh" class="btn btn-primary btn pull-right" />
+    <br>
+    <h6>Result: {{ result }}</h6>
   </form>
   <!-- Collapse btn -->
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#to_do_web">Add note</button>
+  <button type="button" class="btn btn-primary btn pull-right" data-toggle="collapse" data-target="#to_do_web">Add note</button>
+  <br>
+  <br>
+  
   <div id="to_do_web" class="collapse">
     <br>
     <form action="/note" method="POST">
@@ -59,12 +63,14 @@
   <div class="jumbotron" style="background-color: rgb(235, 229, 229)">
     <h2>{{ note[2] }}:</h2>
     <p class="break_them">{{ note[1] }}</p>
-    <span class="label label-success">{{ note[2] }}</span>
     <br>
     <br>
     <a href="{{ ''.join(['', note[3]]) }}" target="_blank"> {{ note[3] }}</a>
     <br>
     <span class="glyphicon glyphicon-time"> {{ note[4] }}</span>
+    <br>
+    <br>
+    <span class="label label-success">{{ note[2] }}</span>
     <form action="/note" method="POST">
       <br>
       <input type="submit" name="action" value="DeleteNote" class="btn btn-primary" />
