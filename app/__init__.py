@@ -1,7 +1,7 @@
 """___"""
 # app/ __init__.py
-from flask import Flask, render_template
-
+from flask import Flask, render_template, session
+import datetime
 # initialize the app
 
 app = Flask(__name__)
@@ -42,3 +42,12 @@ def page_not_found(error):
 @app.errorhandler(405)
 def page_not_found(error):
     return render_template("error/405.html")
+
+@app.before_request
+def before_request():
+    session.permanent = True # default is false
+    app.permanent_session_lifetime = datetime.timedelta(minutes=5) #keep the session for just 5 min
+    #http://flask.pocoo.org/docs/0.12/api/
+    #PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 
+    session.modified = True # if the user is active
+

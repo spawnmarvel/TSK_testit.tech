@@ -48,6 +48,7 @@ def nocache(view):
 @chat.route('/chat',methods = ['POST', 'GET'])
 # @nocache
 def result():
+    
     reward = controller.get_response_reward()
     progress = controller.get_progress()
     global count_loop
@@ -81,9 +82,9 @@ def result():
             tmp_state = tmp_li[1]
             # instances
             #if we need the state for logging
-            human_current = human.Human(user_data + " : (state:" + tmp_state + ")")
+            # human_current = human.Human(user_data + " : (state:" + tmp_state + ")")
             #state is gone, just input
-            # human_current = human.Human(user_data)
+            human_current = human.Human(user_data)
             chatbot_current = chatbot.ChatBot(robot_data)
             # tuple of current conversation
             conversation_tup = (human_current.statment, chatbot_current.statment, get_chat_time())
