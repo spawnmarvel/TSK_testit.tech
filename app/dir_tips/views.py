@@ -42,10 +42,15 @@ def py_oop():
 def py_functional():
      return render_template("tips/pytips_functional_prog.html")
 
+@tips.route("/pygame")
+def py_game():
+     return render_template("tips/pytips_pygame.html")
+
 
 @tips.route("/ligunicorn")
 def li_gunicorn():
      return render_template("tips/linux_gunicorn.html")
+
 
 
 
