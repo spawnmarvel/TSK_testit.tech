@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}Gtech teams {% endblock %} {% block body %}
+<div class="jumbotron">
+  <p class="style_separator">Random teams:
+    <br> Have an even number of names.
+    <br>If not even, the last name is ditched.
+  </p>
+
+  <!-- content -->
+  <form action="/teams" method="POST">
+    <div class="form-group">
+      <textarea class="form-control" id="content" name="cont" placeholder="Format:one name pr line" style="height: 300px;"></textarea>
+      </br>
+      <input type="submit" name="action" value="Random" class="btn btn-primary" />
+      <input type="submit" name="action" value="Clear" class="btn btn-primary" />
+    </div>
+  </form>
+  <h5>log:{{ msg }}</h5>
+  <h5>Input: {{ inp }}</h5>
+  <p>Result teams:</p>
+  {% for d in data %}
+  <p>{{ d }}</p>
+  {% endfor %}
+
+</div>
+{% endblock %}

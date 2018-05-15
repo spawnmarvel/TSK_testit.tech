@@ -6,6 +6,7 @@ from werkzeug import secure_filename
 import os
 #from sys print
 import sys
+from app.mod_util import utility_helper
 
 
 #internal modules
@@ -83,4 +84,28 @@ def contact_form():
             flash('Error:All the form fields are required. ')
  
     return render_template('form/form_contact.html', form=form)
+
+@form.route("/teams", methods=["GET", "POST"])
+def teams():
+    rv = ""
+    tmp_res_ = ""
+    msg = ""
+    li = []
+    if request.method == 'POST':
+        li = []
+        if request.form["action"] == "Random":
+            tmp_res_ = request.form["cont"]
+        
+            if len(tmp_res_) < 3:
+                msg = "Please add at least one name"
+            else:
+                li = tmp_res_.splitlines()
+                rv = utility_helper.make_random(li)
+                msg = "Teams are ready"
+                # rv = li
+        if request.form["action"] == "Clear":
+            li = []
+            rv = li
+
+    return render_template("goodtech/teams.html",data = rv, inp = tmp_res_ , msg = msg)
 
