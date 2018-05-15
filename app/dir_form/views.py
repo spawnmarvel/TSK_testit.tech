@@ -13,8 +13,8 @@ from app.mod_util import utility_helper
 from app.mod_form import contactform
 from app import app # for the uploaded function
 from . import form
-print("Sys path called in dir_form/views.py")
-print(sys.path)
+# print("Sys path called in dir_form/views.py")
+# print(sys.path)
 
 UPLOAD_FOLDER = './uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
