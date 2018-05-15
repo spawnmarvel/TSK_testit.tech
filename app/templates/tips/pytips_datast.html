@@ -2,10 +2,70 @@
 <div class="jumbotron">
   <h2>Python</h2>
   <p class="lead">Data structures</p>
-  <a href="#" target="_blank">Python doc 5 Data structures</a>
+  <a href="https://docs.python.org/3.5/tutorial/index.html" target="_blank">Python doc 5 Data structures</a>
   <br>
-  <p></p>
-  
+  <p>More on list:
+    <br> A list of comma-separated values (items) between square brackets, lists are mutable
+    <ul>
+      <li>Like strings (and all other built-in sequence type), lists can be indexed and sliced</li>
+      <li>list.append(x)</li>
+      <li>list.extend(iterable)</li>
+      <li>list.insert(i, x)</li>
+      <li>list.remove(x)</li>
+      <li>list.pop([i])</li>
+      <li>list.clear()</li>
+      <li>list.index(x[, start[, end]])</li>
+      <li>list.count(x)</li>
+      <li>list.sort(key=None, reverse=False)</li>
+      <li>list.reverse()</li>
+      <li>list.copy()</li>
+    </ul>
+  </p>
+  <img src="/static/img/datastruct/li.png" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="600"
+    height="400">
+  <br>
+  <p>Tuples and Sequences:
+    <br> A tuple consists of a number of values separated by commas, Tuples are immutable, and usually contain a heterogeneous
+    sequence of elements that are accessed via unpacking
+    <br>
+    <ul>
+      <li>Index</li>
+      <li>Tuples may be nested</li>
+      <li>TypeError: 'tuple' object does not support item assignment</li>
+      <li>Can contain mutable objects</li>
+      <li>t = 45, 78, 90, is an example of tuple packing</li>
+      <li>The reverse operation is also possible, a, b, c = t</li>
+    </ul>
+  </p>
+  <img src="/static/img/datastruct/tuple.png" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="600"
+    height="400">
+  <br>
+  <p>Sets
+    <br> A set is an unordered collection with no duplicate elements
+    <br> Curly braces or the set() function can be used to create sets. Note: to create an empty set you have to use set(), not
+    {}; the latter creates an empty dictionary
+    <br> Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+  </p>
+  <ul>
+    <li>Duplicates will be removed</li>
+    <li>Membership testing</li>
+    <li>Set operations:</li>
+    <li> - , in a but not b</li>
+    <li> | , in a or b </li>
+    <li> & , in a and b </li>
+    <li> ^ , in a or b, but not both</li>
+  </ul>
+  <img src="/static/img/datastruct/set.png" alt="postman cmd post" class="img-responsive" alt="ftp ssl win /lin" width="600"
+    height="400">
+  <br>
+  <p>Dictionaries
+    <br>
+    Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys
+    <br>
+    Dictionaries can be seen as an unordered set of key: value pairs, with the requirement that the keys are unique (within one dictionary). A pair of braces creates an empty dictionary: {}. 
+    Placing a comma-separated list of key:value pairs within the braces adds initial key:value pairs to the dictionary
+
+  </p>
 
 </div>
 {% endblock %}
