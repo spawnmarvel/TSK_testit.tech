@@ -1,8 +1,9 @@
 {% extends "base.html" %} {% block title %}Gtech teams {% endblock %} {% block body %}
 <div class="jumbotron">
   <p class="style_separator">Random teams:
-    <br> Have an even number of names.
-    <br>If not even, the last name is ditched.
+    <br> Have an even number of names, where name > 2 chars.
+    <br>The input is * 2 and both list's are shuffled.
+    <br>If not even, a random name is ditched.
   </p>
 
   <!-- content -->
@@ -16,9 +17,9 @@
   </form>
   <h5>log:{{ msg }}</h5>
   <h5>Input: {{ inp }}</h5>
-  <p>Result teams:</p>
+  <p class="style_separator">Result teams:</p>
   {% for d in data %}
-  <p>{{ d }}</p>
+  <p class="style_separator">{{ d }}</p>
   {% endfor %}
 
 </div>

@@ -6,7 +6,7 @@ def login_required(f):
 
     def wrap(*args, **kwargs):
         user = session["username"]
-        if "espen" in user:
+        if "gnye" in user:
             return f(*args, **kwargs)
         else:
             res = "not in session from login_req"

@@ -139,4 +139,4 @@ sqlalchemy_declarative.init_user()
 #x = get_max_id()
 #y = x[0]
 #print(str(y))
-print(get_user())
+# print(get_user())

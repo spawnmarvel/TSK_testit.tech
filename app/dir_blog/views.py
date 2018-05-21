@@ -4,9 +4,10 @@ import string
 import datetime
 import logging
 
-from flask import render_template, request, redirect, url_for, session
+from flask import render_template, request, redirect, url_for, session, flash
 # internal
 from app.mod_db import sqlalchemy_statments
+from app.dir_blog import login_form
 
 tmp = sqlalchemy_statments.get_user()
 # from app.mod_controller import controller_mod
@@ -17,6 +18,7 @@ from app.dir_blog import login_req
 username_ = " "
 
 logger = logging.getLogger(__name__)
+
 
 def get_user_sql():
     rv = ""
@@ -30,6 +32,31 @@ def get_user_sql():
     logger.info(rv)
     return rv
 
+@blog.route("/login",methods = ["GET", "POST"])
+def login_with_form():
+    form = login_form.LoginForm()
+    rv = "for log"
+    if request.method == "POST":
+        if not form.validate_on_submit():
+            if form.username.data == get_user_sql():
+                global username_
+                username_ = form.username.data
+                rv = "yes"
+                # return render_template("blog/notes.html")
+                return redirect(url_for("blog.notes_db"))
+            else:
+                rv = "no"
+            return render_template("blog/login.html", form=form, rv=rv)
+        else:
+           
+            return render_template("blog/login.html", form=form, rv=rv)
+            
+    else:
+        #request.method == "GET":
+        return render_template("blog/login.html", form=form, rv=rv)
+
+
+
 def get_user():
     global username_
     return username_
@@ -40,7 +67,9 @@ def check_user():
      session["username"] = username_
      if "username" in session:
          username = session["username"]
-         if "espen" in username:
+         us = get_user_sql()
+         print(format(us) + " " + format(username))
+         if us in username:
              valid = True
      logger.debug(valid)
      return valid
@@ -48,7 +77,9 @@ def check_user():
 
 @blog.route("/test")
 def test():
-    get_user = get_user_sql()
+    ran = random.randint(2000, 5000)
+    get_user =  format(ran) + get_user_sql()
+    tmp
     return render_template("blog/test.html", get_user=get_user)
 
 
@@ -57,7 +88,7 @@ def test():
 def notes_db():
 
     """___"""
-   
+    form = login_form.LoginForm()
     if check_user():
         logger.info("started note db form")
         note_data = sqlalchemy_statments.get_all()
@@ -67,6 +98,7 @@ def notes_db():
         if request.method == 'POST':
             logger.info("post action")
             if request.form["action"] == "Add":
+                print("Someone added")
                 # logger.info("add note")
                 note = request.form["nt"]
                 # level_ = request.form["options"]
@@ -82,6 +114,8 @@ def notes_db():
                 # logger.info("delete note")
                 del_pa_ = "master"
                 tmp_del_pa_ = request.form["delpass"]
+                print(format(tmp_del_pa_))
+                print(format(del_pa_))
                 if tmp_del_pa_.lower() == del_pa_:
                     notes_id = request.form["delid"]
                     result = sqlalchemy_statments.delete(notes_id)
@@ -104,17 +138,17 @@ def notes_db():
         return render_template("blog/notes.html", note_data=note_data, result=result, secret=secret)
     else:
         res = "not logged in from dir blog viwes"
-        return render_template("blog/login.html", res=res)
+        return redirect(url_for("blog.login_with_form", form=form))
 
-@blog.route("/login",methods=["GET", "POST"])
+@blog.route("/loginxxxxx",methods=["GET", "POST"])
 def login():
     res = ""
     adm_user = get_user_sql()
     if request.method == "POST":
         global username_
-        # if espen in username return the page
+        # if correct user in username return the page
         # else start over agian
-        res = "HTTP POST"
+        res = "HTTP POST bad key"
         session['username'] = request.form["usern"]
         user = session["username"]
         if len(user) < 5:
@@ -140,11 +174,12 @@ def login():
                     # return "you are logged in"
                     # return redirect(url_for("home.index"))
                     res = "You are logged in as " + user
-                    return render_template("blog/continue.html", res=res)
+                    return render_template("blog/logout.html", res=res)
     return render_template("blog/login.html", res=res)
 
-@blog.route("/continue",methods=["GET", "POST"])
-def continue_():
+@blog.route("/logout",methods=["GET", "POST"])
+def logout_():
+     form = login_form.LoginForm()
      if request.method == 'POST':
          global username_
          if request.form["action"] == "continue":
@@ -152,12 +187,12 @@ def continue_():
          elif request.form["action"] == "logout":
              if not "username" in session:
                  res = "You are not logged in"
-                 return render_template("blog/login.html", res=res)
+                 return render_template("blog/login.html", res=res, form=form)
              else:
                  res = "you are now logged out"
                  session.pop("username", None)
                  username_ = ""
-                 return render_template("blog/continue.html", res=res)
+                 return render_template("blog/login.html", res=res)
      username_
      res = username_
-     return render_template("blog/continue.html", res=res)
+     return render_template("blog/logout.html", res=res)
