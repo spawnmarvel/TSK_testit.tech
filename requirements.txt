@@ -9,5 +9,5 @@ MarkupSafe==1.0
 pycodestyle==2.3.1
 six==1.11.0
 SQLAlchemy==1.1.15
-Werkzeug==0.12.2
+Werkzeug==2.2.3
 WTForms==2.1
